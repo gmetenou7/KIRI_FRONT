@@ -1,4 +1,4 @@
-{{ title }}
+<!-- {{ title }}
 
 
 
@@ -7,7 +7,6 @@
   <p-messages [(value)]="messages" [enableService]="false" [closable]="true"></p-messages>
 
   <p-toast></p-toast>
-  <!-- On Button click we will show a single toast -->
   <button pButton (click)="showToast()" label="show toast"></button>
   <div>
     <h2>{{ 'HOME.TITLE' | translate }}</h2>
@@ -18,4 +17,7 @@
       </select>
     </label>
   </div>
-</div>
+</div> -->
+
+<router-outlet>
+</router-outlet>
