@@ -1,4 +1,4 @@
-export type  Carousel = {
+export type Carousel = {
   src: string;
   alt: string;
   header: string;
