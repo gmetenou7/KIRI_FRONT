@@ -1,22 +1,30 @@
-import { Component } from '@angular/core';
-import {Carousel} from "../models/models.model";
+import { Component, OnInit } from '@angular/core';
+import { Carousel } from "../models/models.model";
+import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 
 @Component({
   selector: 'app-au-login',
   templateUrl: './au-login.component.html',
   styleUrls: ['./au-login.component.css']
 })
-export class AuLoginComponent {
- value: string = '';
-  valCheck: string[] = ['remember'];
-  password: string = "";
+export class AuLoginComponent implements OnInit {
+  value: string = '';
   responsiveOptions: any[] | undefined
-  corousels:Carousel[] = [];
+  corousels: Carousel[] = [];
 
-  constructor() {}
+  loginForm: FormGroup = new FormGroup({});
+
+  constructor(
+    private formBuilder: FormBuilder,
+  ) {
+
+  }
 
   ngOnInit() {
-    // carousel with randomized images from unsplash
+    this.loginForm = this.formBuilder.group({
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required]]
+    });
     this.corousels = [
       {
         src: 'https://source.unsplash.com/random/800x600',
@@ -71,16 +79,17 @@ export class AuLoginComponent {
     ];
   }
 
-  getSeverity(status: string) {
-    switch (status) {
-      case 'INSTOCK':
-        return 'success';
-      case 'LOWSTOCK':
-        return 'warning';
-      case 'OUTOFSTOCK':
-        return 'danger';
-      default:
-        return 'success';
+  get loginFromControls() {
+    return this.loginForm.controls;
+  }
+
+
+  onSubmit() {
+    const { email, password } = this.loginForm.value;
+    const requestData = {
+      email,
+      password
     }
+    console.log({ requestData });
   }
 }

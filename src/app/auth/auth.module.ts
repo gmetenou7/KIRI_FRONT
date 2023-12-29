@@ -5,7 +5,7 @@ import { AuRegisterComponent } from './au-register/au-register.component';
 import { AuLoginComponent } from './au-login/au-login.component';
 import {CheckboxModule} from "primeng/checkbox";
 import {PasswordModule} from "primeng/password";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {ButtonModule} from "primeng/button";
 import {InputTextModule} from "primeng/inputtext";
 import {StyleClassModule} from "primeng/styleclass";
@@ -30,7 +30,8 @@ import {TagModule} from "primeng/tag";
     StyleClassModule,
     CarouselModule,
     TagModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ReactiveFormsModule
   ]
 })
 export class AuthModule { }
