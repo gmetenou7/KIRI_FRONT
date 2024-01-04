@@ -12,6 +12,9 @@ import { ToastModule } from 'primeng/toast';
 import { ButtonModule } from 'primeng/button';
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core"; // if toast showing on button click
 import { AuthRouting } from './auth/auth-routing';
+import {ReactiveFormsModule} from "@angular/forms";
+import {FormlyModule} from "@ngx-formly/core";
+import {FormlyPrimeNGModule} from "@ngx-formly/primeng";
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {

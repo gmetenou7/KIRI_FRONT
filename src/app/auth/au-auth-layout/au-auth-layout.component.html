@@ -1,0 +1,33 @@
+<div class="surface-ground flex flex-column align-items-center justify-content-start min-h-screen w-full py-4">
+    <div class="flex justify-content-between w-full px-8 mb-7">
+      <div class="">
+        <p-image routerLink="/" src="https://img.freepik.com/free-vector/flat-laptop-logo-template_23-2149025522.jpg?w=826&t=st=1704346218~exp=1704346818~hmac=09c3f73ee91ec14eb78b3722714de0d164e92dffecbbc140a1c6369701c3524c" alt="Image" width="50" height="50" imageClass="border-circle"></p-image>
+      </div>
+      <div class="">
+        <app-sh-language-switcher></app-sh-language-switcher>
+      </div>
+    </div>
+    <div class="flex align-items-center justify-content-center w-full gap-8 px-8 min-h-full">
+        <ng-content></ng-content>
+        <div style="min-width: 50%; max-width:50%" class="flex justify-content-center align-items-center">
+            <div style="width: 700px" class="">
+                <p-carousel [showNavigators]="false" [value]="corousels" [numVisible]="1" [numScroll]="1"
+                    [circular]="false" [responsiveOptions]="responsiveOptions" indicatorStyleClass="border-round-lg"
+                    [autoplayInterval]="5000">
+                    <ng-template let-carousel pTemplate="item">
+                        <div class="text-center">
+                            <div class="">
+                                <img [src]="carousel.src" [alt]="carousel.header" class="w-full border-round-sm"
+                                    fill="" />
+                            </div>
+                            <p class="text-lg font-medium">
+                                {{carousel.text}}
+                            </p>
+                            <h2>{{ 'HOME.TITLE' | translate }}</h2>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+    </div>
+</div>

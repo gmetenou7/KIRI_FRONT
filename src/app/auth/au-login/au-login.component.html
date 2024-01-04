@@ -1,63 +1,52 @@
-<div class="surface-ground flex align-items-center justify-content-center min-h-screen w-full">
-  <div class="flex align-items-center justify-content-center w-full gap-8 px-8">
-    <div
-      style="border-radius:5px; max-width: 40%; min-width: 40%; ; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
-      <div class="w-full surface-card py-8 px-2 sm:px-5" style="border-radius:5px">
-        <div class="text-center mb-5">
-          <div class="text-900 text-3xl font-medium mb-3">
-            Bienvenue
-          </div>
-          <span class="text-600 font-medium">
-            Connectez-vous à votre compte pour continuer
-          </span>
+<app-au-auth-layout>
+  <div
+    style="border-radius:5px; max-width: 40%; min-width: 40%; ; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
+    <div class="w-full surface-card py-6 px-2 sm:px-5" style="border-radius:5px">
+      <div class="text-center mb-5">
+        <div class="text-900 text-3xl font-medium mb-3">
+          Bienvenue
         </div>
-        <form class="w-full flex flex-column gap-5" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-          <div class="w-full">
-            <label for="email" class="block text-600 text-md font-medium mb-2">Email</label>
-            <input id="email" pInputText type="text" class="p-inputtext-md w-full md:w-27rem"
-              placeholder="Entrez votre email" formControlName="email" />
-          </div>
-          <div class="w-full">
-            <label for="password" class="block text-600 font-medium text-md mb-2">
-              Mot de passe
+        <span class="text-600 font-medium">
+          Connectez-vous à votre compte pour continuer
+        </span>
+      </div>
+      <form class="w-full flex flex-column gap-5" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="w-full">
+          <label for="email" class="block text-600 text-md font-medium mb-2">Email</label>
+          <input id="email" pInputText type="text" class="p-inputtext-md w-full" placeholder="Entrez votre email"
+            formControlName="email" />
+        </div>
+        <div class="w-full">
+          <label for="password" class="block text-600 font-medium text-md mb-2">
+            Mot de passe
+          </label>
+          <p-password class="p-inputtext-md w-full" id="password" placeholder="Entrez votre mot de passe"
+            [toggleMask]="true" inputStyleClass="w-full md:w-28rem" formControlName="password"></p-password>
+        </div>
+        <div class="flex align-items-center justify-content-between gap-5 w-full">
+          <div class="flex align-items-center">
+            <p-checkbox id="rememberme" [binary]="true" styleClass="mr-2"></p-checkbox>
+            <label for="rememberme">
+              Se souvenir de moi
             </label>
-            <p-password class="p-inputtext-md w-full" id="password" placeholder="Entrez votre mot de passe"
-              [toggleMask]="true" inputStyleClass="w-full md:w-27rem" formControlName="password"></p-password>
           </div>
-          <div class="flex align-items-center justify-content-between gap-5 md:w-27rem w-full">
-            <div class="flex align-items-center">
-              <p-checkbox id="rememberme1" [binary]="true" styleClass="mr-2"></p-checkbox>
-              <label for="rememberme1">
-                Se souvenir de moi
-              </label>
-            </div>
-            <a class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: var(--primary-color)">
-              Mot de passe oublié ?
-            </a>
-          </div>
-          <p-button type="submit" label="Se connecter" class="w-auto" styleClass="mb-5 w-full md:w-27rem"
-            icon="pi pi-sign-in" iconPos="right">
-          </p-button>
-        </form>
-      </div>
-    </div>
-    <div style="min-width: 50%; max-width:50%" class="flex justify-content-center align-items-center">
-      <div style="width: 700px" class="">
-        <p-carousel [showNavigators]="false" [value]="corousels" [numVisible]="1" [numScroll]="1" [circular]="false"
-          [responsiveOptions]="responsiveOptions" indicatorStyleClass="border-round-lg" [autoplayInterval]="5000">
-          <ng-template let-carousel pTemplate="item">
-            <div class="text-center">
-              <div class="">
-                <img [src]="carousel.src" [alt]="carousel.header" class="w-full border-round-sm" fill="" />
-              </div>
-              <p class="text-lg font-medium">
-                {{carousel.text}}
-              </p>
-            </div>
-          </ng-template>
-        </p-carousel>
-      </div>
-
+          <a class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: var(--primary-color)">
+            Mot de passe oublié ?
+          </a>
+        </div>
+        <p-button type="submit" label="Se connecter" class="w-auto" styleClass="mb-5 w-full" icon="pi pi-sign-in"
+          iconPos="right">
+        </p-button>
+        <div class="flex align-items-center justify-content-between gap-5">
+          <span class="text-600 font-medium">
+            Vous n'avez pas de compte ?
+          </span>
+          <a routerLink="/register" class="font-medium no-underline ml-2 text-right cursor-pointer"
+            style="color: var(--primary-color)">
+            S'inscrire
+          </a>
+        </div>
+      </form>
     </div>
   </div>
-</div>
+</app-au-auth-layout>
