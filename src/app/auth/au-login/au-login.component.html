@@ -1,0 +1,52 @@
+<app-au-auth-layout>
+  <div
+    style="border-radius:5px; max-width: 40%; min-width: 40%; ; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
+    <div class="w-full surface-card py-6 px-2 sm:px-5" style="border-radius:5px">
+      <div class="text-center mb-5">
+        <div class="text-900 text-3xl font-medium mb-3">
+          Bienvenue
+        </div>
+        <span class="text-600 font-medium">
+          Connectez-vous à votre compte pour continuer
+        </span>
+      </div>
+      <form class="w-full flex flex-column gap-5" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="w-full">
+          <label for="email" class="block text-600 text-md font-medium mb-2">Email</label>
+          <input id="email" pInputText type="text" class="p-inputtext-md w-full" placeholder="Entrez votre email"
+            formControlName="email" />
+        </div>
+        <div class="w-full">
+          <label for="password" class="block text-600 font-medium text-md mb-2">
+            Mot de passe
+          </label>
+          <p-password class="p-inputtext-md w-full" id="password" placeholder="Entrez votre mot de passe"
+            [toggleMask]="true" inputStyleClass="w-full md:w-28rem" formControlName="password"></p-password>
+        </div>
+        <div class="flex align-items-center justify-content-between gap-5 w-full">
+          <div class="flex align-items-center">
+            <p-checkbox id="rememberme" [binary]="true" styleClass="mr-2"></p-checkbox>
+            <label for="rememberme">
+              Se souvenir de moi
+            </label>
+          </div>
+          <a class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: var(--primary-color)">
+            Mot de passe oublié ?
+          </a>
+        </div>
+        <p-button type="submit" label="Se connecter" class="w-auto" styleClass="mb-5 w-full" icon="pi pi-sign-in"
+          iconPos="right">
+        </p-button>
+        <div class="flex align-items-center justify-content-between gap-5">
+          <span class="text-600 font-medium">
+            Vous n'avez pas de compte ?
+          </span>
+          <a routerLink="/register" class="font-medium no-underline ml-2 text-right cursor-pointer"
+            style="color: var(--primary-color)">
+            S'inscrire
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</app-au-auth-layout>

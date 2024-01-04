@@ -5,19 +5,26 @@ import { AuRegisterComponent } from './au-register/au-register.component';
 import { AuLoginComponent } from './au-login/au-login.component';
 import {CheckboxModule} from "primeng/checkbox";
 import {PasswordModule} from "primeng/password";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {ButtonModule} from "primeng/button";
 import {InputTextModule} from "primeng/inputtext";
 import {StyleClassModule} from "primeng/styleclass";
 import {CarouselModule} from "primeng/carousel";
 import {TagModule} from "primeng/tag";
+import { AuAuthLayoutComponent } from './au-auth-layout/au-auth-layout.component';
+import {FormlyModule} from "@ngx-formly/core";
+import {FormlyPrimeNGModule} from "@ngx-formly/primeng";
+import {ImageModule} from "primeng/image";
+import {SharedModule} from "../shared/shared.module";
+import {TranslateModule} from "@ngx-translate/core";
 
 
 
 @NgModule({
   declarations: [
     AuRegisterComponent,
-    AuLoginComponent
+    AuLoginComponent,
+    AuAuthLayoutComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +37,17 @@ import {TagModule} from "primeng/tag";
     StyleClassModule,
     CarouselModule,
     TagModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ReactiveFormsModule,
+    FormlyPrimeNGModule,
+    FormlyModule.forRoot({
+      validationMessages: [
+        {name: 'required', message: 'Ce champ est requis'},
+      ],
+    }),
+    ImageModule,
+    SharedModule,
+    TranslateModule,
   ]
 })
 export class AuthModule { }

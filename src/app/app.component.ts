@@ -11,14 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent implements OnInit {
   constructor(
     private messageService: MessageService,
-    public translate: TranslateService
   ) {
-    // this language will be used as a fallback when a translation isn't found in the current language
-    translate.addLangs(['fr', 'en']);
-    translate.setDefaultLang('fr');
-
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang?.match(/en|fr/) ? browserLang : 'en');
   }
 
   title = 'kiri front-end';
