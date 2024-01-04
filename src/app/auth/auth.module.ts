@@ -17,6 +17,9 @@ import {FormlyPrimeNGModule} from "@ngx-formly/primeng";
 import {ImageModule} from "primeng/image";
 import {SharedModule} from "../shared/shared.module";
 import {TranslateModule} from "@ngx-translate/core";
+import { AuResetPasswordComponent } from './au-reset-password/au-reset-password.component';
+import {DropdownModule} from "primeng/dropdown";
+import {NgOtpInputModule} from "ng-otp-input";
 
 
 
@@ -24,7 +27,8 @@ import {TranslateModule} from "@ngx-translate/core";
   declarations: [
     AuRegisterComponent,
     AuLoginComponent,
-    AuAuthLayoutComponent
+    AuAuthLayoutComponent,
+    AuResetPasswordComponent
   ],
   imports: [
     CommonModule,
@@ -48,6 +52,8 @@ import {TranslateModule} from "@ngx-translate/core";
     ImageModule,
     SharedModule,
     TranslateModule,
+    DropdownModule,
+    NgOtpInputModule,
   ]
 })
 export class AuthModule { }
