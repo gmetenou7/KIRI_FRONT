@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import {MenuItem} from "primeng/api";
 
 @Component({
   selector: 'app-sh-language-switcher',
@@ -7,9 +8,10 @@ import {TranslateService} from "@ngx-translate/core";
   styleUrls: ['./sh-language-switcher.component.css']
 })
 export class ShLanguageSwitcherComponent implements OnInit {
-  languages: {name: string, code: string, flag:string}[] | undefined;
+  languages: {name: string, code: string, flag:string}[] = [];
+  options:MenuItem[] = [];
 
-  selectedLanguage: {name: string, code: string, flag:string} | undefined;
+  selectedLanguage: {name: string, code: string, flag:string} = {name: '', code: '', flag:''};
   constructor(
     public translate: TranslateService
 
@@ -26,19 +28,36 @@ export class ShLanguageSwitcherComponent implements OnInit {
       {
         name: 'Français',
         code: 'FR',
-        flag: "https://flagpedia.net/data/flags/w702/fr.webp"
+        flag: "fr"
       },
       {
         name: 'Anglais',
         code: 'EN',
-        flag: "https://flagpedia.net/data/flags/w702/gb-eng.webp"
+        flag: "gb"
       }
     ];
 
-    this.selectedLanguage = this.languages.find(language => language.code.toLowerCase() === this.translate.currentLang);
+    this.options = [
+      {
+        label: 'Français',
+        icon: 'fi fi-fr',
+        command: () => {
+          this.changeLanguage(this.languages[0]);
+        }
+      },
+      {
+        label: 'Anglais',
+        icon: 'fi fi-gb',
+        command: () => {
+          this.changeLanguage(this.languages[1]);
+        }
+      }
+    ];
+    this.selectedLanguage = this.languages.find(language => language.code.toLowerCase() === this.translate.currentLang)!;
   }
 
   changeLanguage(event: {name: string, code: string, flag:string}) {
+    this.selectedLanguage = event;
     const code = event.code.toLowerCase();
     this.translate.use(code);
   }
