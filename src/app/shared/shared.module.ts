@@ -5,6 +5,8 @@ import { ShLanguageSwitcherComponent } from './sh-language-switcher/sh-language-
 import {TranslateModule} from "@ngx-translate/core";
 import {DropdownModule} from "primeng/dropdown";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {TieredMenuModule} from "primeng/tieredmenu";
+import {ButtonModule} from "primeng/button";
 
 
 
@@ -22,7 +24,9 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
     TranslateModule,
     DropdownModule,
     FormsModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    TieredMenuModule,
+    ButtonModule
   ]
 })
 export class SharedModule { }
