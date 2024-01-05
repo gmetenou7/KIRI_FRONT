@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Carousel } from "../models/models.model";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-au-login',
@@ -13,6 +14,7 @@ export class AuLoginComponent implements OnInit {
 
   constructor(
     private formBuilder: FormBuilder,
+    private router : Router,
   ) {
 
   }
@@ -35,6 +37,6 @@ export class AuLoginComponent implements OnInit {
       email,
       password
     }
-    console.log({ requestData });
+    this.router.navigate(['/register-company']).then(r => console.log(r));
   }
 }
