@@ -20,6 +20,8 @@ import {TranslateModule} from "@ngx-translate/core";
 import { AuResetPasswordComponent } from './au-reset-password/au-reset-password.component';
 import {DropdownModule} from "primeng/dropdown";
 import {NgOtpInputModule} from "ng-otp-input";
+import { AuRegisterCompanyComponent } from './au-register-company/au-register-company.component';
+import {MultiSelectModule} from "primeng/multiselect";
 
 
 
@@ -28,7 +30,8 @@ import {NgOtpInputModule} from "ng-otp-input";
     AuRegisterComponent,
     AuLoginComponent,
     AuAuthLayoutComponent,
-    AuResetPasswordComponent
+    AuResetPasswordComponent,
+    AuRegisterCompanyComponent
   ],
   imports: [
     CommonModule,
@@ -54,6 +57,7 @@ import {NgOtpInputModule} from "ng-otp-input";
     TranslateModule,
     DropdownModule,
     NgOtpInputModule,
+    MultiSelectModule,
   ]
 })
 export class AuthModule { }
