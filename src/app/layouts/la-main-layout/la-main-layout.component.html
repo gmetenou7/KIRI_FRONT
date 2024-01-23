@@ -1,1 +1,15 @@
-<p>la-main-layout works!</p>
+<div class="flex flex-column layout">
+  <div class="w-full px-2 pt-2 topbar">
+    <app-la-topbar></app-la-topbar>
+  </div>
+  <div class="w-full flex flex-row justify-content-between p-2 gap-3">
+    <div class="relative left-side">
+      <app-la-sidebar></app-la-sidebar>
+    </div>
+    <div class="main-page w-full overflow-y-auto p-3">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="right-side p-3 overflow-y-auto">
+    </div>
+  </div>
+</div>

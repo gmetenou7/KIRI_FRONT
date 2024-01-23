@@ -1,0 +1,27 @@
+.layout{
+  height: 100vh;
+  background: #eff0fe;
+}
+
+.left-side {
+  position: relative;
+  width: 400px;
+  background: white;
+  border-radius: 10px
+}
+.main-page {
+  height: calc(100vh - 120px);
+  background: white;
+  border-radius: 10px
+}
+
+
+.right-side {
+  width: 400px;
+  background: white;
+  max-height: calc(100vh - 120px);
+  border-radius: 10px;
+}
+.topbar{
+  border-radius: 10px;
+}

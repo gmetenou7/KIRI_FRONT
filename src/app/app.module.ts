@@ -15,6 +15,8 @@ import { AuthRouting } from './auth/auth-routing';
 import {ReactiveFormsModule} from "@angular/forms";
 import {FormlyModule} from "@ngx-formly/core";
 import {FormlyPrimeNGModule} from "@ngx-formly/primeng";
+import {PageModule} from "./pages/page.module";
+import {LayoutsModule} from "./layouts/layouts.module";
 
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -29,6 +31,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     BrowserModule,
     AppRoutingModule,
     AuthRouting,
+    PageModule,
+    LayoutsModule,
     BrowserAnimationsModule,
     MessagesModule,
     ToastModule,

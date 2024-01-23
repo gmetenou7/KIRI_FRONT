@@ -1,19 +1,42 @@
-<div class="topbar flex flex-column gap-3 px-3 py-1">
+<div class="topbar flex flex-column px-3 py-1 gap-0">
   <div class="flex justify-content-between align-items-center w-full">
     <div class="">
       <p-image routerLink="/" src="https://img.freepik.com/free-vector/flat-laptop-logo-template_23-2149025522.jpg?w=826&t=st=1704346218~exp=1704346818~hmac=09c3f73ee91ec14eb78b3722714de0d164e92dffecbbc140a1c6369701c3524c" alt="Image" width="50" height="50" imageClass="border-circle"></p-image>
     </div>
-    <div class="">
-      <ul></ul>
-    </div>
+    <ul class="flex flex-row list-none menu-items w-full">
+      <li class="" *ngFor="let item of navigation_items; let i=index">
+        <a [routerLink]="item.link" class="text-decoration-none">{{item.label}}</a>
+      </li>
+    </ul>
     <div class="flex align-items-center gap-2">
       <app-sh-language-switcher></app-sh-language-switcher>
       <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/asiyajavayant.png" styleClass="mr-2" size="large" shape="circle"></p-avatar>
     </div>
   </div>
-  <div class="flex justify-content-between align-items-center">
-    <div class=""></div>
-    <div class=""></div>
-    <div class=""></div>
+  <div class="flex justify-content-between align-items-center w-full infos px-7">
+    <div class="flex align-items-center gap-2 page-time">
+      <span class="page">Bord:</span>
+      <span class="time">{{today}}</span>
+    </div>
+    <a class="flex gap-2 align-items-center notifications" routerLink="/app">
+      <span class="indicator">10</span>
+      <span class="text">Notifications</span>
+    </a>
+    <div class="m-0">
+      <ul class="list-none flex gap-2 info-list">
+        <li><a href="/app" class="text-decoration-none">
+          John Doe
+        </a></li>
+        <li><a href="/app" class="text-decoration-none">
+          /Agence de Yaoundé
+        </a></li>
+        <li><a href="/app" class="text-decoration-none">
+          /Service Vente
+        </a></li>
+        <li><a href="/app" class="text-decoration-none">
+          /Chef de vente
+        </a></li>
+      </ul>
+    </div>
   </div>
 </div>
