@@ -44,6 +44,7 @@ export class ShLanguageSwitcherComponent implements OnInit {
         command: () => {
           this.changeLanguage(this.languages[0]);
         }
+
       },
       {
         label: 'Anglais',
