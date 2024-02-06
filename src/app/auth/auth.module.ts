@@ -22,6 +22,8 @@ import {DropdownModule} from "primeng/dropdown";
 import {NgOtpInputModule} from "ng-otp-input";
 import { AuRegisterCompanyComponent } from './au-register-company/au-register-company.component';
 import {MultiSelectModule} from "primeng/multiselect";
+import { AuRegisterAgencyComponent } from './au-register-agency/au-register-agency.component';
+import { AuRegisterServicesComponent } from './au-register-services/au-register-services.component';
 
 
 
@@ -31,13 +33,16 @@ import {MultiSelectModule} from "primeng/multiselect";
     AuLoginComponent,
     AuAuthLayoutComponent,
     AuResetPasswordComponent,
-    AuRegisterCompanyComponent
+    AuRegisterCompanyComponent,
+    AuRegisterAgencyComponent,
+    AuRegisterServicesComponent
   ],
   imports: [
     CommonModule,
     AuthRouting,
     CheckboxModule,
     PasswordModule,
+    InputTextModule,
     FormsModule,
     ButtonModule,
     InputTextModule,
