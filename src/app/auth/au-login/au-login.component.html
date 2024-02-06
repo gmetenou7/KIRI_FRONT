@@ -1,7 +1,7 @@
 <app-au-auth-layout>
   <div
-    style="border-radius:5px; max-width: 40%; min-width: 40%; ; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
-    <div class="w-full surface-card py-6 px-2 sm:px-5" style="border-radius:5px">
+    style="border-radius:5px; padding:0.3rem; background: linear-gradient(180deg, var(--primary-color) 10%, rgba(33, 150, 243, 0) 30%);">
+    <div class="w-full surface-card py-6 px-3 md:px-2 lg:px-4" style="border-radius:5px">
       <div class="text-center mb-5">
         <div class="text-900 text-3xl font-medium mb-3">
           Bienvenue
@@ -21,16 +21,16 @@
             Mot de passe
           </label>
           <p-password class="p-inputtext-md w-full" id="password" placeholder="Entrez votre mot de passe"
-            [toggleMask]="true" inputStyleClass="w-full md:w-28rem" formControlName="password"></p-password>
+            [toggleMask]="true" inputStyleClass="sm:w-30rem md:w-30rem" formControlName="password"></p-password>
         </div>
-        <div class="flex align-items-center justify-content-between gap-5 w-full">
+        <div class="flex flex-column lg:flex-row align-items-start lg:align-items-center justify-content-between gap-3 lg:gap-5 w-full">
           <div class="flex align-items-center">
             <p-checkbox id="rememberme" [binary]="true" styleClass="mr-2"></p-checkbox>
             <label for="rememberme">
               Se souvenir de moi
             </label>
           </div>
-          <a routerLink="/reset-password" class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: var(--primary-color)">
+          <a routerLink="/reset-password" class="font-medium no-underline lg:ml-2 text-right cursor-pointer" style="color: var(--primary-color)">
             Mot de passe oublié ?
           </a>
         </div>
