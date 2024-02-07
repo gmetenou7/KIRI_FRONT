@@ -10,23 +10,20 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MessagesModule } from 'primeng/messages';
 import { ToastModule } from 'primeng/toast';
 import { ButtonModule } from 'primeng/button';
-import { TranslateLoader, TranslateModule } from "@ngx-translate/core"; // if toast showing on button click
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core'; // if toast showing on button click
 import { AuthRouting } from './auth/auth-routing';
-import {ReactiveFormsModule} from "@angular/forms";
-import {FormlyModule} from "@ngx-formly/core";
-import {FormlyPrimeNGModule} from "@ngx-formly/primeng";
-import {PageModule} from "./pages/page.module";
-import {LayoutsModule} from "./layouts/layouts.module";
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyPrimeNGModule } from '@ngx-formly/primeng';
+import { PageModule } from './pages/page.module';
+import { LayoutsModule } from './layouts/layouts.module';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
 }
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -42,11 +39,11 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

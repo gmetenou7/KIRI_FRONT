@@ -1,41 +1,181 @@
-<div class="topbar flex flex-column px-3 py-1 gap-0">
-  <div class="flex justify-content-between align-items-center w-full">
-    <div class="">
-      <p-image routerLink="/" src="https://img.freepik.com/free-vector/flat-laptop-logo-template_23-2149025522.jpg?w=826&t=st=1704346218~exp=1704346818~hmac=09c3f73ee91ec14eb78b3722714de0d164e92dffecbbc140a1c6369701c3524c" alt="Image" width="50" height="50" imageClass="border-circle"></p-image>
+<div
+  class="bg-indigo-500 px-6 shadow-2 flex relative lg:static"
+  style="min-height: 75px"
+>
+  <a
+    pRipple
+    class="cursor-pointer flex p-3 align-items-center hover:bg-indigo-600 transition-colors transition-duration-150 relative select-none"
+    pStyleClass="#profile-10"
+    enterClass="hidden"
+    enterActiveClass="scalein"
+    leaveToClass="hidden"
+    leaveActiveClass="fadeout"
+    [hideOnOutsideClick]="true"
+  >
+    <app-sh-language-switcher></app-sh-language-switcher>
+    <div class="hidden lg:block">
+      <span
+        class="text-indigo-100 block mb-1 text-lg font-medium white-space-nowrap"
+      >
+        <p class="m-0 text-indigo-200">Manager</p></span
+      >
     </div>
-    <ul class="flex flex-row list-none menu-items w-full">
-      <li class="" *ngFor="let item of navigation_items; let i=index">
-        <a [routerLink]="item.link" class="text-decoration-none">{{item.label}}</a>
+  </a>
+  <div class="flex-auto flex pl-5 overflow-auto">
+    <ul class="flex list-none p-0 m-0">
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-home mr-2"></span>
+          <span class="font-medium">Bord</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-cart-plus mr-2"></span>
+          <span class="font-medium">Articles</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-megaphone mr-2"></span>
+          <span class="font-medium">Com</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-box mr-2"></span>
+          <span class="font-medium">Stock</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-chart-line mr-2"></span>
+          <span class="font-medium">Ventes</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-qrcode mr-2"></span>
+          <span class="font-medium">Compta</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-wrench mr-2"></span>
+          <span class="font-medium">SAV</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-user mr-2"></span>
+          <span class="font-medium">Clients</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-hourglass mr-2"></span>
+          <span class="font-medium">ECom</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-hourglass mr-2"></span>
+          <span class="font-medium">Users</span>
+        </a>
+      </li>
+      <li class="h-full">
+        <a
+          pRipple
+          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+        >
+          <span class="pi pi-cog mr-2"></span>
+          <span class="font-medium">Configs</span>
+        </a>
       </li>
     </ul>
-    <div class="flex align-items-center gap-2">
-      <app-sh-language-switcher></app-sh-language-switcher>
-      <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/asiyajavayant.png" styleClass="mr-2" size="large" shape="circle"></p-avatar>
-    </div>
   </div>
-  <div class="flex justify-content-between align-items-center w-full infos px-7">
-    <div class="flex align-items-center gap-2 page-time">
-      <span class="page">Bord:</span>
-      <span class="time">{{today}}</span>
-    </div>
-    <a class="flex gap-2 align-items-center notifications" routerLink="/app">
-      <span class="indicator">10</span>
-      <span class="text">Notifications</span>
+  <div class="flex ml-5">
+    <a
+      pRipple
+      class="cursor-pointer inline-flex align-items-center justify-content-center lg:hidden text-white"
+      pStyleClass="@next"
+      enterClass="hidden"
+      leaveToClass="hidden"
+      [hideOnOutsideClick]="true"
+    >
+      <i class="pi pi-bars text-4xl"></i>
     </a>
-    <div class="m-0">
-      <ul class="list-none flex gap-2 info-list">
-        <li><a href="/app" class="text-decoration-none">
-          John Doe
-        </a></li>
-        <li><a href="/app" class="text-decoration-none">
-          /Agence de Yaoundé
-        </a></li>
-        <li><a href="/app" class="text-decoration-none">
-          /Service Vente
-        </a></li>
-        <li><a href="/app" class="text-decoration-none">
-          /Chef de vente
-        </a></li>
+    <div
+      class="lg:block hidden absolute lg:static left-0 top-100 z-1 shadow-2 lg:shadow-none w-full lg:w-auto bg-indigo-500"
+    >
+      <ul
+        class="h-full list-none p-0 m-0 flex select-none flex-column lg:flex-row"
+      >
+        <li>
+          <a
+            pRipple
+            class="h-full flex px-6 py-3 lg:px-3 lg:py-0 align-items-center text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 font-medium cursor-pointer transition-colors transition-duration-150"
+          >
+            <i class="pi pi-inbox lg:text-2xl mr-2 lg:mr-0"></i>
+            <span class="block lg:hidden font-medium">Inbox</span>
+          </a>
+        </li>
+        <li>
+          <a
+            pRipple
+            class="h-full flex px-6 py-3 lg:px-3 lg:py-0 align-items-center text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 font-medium cursor-pointer transition-colors transition-duration-150"
+          >
+            <i
+              class="pi pi-bell lg:text-2xl mr-2 lg:mr-0"
+              pBadge
+              severity="danger"
+            ></i>
+            <span class="block lg:hidden font-medium">Notifications</span>
+          </a>
+        </li>
+        <li>
+          <a
+            pRipple
+            class="h-full flex px-6 py-3 lg:px-3 lg:py-0 align-items-center text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 font-medium cursor-pointer transition-colors transition-duration-150"
+          >
+            <i
+              class="pi pi-bell lg:text-2xl mr-2 lg:mr-0"
+              pBadge
+              severity="danger"
+            ></i>
+            <span class="block lg:hidden font-medium">Se Connecter</span>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
