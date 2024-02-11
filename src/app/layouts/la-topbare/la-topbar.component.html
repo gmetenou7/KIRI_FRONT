@@ -21,105 +21,17 @@
       >
     </div>
   </a>
-  <div class="flex-auto flex pl-5 overflow-auto">
+  <div class="flex-auto flex pl-5 overflow-auto scrollbar">
     <ul class="flex list-none p-0 m-0">
-      <li class="h-full">
+      <li *ngFor="let link of navigation_items" class="h-full">
         <a
+          [routerLink]="link.link"
+          routerLinkActive="text-white bg-indigo-600"
           pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+          class="cursor-pointer no-underline h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
         >
-          <span class="pi pi-home mr-2"></span>
-          <span class="font-medium">Bord</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-cart-plus mr-2"></span>
-          <span class="font-medium">Articles</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-megaphone mr-2"></span>
-          <span class="font-medium">Com</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-box mr-2"></span>
-          <span class="font-medium">Stock</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-chart-line mr-2"></span>
-          <span class="font-medium">Ventes</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-qrcode mr-2"></span>
-          <span class="font-medium">Compta</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-wrench mr-2"></span>
-          <span class="font-medium">SAV</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-user mr-2"></span>
-          <span class="font-medium">Clients</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-hourglass mr-2"></span>
-          <span class="font-medium">ECom</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-hourglass mr-2"></span>
-          <span class="font-medium">Users</span>
-        </a>
-      </li>
-      <li class="h-full">
-        <a
-          pRipple
-          class="cursor-pointer h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
-        >
-          <span class="pi pi-cog mr-2"></span>
-          <span class="font-medium">Configs</span>
+          <span [ngClass]="['pi pi-' + link.icon, 'mr-2']"></span>
+          <span class="font-medium">{{link.lable}}</span>
         </a>
       </li>
     </ul>
