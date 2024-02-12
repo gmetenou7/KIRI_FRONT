@@ -1,0 +1,59 @@
+<button (click)="showCreateModal = true" pButton pRipple label="Ajouter une annonces" icon="pi pi-plus-circle" class="mr-2"></button>
+<p-dialog class="scrollbar" [draggable]="false" [(visible)]="showCreateModal" [modal]="true" [breakpoints]="{'960px': '75vw', '640px': '100vw'}" [style]="{width: '40vw'}">
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+            <span class="flex align-items-center justify-content-center bg-cyan-100 text-cyan-800 mr-3 border-circle" style="width:32px;height:32px">
+                <i class="pi pi-plus text-lg"></i>
+            </span>
+      <span class="font-medium text-2xl text-900">
+        Creer une annonce
+      </span>
+    </div>
+  </ng-template>
+  <div class="scrollbar">
+    <p class="">Utiliser ce formulaire pour partager une information.</p>
+    <div class="">
+      <div class="grid">
+        <div class="col-12">
+          <div class="grid formgrid p-fluid">
+            <div class="field mb-4 col-12">
+              <label for="nickname" class="font-medium text-900">Titre</label>
+              <input id="nickname" type="text" pInputText>
+            </div>
+            <div class="field mb-4 col-12">
+              <label for="bio" class="font-medium text-900">Contenue</label>
+              <textarea id="bio" type="text" pInputTextarea rows="5" [autoResize]="true"></textarea>
+            </div>
+
+            <div class="field mb-4 col-12">
+              <p-fileUpload
+                removeStyleClass="bg-red-100 hover:bg-red-400 text-red-600 hover:text-white border-0 w-2rem h-2rem"
+                [chooseIcon]="'pi pi-file'"
+                [chooseLabel]="'Ajouter les fichiers'"
+                [showCancelButton] = "false"
+                [showUploadButton] = "false"
+                name="demo[]"
+                (onUpload)="onUpload($event)"
+                [multiple]="true"
+                accept="image/*"
+                [maxFileSize]="1000000"
+              >
+                <ng-template pTemplate="content">
+                  <ul class="flex" *ngIf="uploadedFiles.length">
+                    <li class="flex justify-content-start align-items-center gap-0" *ngFor="let file of uploadedFiles"></li>
+                  </ul>
+                </ng-template>
+              </p-fileUpload>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class=" border-top-1 surface-border pt-3">
+      <button pButton pRipple icon="pi pi-times" (click)="showCreateModal =false" label="Annuler" class="p-button-text"></button>
+      <button pButton pRipple icon="pi pi-save" (click)="closeModal()" label="Enregistrer"></button>
+    </div>
+  </ng-template>
+</p-dialog>
