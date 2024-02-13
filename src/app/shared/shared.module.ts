@@ -7,17 +7,21 @@ import {DropdownModule} from "primeng/dropdown";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {TieredMenuModule} from "primeng/tieredmenu";
 import {ButtonModule} from "primeng/button";
+import { ShPageWrapperComponent } from './sh-page-wrapper/sh-page-wrapper.component';
+import {StyleClassModule} from "primeng/styleclass";
 
 
 
 @NgModule({
   declarations: [
     ShNotFountComponent,
-    ShLanguageSwitcherComponent
+    ShLanguageSwitcherComponent,
+    ShPageWrapperComponent
   ],
-  exports: [
-    ShLanguageSwitcherComponent
-  ],
+    exports: [
+        ShLanguageSwitcherComponent,
+        ShPageWrapperComponent
+    ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -26,7 +30,8 @@ import {ButtonModule} from "primeng/button";
     FormsModule,
     NgOptimizedImage,
     TieredMenuModule,
-    ButtonModule
+    ButtonModule,
+    StyleClassModule
   ]
 })
 export class SharedModule { }

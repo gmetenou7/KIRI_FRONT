@@ -6,9 +6,31 @@
 @import "primeflex/primeflex.css";
 
 body {
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #e3e3e3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #dadada;
 }

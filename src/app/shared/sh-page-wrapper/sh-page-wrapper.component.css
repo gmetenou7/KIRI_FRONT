@@ -1,0 +1,14 @@
+.wrapper-h {
+  min-height: calc(100vh - 120px);
+  max-height: calc(100vh - 120px);
+}
+
+.open {
+  width: 300px;
+  transition: all 0.3s ease;
+}
+
+.close {
+  width: 0;
+  transition: all 0.3s ease;
+}
