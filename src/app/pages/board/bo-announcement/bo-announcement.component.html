@@ -1,1 +1,43 @@
-<p>bo-announcement works!</p>
+<div
+  class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300">
+  <div class="flex align-items-center gap-2">
+    <h2 class="text-bluegray-700">Les annonces</h2>
+  </div>
+  <div class="mt-3 md:mt-0">
+    <div class="flex align-items-center gap-2">
+      <div class="mt-3 lg:mt-0">
+        <app-an-create></app-an-create>
+        <app-an-update (onDrawerClose)="openUpdateDrawer()" [drawerVisible] = "showUpdateDrawer"></app-an-update>
+        <app-an-detail (onDrawerClose)="openViewMoreDrawer()" [drawerVisible] = "showDetailsDrawer"></app-an-detail>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid mt-3">
+  <div *ngFor="let item of [1,2,3,4,5,6,7,8,9]" class="col-12">
+    <div class="p-3 border-round shadow-2 flex align-items-center surface-card">
+      <div style="min-width:48px;height:48px;border-radius:10px"
+        class="bg-teal-100 inline-flex align-items-center justify-content-center mr-3">
+        <p class="text-teal-600 text-3xl m-0">
+          0{{item}}
+        </p>
+      </div>
+      <div class="pr-3">
+        <span class="text-teal-600 text-md font-medium mb-2">
+          Changement des prix des produits sur le rayon Ordinateur à partir de demain
+        </span>
+        <p class="mt-1 mb-0 text-600 font-medium text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ex iusto maiores repellendus veniam.
+          Exercitationem facilis, harum. A amet architecto cum earum eveniet excepturi harum ipsam, iusto labore minus.
+        </p>
+      </div>
+      <div class="ml-auto">
+        <button pButton pRipple icon="pi pi-ellipsis-v"
+          class="p-button-text p-button-plain p-button-rounded bg-blue-100 hover:bg-blue-500 hover:text-white"
+          (click)="menu1.toggle($event)"></button>
+        <p-menu #menu1 [popup]="true" [model]="items"></p-menu>
+      </div>
+    </div>
+  </div>
+</div>

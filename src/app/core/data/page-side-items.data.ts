@@ -11,7 +11,7 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     count: 5
   },
   {
-    link: "",
+    link: "/board/annual-growth",
     label: "Croissance Annulle",
   },
   {
