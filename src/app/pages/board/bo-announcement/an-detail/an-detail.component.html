@@ -1,1 +1,59 @@
-<p>an-detail works!</p>
+<p-sidebar (onHide)="onDrawerHide()" [showCloseIcon] = "true" [dismissible]="false" [(visible)]="updateAnnouncementDrawer" styleClass="w-full lg:w-30rem" position="right">
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-cyan-100 text-cyan-800 mr-3 border-circle"
+            style="width:32px;height:32px">
+        <i class="pi pi-file text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Détailes de cette annonce
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-2">
+    <section class="flex flex-column w-full mt-4">
+      <div class="flex justify-content-between align-items-center w-full mb-4">
+        <p class="font-semibold text-xl mt-0 mb-0 text-900"><span class="pi pi-bolt text-xl text-yellow-600"></span>
+          Changement des prix des produits sur le rayon Ordinateur à partir de demain
+        </p>
+      </div>
+      <table>
+        <tr style="height:2.5rem">
+          <td class="font-medium text-base text-600">Ajouté par</td>
+          <td>
+            <div class="flex align-items-center">
+              <span class="font-medium text-base text-900">John Walter</span>
+            </div>
+          </td>
+        </tr>
+        <tr style="height:2.5rem">
+          <td class="font-medium text-base text-600">Ajouté le</td>
+          <td class="font-medium text-base text-900">Oct 21 at 2:00 PM</td>
+        </tr>
+        <tr style="height:2.5rem">
+          <td class="font-medium text-base text-600">Tags</td>
+          <td>
+            <span class="p-tag bg-orange-500 mr-2">Ventes</span>
+            <span class="p-tag bg-green-500">Clients</span>
+          </td>
+        </tr>
+      </table>
+      <div class="border-y-1 surface-border py-4 my-4">
+        <p class="font-medium text-lg text-700 mt-0">Description</p>
+        <p class="text-base text-900 mt-0 mb-0">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid aspernatur consectetur corporis cumque delectus deleniti deserunt dolorem doloribus earum eos ex exercitationem explicabo fugiat fugit hic impedit inventore iusto labore minima molestiae natus, numquam odio omnis pariatur perferendis quae quas, quia quibusdam quidem quis quos repellat sed similique ullam, vitae? Aut blanditiis consectetur doloribus est, ipsam libero magnam molestiae officia officiis provident recusandae, sit. Ab aspernatur at consequuntur dolor ea eligendi eos esse facilis fugit illum in ipsa itaque labore molestias perferendis perspiciatis porro provident quam quasi quia rerum sit tempora tenetur veritatis vero voluptate voluptates, voluptatibus? Quibusdam.
+          Donec enim diam vulputate ut. Tellus mauris a diam maecenas. At varius vel pharetra vel turpis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus.</p>
+      </div>
+      <div class="border-y-1 surface-border py-4 my-4">
+        <p class="font-medium text-lg text-700 mt-0">Fichier</p>
+        <p></p>
+      </div>
+    </section>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex">
+      <button pButton pRipple icon="pi pi-check-square" (click)="updateAnnouncementDrawer =false" label="Accusé de reception"
+              class="p-button-text w-full bg-green-50 text-green-800"></button>
+    </div>
+  </ng-template>
+</p-sidebar>
