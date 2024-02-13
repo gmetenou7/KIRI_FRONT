@@ -21,6 +21,9 @@ import {InputSwitchModule} from "primeng/inputswitch";
 import {StyleClassModule} from "primeng/styleclass";
 import {SidebarModule} from "primeng/sidebar";
 import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.component';
+import {MultiSelectModule} from "primeng/multiselect";
+import {DropdownModule} from "primeng/dropdown";
+import {ChartModule} from "primeng/chart";
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.com
     AvatarModule,
     InputSwitchModule,
     StyleClassModule,
-    SidebarModule
+    SidebarModule,
+    MultiSelectModule,
+    DropdownModule,
+    ChartModule
   ]
 })
 
