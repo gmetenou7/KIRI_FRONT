@@ -24,6 +24,11 @@ import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.com
 import {MultiSelectModule} from "primeng/multiselect";
 import {DropdownModule} from "primeng/dropdown";
 import {ChartModule} from "primeng/chart";
+import { BoPpvComponent } from './bo-ppv/bo-ppv.component';
+import {TableModule} from "primeng/table";
+import {FormsModule} from "@angular/forms";
+import {SliderModule} from "primeng/slider";
+import {BadgeModule} from "primeng/badge";
 
 @NgModule({
   declarations: [
@@ -33,7 +38,8 @@ import {ChartModule} from "primeng/chart";
     AnCreateComponent,
     AnUpdateComponent,
     AnDetailComponent,
-    BoAnnualGrowthComponent
+    BoAnnualGrowthComponent,
+    BoPpvComponent
   ],
   imports: [
     CommonModule,
@@ -53,7 +59,11 @@ import {ChartModule} from "primeng/chart";
     SidebarModule,
     MultiSelectModule,
     DropdownModule,
-    ChartModule
+    ChartModule,
+    TableModule,
+    FormsModule,
+    SliderModule,
+    BadgeModule
   ]
 })
 

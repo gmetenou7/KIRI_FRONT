@@ -15,7 +15,7 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     label: "Croissance Annulle",
   },
   {
-    link: "",
+    link: "/board/must-selle-products",
     label: "Produits le plus vendus",
   },
   {

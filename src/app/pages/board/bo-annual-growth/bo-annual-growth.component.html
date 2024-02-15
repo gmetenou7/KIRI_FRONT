@@ -1,5 +1,5 @@
 <div class="px-2 py-0 md:px-3 lg:px-4">
-  <div class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-8">
+  <div class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-2 lg:gap-8">
     <div class="w-full bg-green-50">
       <p-dropdown
          [filter]="true" [options]="years"
@@ -66,12 +66,16 @@
       </div>
     </div>
   </div>
-  <div class="grid pb-2 border-bottom-2 border-gray-300 mt-4">
-    <div class="col-12 lg:col-6 p-2">
-      <p-chart type="doughnut" [data]="circleChartData" [options]="circleChartOption"></p-chart>
+  <div class="grid pb-2 mt-4">
+    <div class="col-12 lg:col-5 p-2">
+     <div class="surface-card border-round px-1 p-3">
+       <p-chart height="400px" type="doughnut" [data]="circleChartData" [options]="circleChartOption"></p-chart>
+     </div>
     </div>
-    <div class="col-12 lg:col-6 p-2">
-      <p-chart type="line" [data]="lineChartData" [options]="lineChartOption"></p-chart>
+    <div class="col-12 lg:col-7 p-2">
+      <div class="surface-card border-round px-1 p-3">
+        <p-chart height="400px" type="line" [data]="lineChartData" [options]="lineChartOption"></p-chart>
+      </div>
     </div>
   </div>
 </div>
