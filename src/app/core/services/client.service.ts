@@ -1,20 +1,20 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {ProductModele} from "../models/product.modele";
+import {ClientModele} from "../models/client.modele";
 
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
+export class ClientService {
 
   constructor(
     private http: HttpClient
   ) { }
 
-  getAllProduct() {
-    return this.http.get<any>('assets/json-mock/products.json')
+  getAllClient() {
+    return this.http.get<any>('assets/json-mock/clients.json')
       .toPromise()
-      .then(res => res.data as ProductModele[])
+      .then(res => res.data as ClientModele[])
       .then(data => data);
   }
 }

@@ -29,6 +29,9 @@ import {TableModule} from "primeng/table";
 import {FormsModule} from "@angular/forms";
 import {SliderModule} from "primeng/slider";
 import {BadgeModule} from "primeng/badge";
+import { BoBestClientsComponent } from './bo-best-clients/bo-best-clients.component';
+import { BcSendMessageComponent } from './bo-best-clients/bc-send-message/bc-send-message.component';
+import {RippleModule} from "primeng/ripple";
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import {BadgeModule} from "primeng/badge";
     AnUpdateComponent,
     AnDetailComponent,
     BoAnnualGrowthComponent,
-    BoPpvComponent
+    BoPpvComponent,
+    BoBestClientsComponent,
+    BcSendMessageComponent
   ],
   imports: [
     CommonModule,
@@ -63,7 +68,8 @@ import {BadgeModule} from "primeng/badge";
     TableModule,
     FormsModule,
     SliderModule,
-    BadgeModule
+    BadgeModule,
+    RippleModule
   ]
 })
 

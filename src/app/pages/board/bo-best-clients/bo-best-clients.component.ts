@@ -1,17 +1,21 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {Table} from "primeng/table";
 import {ProductModele} from "../../../core/models/product.modele";
-import {ProductService} from "../../../core/services/product.service";
+import {ClientModele} from "../../../core/models/client.modele";
+import {ClientService} from "../../../core/services/client.service";
+import {Table} from "primeng/table";
 
 @Component({
-  selector: 'app-bo-ppv',
-  templateUrl: './bo-ppv.component.html',
-  styleUrls: ['./bo-ppv.component.css']
+  selector: 'app-bo-best-clients',
+  templateUrl: './bo-best-clients.component.html',
+  styleUrls: ['./bo-best-clients.component.css']
 })
-export class BoPpvComponent implements OnInit{
+export class BoBestClientsComponent implements OnInit {
+
   years: Array<number> = [];
   agencies:Array<{name: string, id:number, ca: number}> = [];
   clients:Array<{name: string, id:number, ca: number}> = [];
+  clientsList: ClientModele[] = [];
+  selectedClients: ClientModele[] = [];
   selectedYear: number = 2024;
   selectedAgency: {name:string, id: number, ca:number} = {
     id: 1,
@@ -26,15 +30,19 @@ export class BoPpvComponent implements OnInit{
 
   products: ProductModele[] = [];
   loading: boolean = true;
+  showSendMessageDrawer: boolean = false;
 
   @ViewChild('filter') filter!: ElementRef;
   constructor(
-    private productService: ProductService
+    private clientsService: ClientService
   ) {
   }
-
   ngOnInit() {
     this.years = this.getYearsUntil(2000);
+    this.clientsService.getAllClient().then((data) => {
+      this.loading = false;
+      this.clientsList = data
+    })
     this.agencies = [
       {
         id: 1,
@@ -69,12 +77,6 @@ export class BoPpvComponent implements OnInit{
         ca: 300000000
       }
     ];
-
-    this.productService.getAllProduct().then(products => {
-      this.loading = false;
-      this.products = products
-    });
-
   }
 
   getYearsUntil(year:number) {
@@ -86,12 +88,6 @@ export class BoPpvComponent implements OnInit{
     return yearsArray;
   }
 
-
-  clear(table: Table) {
-    table.clear();
-    this.filter.nativeElement.value = '';
-  }
-
   onGlobalFilter(table: Table, event: Event) {
     table.filterGlobal((event.target as HTMLInputElement).value, 'contains');
   }
@@ -101,5 +97,9 @@ export class BoPpvComponent implements OnInit{
     setTimeout(() => {
       this.loading = false
     }, 2000);
+  }
+
+  onSendMessageDrawer() {
+    this.showSendMessageDrawer = !this.showSendMessageDrawer
   }
 }
