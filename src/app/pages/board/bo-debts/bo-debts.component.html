@@ -64,7 +64,7 @@
     </div>
   </div>
   <div class="surface-card p-4 overflow-x-auto border-round scrollbar mt-4">
-    <p-table [(selection)]="selectedClients" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1 [value]="clientsList" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true" styleClass="p-datatable-gridlines scrollbar" [paginator]="true" [globalFilterFields]="['code','nom','prenom','email', 'telephone']" responsiveLayout="scroll">
+    <p-table [(selection)]="selectedDebts" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1 [value]="debts" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true" styleClass="p-datatable-gridlines scrollbar" [paginator]="true" [globalFilterFields]="['code','nom','prenom','email', 'telephone']" responsiveLayout="scroll">
       <ng-template pTemplate="caption">
         <div class="flex justify-content-between flex-column sm:flex-row">
           <div class="flex align-items-center gap-4">
@@ -73,10 +73,10 @@
               <p-button size="small" label="Excel" [loading]="loading" (onClick)="load()"></p-button>
               <p-button size="small" label="CSV" [loading]="loading" (onClick)="load()"></p-button>
             </div>
-            <div *ngIf="selectedClients.length>0" class="flex align-items-center gap-2">
+            <div *ngIf="selectedDebts.length>0" class="flex align-items-center gap-2">
               Envoyer:
               <div class="flex gap-1">
-                <p-button (click)="onSendMessageDrawer()" size="small" label="Message" [badge]="selectedClients.length > 0 ? selectedClients.length.toString(): ''" [loading]="loading"></p-button>
+                <p-button (click)="onSendMessageDrawer()" size="small" label="Message" [badge]="selectedDebts.length > 0 ? selectedDebts.length.toString(): ''" [loading]="loading"></p-button>
               </div>
             </div>
           </div>
@@ -121,17 +121,12 @@
           </th>
           <th style="min-width: 8rem">
             <div class="flex justify-content-between align-items-center">
-              CAHT
+              Dette HT
             </div>
           </th>
           <th style="min-width: 8rem">
             <div class="flex justify-content-between align-items-center">
-              CATTC
-            </div>
-          </th>
-          <th style="min-width: 8rem">
-            <div class="flex justify-content-between align-items-center">
-              Benefices
+              Dette TTC
             </div>
           </th>
         </tr>
@@ -157,13 +152,10 @@
             <span>{{client.email}}</span>
           </td>
           <td>
-            {{client.caht | currency:'USD':'symbol'}}
+            {{client.detteht | currency:'USD':'symbol'}}
           </td>
           <td class="">
-            {{client.cattc | currency:'USD':'symbol'}}
-          </td>
-          <td class="">
-            {{client.benefice | currency:'USD':'symbol'}}
+            {{client.dettettc | currency:'USD':'symbol'}}
           </td>
         </tr>
       </ng-template>

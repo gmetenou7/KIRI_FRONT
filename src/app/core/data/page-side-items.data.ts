@@ -23,7 +23,7 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     label: "Meilleurs clients",
   },
   {
-    link: "",
+    link: "/board/debts",
     label: "Les dettes",
   },
   {

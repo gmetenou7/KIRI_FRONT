@@ -6,6 +6,7 @@ import {BoAnnouncementComponent} from "./bo-announcement/bo-announcement.compone
 import {BoAnnualGrowthComponent} from "./bo-annual-growth/bo-annual-growth.component";
 import {BoPpvComponent} from "./bo-ppv/bo-ppv.component";
 import {BoBestClientsComponent} from "./bo-best-clients/bo-best-clients.component";
+import {BoDebtsComponent} from "./bo-debts/bo-debts.component";
 
 
 const routes: Routes = [
@@ -32,7 +33,11 @@ const routes: Routes = [
       {
         path: "best-clients",
         component: BoBestClientsComponent,
-      }
+      },
+      {
+        path: "debts",
+        component: BoDebtsComponent,
+      },
     ]
   }
 ]

@@ -32,6 +32,8 @@ import {BadgeModule} from "primeng/badge";
 import { BoBestClientsComponent } from './bo-best-clients/bo-best-clients.component';
 import { BcSendMessageComponent } from './bo-best-clients/bc-send-message/bc-send-message.component';
 import {RippleModule} from "primeng/ripple";
+import { BoDebtsComponent } from './bo-debts/bo-debts.component';
+import { DeSendMessageComponent } from './bo-debts/de-send-message/de-send-message.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import {RippleModule} from "primeng/ripple";
     BoAnnualGrowthComponent,
     BoPpvComponent,
     BoBestClientsComponent,
-    BcSendMessageComponent
+    BcSendMessageComponent,
+    BoDebtsComponent,
+    DeSendMessageComponent
   ],
   imports: [
     CommonModule,
