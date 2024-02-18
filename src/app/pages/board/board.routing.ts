@@ -8,6 +8,7 @@ import {BoPpvComponent} from "./bo-ppv/bo-ppv.component";
 import {BoBestClientsComponent} from "./bo-best-clients/bo-best-clients.component";
 import {BoDebtsComponent} from "./bo-debts/bo-debts.component";
 import {BoCaSourcesComponent} from "./bo-ca-souces/bo-ca-sources.component";
+import {BoProductsPerClientComponent} from "./bo-products-per-client/bo-products-per-client.component";
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path: "ca-sources",
         component: BoCaSourcesComponent
+      },
+      {
+        path: "products-per-client",
+        component: BoProductsPerClientComponent
       },
     ]
   }

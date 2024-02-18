@@ -38,6 +38,8 @@ import { BoCaSourcesComponent } from './bo-ca-souces/bo-ca-sources.component';
 import { CasDetailComponent } from './bo-ca-souces/cas-detail/cas-detail.component';
 import {CalendarModule} from "primeng/calendar";
 import {ChipModule} from "primeng/chip";
+import { BoProductsPerClientComponent } from './bo-products-per-client/bo-products-per-client.component';
+import { PrcSendMessageComponent } from './bo-products-per-client/prc-send-message/prc-send-message.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import {ChipModule} from "primeng/chip";
     BoDebtsComponent,
     DeSendMessageComponent,
     BoCaSourcesComponent,
-    CasDetailComponent
+    CasDetailComponent,
+    BoProductsPerClientComponent,
+    PrcSendMessageComponent
   ],
   imports: [
     CommonModule,
