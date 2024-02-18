@@ -34,6 +34,10 @@ import { BcSendMessageComponent } from './bo-best-clients/bc-send-message/bc-sen
 import {RippleModule} from "primeng/ripple";
 import { BoDebtsComponent } from './bo-debts/bo-debts.component';
 import { DeSendMessageComponent } from './bo-debts/de-send-message/de-send-message.component';
+import { BoCaSourcesComponent } from './bo-ca-souces/bo-ca-sources.component';
+import { CasDetailComponent } from './bo-ca-souces/cas-detail/cas-detail.component';
+import {CalendarModule} from "primeng/calendar";
+import {ChipModule} from "primeng/chip";
 
 @NgModule({
   declarations: [
@@ -48,7 +52,9 @@ import { DeSendMessageComponent } from './bo-debts/de-send-message/de-send-messa
     BoBestClientsComponent,
     BcSendMessageComponent,
     BoDebtsComponent,
-    DeSendMessageComponent
+    DeSendMessageComponent,
+    BoCaSourcesComponent,
+    CasDetailComponent
   ],
   imports: [
     CommonModule,
@@ -73,7 +79,9 @@ import { DeSendMessageComponent } from './bo-debts/de-send-message/de-send-messa
     FormsModule,
     SliderModule,
     BadgeModule,
-    RippleModule
+    RippleModule,
+    CalendarModule,
+    ChipModule
   ]
 })
 

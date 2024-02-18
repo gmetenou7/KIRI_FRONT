@@ -31,7 +31,7 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     label: "Situation de caisse",
   },
   {
-    link: "",
-    label: "Souce du CA",
+    link: "/board/ca-sources",
+    label: "Source du CA",
   },
 ]
