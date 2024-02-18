@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {ProductModele} from "../../../core/models/product.modele";
 import {ClientModele} from "../../../core/models/client.modele";
 import {ClientService} from "../../../core/services/client.service";
@@ -27,6 +27,7 @@ export class BoProductsPerClientComponent implements OnInit {
   selectClient: ClientModele | undefined;
   selectedClients: ClientModele[] = []
 
+  @ViewChild('filter') filter!: ElementRef;
   constructor(
     private clientService: ClientService,
     private productService: ProductService

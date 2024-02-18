@@ -40,6 +40,10 @@ import {CalendarModule} from "primeng/calendar";
 import {ChipModule} from "primeng/chip";
 import { BoProductsPerClientComponent } from './bo-products-per-client/bo-products-per-client.component';
 import { PrcSendMessageComponent } from './bo-products-per-client/prc-send-message/prc-send-message.component';
+import { BoCashSituationComponent } from './bo-cash-situation/bo-cash-situation.component';
+import { CloseCashSituationComponent } from './bo-cash-situation/close-cash-situation/close-cash-situation.component';
+import { DateEventsComponent } from './bo-cash-situation/date-events/date-events.component';
+import { PrinteComponent } from './bo-cash-situation/printe/printe.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +62,11 @@ import { PrcSendMessageComponent } from './bo-products-per-client/prc-send-messa
     BoCaSourcesComponent,
     CasDetailComponent,
     BoProductsPerClientComponent,
-    PrcSendMessageComponent
+    PrcSendMessageComponent,
+    BoCashSituationComponent,
+    CloseCashSituationComponent,
+    DateEventsComponent,
+    PrinteComponent
   ],
   imports: [
     CommonModule,

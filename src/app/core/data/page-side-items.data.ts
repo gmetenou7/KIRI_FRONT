@@ -27,7 +27,7 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     label: "Les dettes",
   },
   {
-    link: "",
+    link: "/board/cash-situation",
     label: "Situation de caisse",
   },
   {
