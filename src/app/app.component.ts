@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import {Message, PrimeNGConfig} from 'primeng/api';
 import { MessageService } from 'primeng/api';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -11,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent implements OnInit {
   constructor(
     private messageService: MessageService,
+    private config: PrimeNGConfig
   ) {
   }
 
@@ -18,6 +19,12 @@ export class AppComponent implements OnInit {
   messages: Message[] = [];
 
   ngOnInit() {
+    this.config.setTranslation({
+      accept: 'Accepter',
+      reject: 'Rejeter',
+      monthNames: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Jouin', 'Juillet', 'Aougt', 'Septembre', 'Octobre', 'Novembre', 'Decembre'],
+      dayNames: ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
+    })
     this.messages = [
       { severity: 'success', summary: 'Success', detail: 'Bienvenu sur le projet kiri system front' }
     ];

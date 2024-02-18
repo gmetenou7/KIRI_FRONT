@@ -15,23 +15,27 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
     label: "Croissance Annulle",
   },
   {
-    link: "",
+    link: "/board/must-selle-products",
     label: "Produits le plus vendus",
   },
   {
-    link: "",
+    link: "/board/best-clients",
     label: "Meilleurs clients",
   },
   {
-    link: "",
+    link: "/board/debts",
     label: "Les dettes",
   },
   {
-    link: "",
+    link: "/board/cash-situation",
     label: "Situation de caisse",
   },
   {
-    link: "",
-    label: "Souce du CA",
+    link: "/board/ca-sources",
+    label: "Source du CA",
+  },
+  {
+    link: "/board/products-per-client",
+    label: "Produits par client",
   },
 ]

@@ -1,0 +1,1004 @@
+{
+  "data": [
+    {
+      "intitule": "Small Soft Chicken",
+      "code_bar": "28780",
+      "prix_revient": "452.00",
+      "quantite": 93,
+      "prix_unitaire": "671.00",
+      "prix_total": "552.00",
+      "benefice": "197.00",
+      "code": "1"
+    },
+    {
+      "intitule": "Handcrafted Wooden Pizza",
+      "code_bar": "1911",
+      "prix_revient": "792.00",
+      "quantite": 16,
+      "prix_unitaire": "871.00",
+      "prix_total": "52.00",
+      "benefice": "693.00",
+      "code": "2"
+    },
+    {
+      "intitule": "Rustic Bronze Cheese",
+      "code_bar": "26793",
+      "prix_revient": "274.00",
+      "quantite": 57,
+      "prix_unitaire": "445.00",
+      "prix_total": "684.00",
+      "benefice": "613.00",
+      "code": "3"
+    },
+    {
+      "intitule": "Intelligent Bronze Shirt",
+      "code_bar": "2475",
+      "prix_revient": "915.00",
+      "quantite": 71,
+      "prix_unitaire": "240.00",
+      "prix_total": "795.00",
+      "benefice": "376.00",
+      "code": "4"
+    },
+    {
+      "intitule": "Handcrafted Plastic Gloves",
+      "code_bar": "555",
+      "prix_revient": "678.00",
+      "quantite": 93,
+      "prix_unitaire": "329.00",
+      "prix_total": "744.00",
+      "benefice": "94.00",
+      "code": "5"
+    },
+    {
+      "intitule": "Awesome Plastic Keyboard",
+      "code_bar": "2792",
+      "prix_revient": "220.00",
+      "quantite": 52,
+      "prix_unitaire": "641.00",
+      "prix_total": "477.00",
+      "benefice": "658.00",
+      "code": "6"
+    },
+    {
+      "intitule": "Modern Rubber Cheese",
+      "code_bar": "800",
+      "prix_revient": "843.00",
+      "quantite": 83,
+      "prix_unitaire": "864.00",
+      "prix_total": "686.00",
+      "benefice": "849.00",
+      "code": "7"
+    },
+    {
+      "intitule": "Fantastic Rubber Table",
+      "code_bar": "985",
+      "prix_revient": "388.00",
+      "quantite": 13,
+      "prix_unitaire": "455.00",
+      "prix_total": "913.00",
+      "benefice": "75.00",
+      "code": "8"
+    },
+    {
+      "intitule": "Licensed Plastic Tuna",
+      "code_bar": "2969",
+      "prix_revient": "638.00",
+      "quantite": 100,
+      "prix_unitaire": "891.00",
+      "prix_total": "527.00",
+      "benefice": "794.00",
+      "code": "9"
+    },
+    {
+      "intitule": "Sleek Cotton Shoes",
+      "code_bar": "3320",
+      "prix_revient": "846.00",
+      "quantite": 72,
+      "prix_unitaire": "885.00",
+      "prix_total": "861.00",
+      "benefice": "186.00",
+      "code": "10"
+    },
+    {
+      "intitule": "Unbranded Frozen Tuna",
+      "code_bar": "61769",
+      "prix_revient": "819.00",
+      "quantite": 81,
+      "prix_unitaire": "741.00",
+      "prix_total": "475.00",
+      "benefice": "569.00",
+      "code": "11"
+    },
+    {
+      "intitule": "Rustic Frozen Pants",
+      "code_bar": "937",
+      "prix_revient": "218.00",
+      "quantite": 59,
+      "prix_unitaire": "167.00",
+      "prix_total": "129.00",
+      "benefice": "567.00",
+      "code": "12"
+    },
+    {
+      "intitule": "Gorgeous Frozen Chicken",
+      "code_bar": "710",
+      "prix_revient": "384.00",
+      "quantite": 37,
+      "prix_unitaire": "206.00",
+      "prix_total": "752.00",
+      "benefice": "497.00",
+      "code": "13"
+    },
+    {
+      "intitule": "Handmade Rubber Chips",
+      "code_bar": "1162",
+      "prix_revient": "892.00",
+      "quantite": 10,
+      "prix_unitaire": "204.00",
+      "prix_total": "872.00",
+      "benefice": "710.00",
+      "code": "14"
+    },
+    {
+      "intitule": "Ergonomic Plastic Cheese",
+      "code_bar": "158",
+      "prix_revient": "995.00",
+      "quantite": 46,
+      "prix_unitaire": "638.00",
+      "prix_total": "598.00",
+      "benefice": "463.00",
+      "code": "15"
+    },
+    {
+      "intitule": "Handmade Concrete Car",
+      "code_bar": "0092",
+      "prix_revient": "100.00",
+      "quantite": 84,
+      "prix_unitaire": "673.00",
+      "prix_total": "283.00",
+      "benefice": "361.00",
+      "code": "16"
+    },
+    {
+      "intitule": "Gorgeous Wooden Computer",
+      "code_bar": "1395",
+      "prix_revient": "357.00",
+      "quantite": 28,
+      "prix_unitaire": "644.00",
+      "prix_total": "404.00",
+      "benefice": "115.00",
+      "code": "17"
+    },
+    {
+      "intitule": "Electronic Granite Cheese",
+      "code_bar": "10528",
+      "prix_revient": "399.00",
+      "quantite": 71,
+      "prix_unitaire": "433.00",
+      "prix_total": "802.00",
+      "benefice": "569.00",
+      "code": "18"
+    },
+    {
+      "intitule": "Oriental Soft Towels",
+      "code_bar": "12259",
+      "prix_revient": "693.00",
+      "quantite": 40,
+      "prix_unitaire": "228.00",
+      "prix_total": "22.00",
+      "benefice": "191.00",
+      "code": "19"
+    },
+    {
+      "intitule": "Recycled Concrete Bacon",
+      "code_bar": "965",
+      "prix_revient": "35.00",
+      "quantite": 14,
+      "prix_unitaire": "969.00",
+      "prix_total": "316.00",
+      "benefice": "391.00",
+      "code": "20"
+    },
+    {
+      "intitule": "Rustic Fresh Keyboard",
+      "code_bar": "13570",
+      "prix_revient": "795.00",
+      "quantite": 69,
+      "prix_unitaire": "203.00",
+      "prix_total": "960.00",
+      "benefice": "993.00",
+      "code": "21"
+    },
+    {
+      "intitule": "Modern Metal Towels",
+      "code_bar": "14311",
+      "prix_revient": "116.00",
+      "quantite": 36,
+      "prix_unitaire": "668.00",
+      "prix_total": "356.00",
+      "benefice": "995.00",
+      "code": "22"
+    },
+    {
+      "intitule": "Refined Rubber Chair",
+      "code_bar": "01722",
+      "prix_revient": "571.00",
+      "quantite": 30,
+      "prix_unitaire": "409.00",
+      "prix_total": "130.00",
+      "benefice": "167.00",
+      "code": "23"
+    },
+    {
+      "intitule": "Ergonomic Bronze Shirt",
+      "code_bar": "192",
+      "prix_revient": "50.00",
+      "quantite": 46,
+      "prix_unitaire": "10.00",
+      "prix_total": "984.00",
+      "benefice": "418.00",
+      "code": "24"
+    },
+    {
+      "intitule": "Handcrafted Plastic Shoes",
+      "code_bar": "79675",
+      "prix_revient": "734.00",
+      "quantite": 74,
+      "prix_unitaire": "725.00",
+      "prix_total": "813.00",
+      "benefice": "497.00",
+      "code": "25"
+    },
+    {
+      "intitule": "Sleek Metal Shoes",
+      "code_bar": "85611",
+      "prix_revient": "995.00",
+      "quantite": 49,
+      "prix_unitaire": "278.00",
+      "prix_total": "80.00",
+      "benefice": "184.00",
+      "code": "26"
+    },
+    {
+      "intitule": "Practical Concrete Bacon",
+      "code_bar": "2674",
+      "prix_revient": "277.00",
+      "quantite": 69,
+      "prix_unitaire": "8.00",
+      "prix_total": "113.00",
+      "benefice": "225.00",
+      "code": "27"
+    },
+    {
+      "intitule": "Handcrafted Soft Salad",
+      "code_bar": "2809",
+      "prix_revient": "228.00",
+      "quantite": 61,
+      "prix_unitaire": "626.00",
+      "prix_total": "917.00",
+      "benefice": "876.00",
+      "code": "28"
+    },
+    {
+      "intitule": "Small Concrete Salad",
+      "code_bar": "6083",
+      "prix_revient": "232.00",
+      "quantite": 54,
+      "prix_unitaire": "260.00",
+      "prix_total": "329.00",
+      "benefice": "314.00",
+      "code": "29"
+    },
+    {
+      "intitule": "Handcrafted Fresh Pants",
+      "code_bar": "2231",
+      "prix_revient": "411.00",
+      "quantite": 60,
+      "prix_unitaire": "987.00",
+      "prix_total": "776.00",
+      "benefice": "619.00",
+      "code": "30"
+    },
+    {
+      "intitule": "Luxurious Wooden Sausages",
+      "code_bar": "378",
+      "prix_revient": "785.00",
+      "quantite": 22,
+      "prix_unitaire": "496.00",
+      "prix_total": "900.00",
+      "benefice": "571.00",
+      "code": "31"
+    },
+    {
+      "intitule": "Luxurious Fresh Pants",
+      "code_bar": "409",
+      "prix_revient": "803.00",
+      "quantite": 2,
+      "prix_unitaire": "308.00",
+      "prix_total": "728.00",
+      "benefice": "621.00",
+      "code": "32"
+    },
+    {
+      "intitule": "Recycled Metal Salad",
+      "code_bar": "517",
+      "prix_revient": "645.00",
+      "quantite": 88,
+      "prix_unitaire": "262.00",
+      "prix_total": "995.00",
+      "benefice": "950.00",
+      "code": "33"
+    },
+    {
+      "intitule": "Elegant Plastic Car",
+      "code_bar": "183",
+      "prix_revient": "36.00",
+      "quantite": 88,
+      "prix_unitaire": "589.00",
+      "prix_total": "84.00",
+      "benefice": "178.00",
+      "code": "34"
+    },
+    {
+      "intitule": "Practical Rubber Salad",
+      "code_bar": "4529",
+      "prix_revient": "218.00",
+      "quantite": 36,
+      "prix_unitaire": "753.00",
+      "prix_total": "987.00",
+      "benefice": "428.00",
+      "code": "35"
+    },
+    {
+      "intitule": "Refined Metal Bike",
+      "code_bar": "142",
+      "prix_revient": "826.00",
+      "quantite": 38,
+      "prix_unitaire": "388.00",
+      "prix_total": "731.00",
+      "benefice": "197.00",
+      "code": "36"
+    },
+    {
+      "intitule": "Intelligent Frozen Keyboard",
+      "code_bar": "33862",
+      "prix_revient": "954.00",
+      "quantite": 91,
+      "prix_unitaire": "773.00",
+      "prix_total": "328.00",
+      "benefice": "581.00",
+      "code": "37"
+    },
+    {
+      "intitule": "Small Plastic Keyboard",
+      "code_bar": "759",
+      "prix_revient": "125.00",
+      "quantite": 67,
+      "prix_unitaire": "516.00",
+      "prix_total": "989.00",
+      "benefice": "505.00",
+      "code": "38"
+    },
+    {
+      "intitule": "Small Steel Table",
+      "code_bar": "7843",
+      "prix_revient": "545.00",
+      "quantite": 94,
+      "prix_unitaire": "9.00",
+      "prix_total": "313.00",
+      "benefice": "413.00",
+      "code": "39"
+    },
+    {
+      "intitule": "Oriental Bronze Fish",
+      "code_bar": "102",
+      "prix_revient": "101.00",
+      "quantite": 9,
+      "prix_unitaire": "449.00",
+      "prix_total": "577.00",
+      "benefice": "718.00",
+      "code": "40"
+    },
+    {
+      "intitule": "Awesome Concrete Chips",
+      "code_bar": "94829",
+      "prix_revient": "726.00",
+      "quantite": 19,
+      "prix_unitaire": "46.00",
+      "prix_total": "793.00",
+      "benefice": "916.00",
+      "code": "41"
+    },
+    {
+      "intitule": "Bespoke Concrete Towels",
+      "code_bar": "50720",
+      "prix_revient": "352.00",
+      "quantite": 42,
+      "prix_unitaire": "910.00",
+      "prix_total": "460.00",
+      "benefice": "955.00",
+      "code": "42"
+    },
+    {
+      "intitule": "Elegant Wooden Salad",
+      "code_bar": "446",
+      "prix_revient": "135.00",
+      "quantite": 83,
+      "prix_unitaire": "383.00",
+      "prix_total": "61.00",
+      "benefice": "182.00",
+      "code": "43"
+    },
+    {
+      "intitule": "Generic Soft Chips",
+      "code_bar": "299",
+      "prix_revient": "93.00",
+      "quantite": 46,
+      "prix_unitaire": "852.00",
+      "prix_total": "429.00",
+      "benefice": "247.00",
+      "code": "44"
+    },
+    {
+      "intitule": "Rustic Bronze Chips",
+      "code_bar": "858",
+      "prix_revient": "891.00",
+      "quantite": 5,
+      "prix_unitaire": "560.00",
+      "prix_total": "264.00",
+      "benefice": "635.00",
+      "code": "45"
+    },
+    {
+      "intitule": "Oriental Steel Gloves",
+      "code_bar": "0726",
+      "prix_revient": "617.00",
+      "quantite": 52,
+      "prix_unitaire": "682.00",
+      "prix_total": "513.00",
+      "benefice": "916.00",
+      "code": "46"
+    },
+    {
+      "intitule": "Licensed Plastic Sausages",
+      "code_bar": "95338",
+      "prix_revient": "945.00",
+      "quantite": 51,
+      "prix_unitaire": "147.00",
+      "prix_total": "893.00",
+      "benefice": "292.00",
+      "code": "47"
+    },
+    {
+      "intitule": "Recycled Concrete Ball",
+      "code_bar": "169",
+      "prix_revient": "709.00",
+      "quantite": 64,
+      "prix_unitaire": "36.00",
+      "prix_total": "382.00",
+      "benefice": "727.00",
+      "code": "48"
+    },
+    {
+      "intitule": "Intelligent Metal Ball",
+      "code_bar": "1961",
+      "prix_revient": "677.00",
+      "quantite": 63,
+      "prix_unitaire": "618.00",
+      "prix_total": "422.00",
+      "benefice": "484.00",
+      "code": "49"
+    },
+    {
+      "intitule": "Gorgeous Plastic Ball",
+      "code_bar": "816",
+      "prix_revient": "679.00",
+      "quantite": 52,
+      "prix_unitaire": "16.00",
+      "prix_total": "811.00",
+      "benefice": "920.00",
+      "code": "50"
+    },
+    {
+      "intitule": "Bespoke Cotton Soap",
+      "code_bar": "64943",
+      "prix_revient": "61.00",
+      "quantite": 58,
+      "prix_unitaire": "883.00",
+      "prix_total": "656.00",
+      "benefice": "985.00",
+      "code": "51"
+    },
+    {
+      "intitule": "Oriental Cotton Shoes",
+      "code_bar": "75266",
+      "prix_revient": "356.00",
+      "quantite": 25,
+      "prix_unitaire": "555.00",
+      "prix_total": "863.00",
+      "benefice": "833.00",
+      "code": "52"
+    },
+    {
+      "intitule": "Oriental Metal Car",
+      "code_bar": "315",
+      "prix_revient": "105.00",
+      "quantite": 15,
+      "prix_unitaire": "817.00",
+      "prix_total": "328.00",
+      "benefice": "729.00",
+      "code": "53"
+    },
+    {
+      "intitule": "Ergonomic Frozen Salad",
+      "code_bar": "16048",
+      "prix_revient": "201.00",
+      "quantite": 30,
+      "prix_unitaire": "859.00",
+      "prix_total": "21.00",
+      "benefice": "377.00",
+      "code": "54"
+    },
+    {
+      "intitule": "Luxurious Bronze Table",
+      "code_bar": "9490",
+      "prix_revient": "15.00",
+      "quantite": 10,
+      "prix_unitaire": "138.00",
+      "prix_total": "838.00",
+      "benefice": "292.00",
+      "code": "55"
+    },
+    {
+      "intitule": "Incredible Frozen Keyboard",
+      "code_bar": "08936",
+      "prix_revient": "715.00",
+      "quantite": 90,
+      "prix_unitaire": "251.00",
+      "prix_total": "785.00",
+      "benefice": "135.00",
+      "code": "56"
+    },
+    {
+      "intitule": "Unbranded Fresh Pizza",
+      "code_bar": "956",
+      "prix_revient": "148.00",
+      "quantite": 6,
+      "prix_unitaire": "501.00",
+      "prix_total": "471.00",
+      "benefice": "507.00",
+      "code": "57"
+    },
+    {
+      "intitule": "Licensed Cotton Cheese",
+      "code_bar": "53171",
+      "prix_revient": "763.00",
+      "quantite": 43,
+      "prix_unitaire": "205.00",
+      "prix_total": "962.00",
+      "benefice": "849.00",
+      "code": "58"
+    },
+    {
+      "intitule": "Ergonomic Fresh Bacon",
+      "code_bar": "84561",
+      "prix_revient": "127.00",
+      "quantite": 23,
+      "prix_unitaire": "42.00",
+      "prix_total": "681.00",
+      "benefice": "591.00",
+      "code": "59"
+    },
+    {
+      "intitule": "Licensed Wooden Cheese",
+      "code_bar": "574",
+      "prix_revient": "760.00",
+      "quantite": 74,
+      "prix_unitaire": "75.00",
+      "prix_total": "656.00",
+      "benefice": "611.00",
+      "code": "60"
+    },
+    {
+      "intitule": "Sleek Concrete Pizza",
+      "code_bar": "7789",
+      "prix_revient": "856.00",
+      "quantite": 73,
+      "prix_unitaire": "615.00",
+      "prix_total": "802.00",
+      "benefice": "975.00",
+      "code": "61"
+    },
+    {
+      "intitule": "Intelligent Plastic Bike",
+      "code_bar": "4780",
+      "prix_revient": "371.00",
+      "quantite": 80,
+      "prix_unitaire": "536.00",
+      "prix_total": "299.00",
+      "benefice": "210.00",
+      "code": "62"
+    },
+    {
+      "intitule": "Ergonomic Granite Mouse",
+      "code_bar": "51104",
+      "prix_revient": "776.00",
+      "quantite": 88,
+      "prix_unitaire": "472.00",
+      "prix_total": "463.00",
+      "benefice": "322.00",
+      "code": "63"
+    },
+    {
+      "intitule": "Modern Concrete Gloves",
+      "code_bar": "4059",
+      "prix_revient": "441.00",
+      "quantite": 20,
+      "prix_unitaire": "377.00",
+      "prix_total": "791.00",
+      "benefice": "774.00",
+      "code": "64"
+    },
+    {
+      "intitule": "Elegant Frozen Computer",
+      "code_bar": "5751",
+      "prix_revient": "650.00",
+      "quantite": 74,
+      "prix_unitaire": "985.00",
+      "prix_total": "275.00",
+      "benefice": "1000.00",
+      "code": "65"
+    },
+    {
+      "intitule": "Electronic Soft Car",
+      "code_bar": "11363",
+      "prix_revient": "345.00",
+      "quantite": 33,
+      "prix_unitaire": "623.00",
+      "prix_total": "951.00",
+      "benefice": "683.00",
+      "code": "66"
+    },
+    {
+      "intitule": "Rustic Fresh Gloves",
+      "code_bar": "26183",
+      "prix_revient": "489.00",
+      "quantite": 95,
+      "prix_unitaire": "922.00",
+      "prix_total": "359.00",
+      "benefice": "733.00",
+      "code": "67"
+    },
+    {
+      "intitule": "Luxurious Bronze Salad",
+      "code_bar": "07261",
+      "prix_revient": "384.00",
+      "quantite": 84,
+      "prix_unitaire": "273.00",
+      "prix_total": "672.00",
+      "benefice": "907.00",
+      "code": "68"
+    },
+    {
+      "intitule": "Intelligent Wooden Shoes",
+      "code_bar": "26773",
+      "prix_revient": "79.00",
+      "quantite": 93,
+      "prix_unitaire": "286.00",
+      "prix_total": "93.00",
+      "benefice": "943.00",
+      "code": "69"
+    },
+    {
+      "intitule": "Generic Frozen Car",
+      "code_bar": "73917",
+      "prix_revient": "184.00",
+      "quantite": 37,
+      "prix_unitaire": "857.00",
+      "prix_total": "861.00",
+      "benefice": "856.00",
+      "code": "70"
+    },
+    {
+      "intitule": "Generic Cotton Salad",
+      "code_bar": "68640",
+      "prix_revient": "891.00",
+      "quantite": 90,
+      "prix_unitaire": "372.00",
+      "prix_total": "965.00",
+      "benefice": "989.00",
+      "code": "71"
+    },
+    {
+      "intitule": "Gorgeous Metal Shirt",
+      "code_bar": "87723",
+      "prix_revient": "841.00",
+      "quantite": 45,
+      "prix_unitaire": "662.00",
+      "prix_total": "954.00",
+      "benefice": "273.00",
+      "code": "72"
+    },
+    {
+      "intitule": "Bespoke Steel Fish",
+      "code_bar": "2924",
+      "prix_revient": "283.00",
+      "quantite": 49,
+      "prix_unitaire": "248.00",
+      "prix_total": "974.00",
+      "benefice": "195.00",
+      "code": "73"
+    },
+    {
+      "intitule": "Handcrafted Bronze Pants",
+      "code_bar": "941",
+      "prix_revient": "177.00",
+      "quantite": 66,
+      "prix_unitaire": "961.00",
+      "prix_total": "374.00",
+      "benefice": "679.00",
+      "code": "74"
+    },
+    {
+      "intitule": "Sleek Plastic Fish",
+      "code_bar": "84206",
+      "prix_revient": "658.00",
+      "quantite": 35,
+      "prix_unitaire": "697.00",
+      "prix_total": "617.00",
+      "benefice": "537.00",
+      "code": "75"
+    },
+    {
+      "intitule": "Small Soft Hat",
+      "code_bar": "7157",
+      "prix_revient": "261.00",
+      "quantite": 86,
+      "prix_unitaire": "249.00",
+      "prix_total": "105.00",
+      "benefice": "512.00",
+      "code": "76"
+    },
+    {
+      "intitule": "Oriental Fresh Shoes",
+      "code_bar": "08761",
+      "prix_revient": "618.00",
+      "quantite": 43,
+      "prix_unitaire": "161.00",
+      "prix_total": "214.00",
+      "benefice": "552.00",
+      "code": "77"
+    },
+    {
+      "intitule": "Recycled Metal Chips",
+      "code_bar": "137",
+      "prix_revient": "588.00",
+      "quantite": 25,
+      "prix_unitaire": "455.00",
+      "prix_total": "76.00",
+      "benefice": "628.00",
+      "code": "78"
+    },
+    {
+      "intitule": "Practical Rubber Hat",
+      "code_bar": "3593",
+      "prix_revient": "701.00",
+      "quantite": 92,
+      "prix_unitaire": "407.00",
+      "prix_total": "909.00",
+      "benefice": "708.00",
+      "code": "79"
+    },
+    {
+      "intitule": "Gorgeous Plastic Gloves",
+      "code_bar": "709",
+      "prix_revient": "210.00",
+      "quantite": 39,
+      "prix_unitaire": "741.00",
+      "prix_total": "538.00",
+      "benefice": "779.00",
+      "code": "80"
+    },
+    {
+      "intitule": "Oriental Steel Hat",
+      "code_bar": "2945",
+      "prix_revient": "594.00",
+      "quantite": 37,
+      "prix_unitaire": "957.00",
+      "prix_total": "836.00",
+      "benefice": "458.00",
+      "code": "81"
+    },
+    {
+      "intitule": "Practical Metal Bacon",
+      "code_bar": "4491",
+      "prix_revient": "830.00",
+      "quantite": 32,
+      "prix_unitaire": "582.00",
+      "prix_total": "48.00",
+      "benefice": "824.00",
+      "code": "82"
+    },
+    {
+      "intitule": "Small Bronze Table",
+      "code_bar": "99140",
+      "prix_revient": "40.00",
+      "quantite": 13,
+      "prix_unitaire": "718.00",
+      "prix_total": "380.00",
+      "benefice": "32.00",
+      "code": "83"
+    },
+    {
+      "intitule": "Intelligent Granite Fish",
+      "code_bar": "526",
+      "prix_revient": "375.00",
+      "quantite": 18,
+      "prix_unitaire": "381.00",
+      "prix_total": "520.00",
+      "benefice": "522.00",
+      "code": "84"
+    },
+    {
+      "intitule": "Incredible Cotton Chicken",
+      "code_bar": "529",
+      "prix_revient": "695.00",
+      "quantite": 15,
+      "prix_unitaire": "336.00",
+      "prix_total": "265.00",
+      "benefice": "855.00",
+      "code": "85"
+    },
+    {
+      "intitule": "Gorgeous Frozen Car",
+      "code_bar": "9459",
+      "prix_revient": "964.00",
+      "quantite": 53,
+      "prix_unitaire": "398.00",
+      "prix_total": "607.00",
+      "benefice": "303.00",
+      "code": "86"
+    },
+    {
+      "intitule": "Incredible Concrete Chicken",
+      "code_bar": "37353",
+      "prix_revient": "300.00",
+      "quantite": 58,
+      "prix_unitaire": "162.00",
+      "prix_total": "847.00",
+      "benefice": "64.00",
+      "code": "87"
+    },
+    {
+      "intitule": "Bespoke Plastic Fish",
+      "code_bar": "34582",
+      "prix_revient": "537.00",
+      "quantite": 39,
+      "prix_unitaire": "132.00",
+      "prix_total": "933.00",
+      "benefice": "506.00",
+      "code": "88"
+    },
+    {
+      "intitule": "Modern Bronze Sausages",
+      "code_bar": "6600",
+      "prix_revient": "940.00",
+      "quantite": 34,
+      "prix_unitaire": "746.00",
+      "prix_total": "231.00",
+      "benefice": "526.00",
+      "code": "89"
+    },
+    {
+      "intitule": "Luxurious Bronze Car",
+      "code_bar": "8996",
+      "prix_revient": "296.00",
+      "quantite": 48,
+      "prix_unitaire": "990.00",
+      "prix_total": "271.00",
+      "benefice": "999.00",
+      "code": "90"
+    },
+    {
+      "intitule": "Handmade Metal Shirt",
+      "code_bar": "778",
+      "prix_revient": "546.00",
+      "quantite": 48,
+      "prix_unitaire": "523.00",
+      "prix_total": "142.00",
+      "benefice": "145.00",
+      "code": "91"
+    },
+    {
+      "intitule": "Gorgeous Granite Mouse",
+      "code_bar": "94019",
+      "prix_revient": "265.00",
+      "quantite": 31,
+      "prix_unitaire": "130.00",
+      "prix_total": "859.00",
+      "benefice": "835.00",
+      "code": "92"
+    },
+    {
+      "intitule": "Luxurious Frozen Tuna",
+      "code_bar": "723",
+      "prix_revient": "69.00",
+      "quantite": 34,
+      "prix_unitaire": "954.00",
+      "prix_total": "57.00",
+      "benefice": "1.00",
+      "code": "93"
+    },
+    {
+      "intitule": "Ergonomic Bronze Chair",
+      "code_bar": "3740",
+      "prix_revient": "205.00",
+      "quantite": 13,
+      "prix_unitaire": "678.00",
+      "prix_total": "510.00",
+      "benefice": "58.00",
+      "code": "94"
+    },
+    {
+      "intitule": "Handmade Bronze Cheese",
+      "code_bar": "5985",
+      "prix_revient": "115.00",
+      "quantite": 50,
+      "prix_unitaire": "42.00",
+      "prix_total": "589.00",
+      "benefice": "272.00",
+      "code": "95"
+    },
+    {
+      "intitule": "Unbranded Bronze Sausages",
+      "code_bar": "95900",
+      "prix_revient": "781.00",
+      "quantite": 86,
+      "prix_unitaire": "155.00",
+      "prix_total": "868.00",
+      "benefice": "408.00",
+      "code": "96"
+    },
+    {
+      "intitule": "Gorgeous Steel Bike",
+      "code_bar": "72668",
+      "prix_revient": "654.00",
+      "quantite": 50,
+      "prix_unitaire": "501.00",
+      "prix_total": "560.00",
+      "benefice": "298.00",
+      "code": "97"
+    },
+    {
+      "intitule": "Luxurious Concrete Sausages",
+      "code_bar": "633",
+      "prix_revient": "101.00",
+      "quantite": 55,
+      "prix_unitaire": "49.00",
+      "prix_total": "882.00",
+      "benefice": "666.00",
+      "code": "98"
+    },
+    {
+      "intitule": "Oriental Rubber Bacon",
+      "code_bar": "108",
+      "prix_revient": "129.00",
+      "quantite": 98,
+      "prix_unitaire": "129.00",
+      "prix_total": "991.00",
+      "benefice": "915.00",
+      "code": "99"
+    },
+    {
+      "intitule": "Small Rubber Bike",
+      "code_bar": "336",
+      "prix_revient": "722.00",
+      "quantite": 19,
+      "prix_unitaire": "50.00",
+      "prix_total": "225.00",
+      "benefice": "12.00",
+      "code": "100"
+    }
+  ]
+}
