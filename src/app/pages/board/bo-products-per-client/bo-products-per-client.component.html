@@ -1,8 +1,11 @@
 <div class="px-2 py-0 md:px-3 lg:px-4">
-  <div class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
+  <div
+    class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5"
+  >
     <div class="w-full bg-green-50">
       <p-dropdown
-        [filter]="true" [options]="years"
+        [filter]="true"
+        [options]="years"
         [(ngModel)]="selectedYear"
         id="year"
         placeholder="Choisir le mode de recupération"
@@ -23,7 +26,8 @@
     </div>
     <div class="w-full bg-green-50">
       <p-dropdown
-        [filter]="true" [options]="agencies"
+        [filter]="true"
+        [options]="agencies"
         [(ngModel)]="selectedAgency"
         optionLabel="name"
         id="agencies"
@@ -45,7 +49,8 @@
     </div>
     <div class="w-full bg-green-50">
       <p-dropdown
-        [filter]="true" [options]="clients"
+        [filter]="true"
+        [options]="clients"
         [(ngModel)]="selectClient"
         optionLabel="nom"
         id="client"
@@ -54,42 +59,87 @@
       >
         <ng-template pTemplate="selectedItem">
           <div class="flex align-items-center gap-2" *ngIf="selectClient">
-            <div>{{ selectClient?.nom }} {{ selectClient?.prenom }}</div>
+            <div>{{ selectClient.nom }} {{ selectClient.prenom }}</div>
           </div>
         </ng-template>
 
         <ng-template let-client pTemplate="item">
           <div class="flex align-items-center gap-2">
-            <div>{{ client?.nom }}  {{ client?.prenom }}</div>
+            <div>{{ client?.nom }} {{ client?.prenom }}</div>
           </div>
         </ng-template>
       </p-dropdown>
     </div>
   </div>
   <div class="surface-card p-4 overflow-x-auto border-round scrollbar mt-4">
-    <p-table [(selection)]="selectedClients" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1 [value]="clients" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true" styleClass="p-datatable-gridlines scrollbar" [paginator]="true" [globalFilterFields]="['code','nom','prenom','email', 'telephone']" responsiveLayout="scroll">
+    <p-table
+      [(selection)]="selectedClients"
+      scrollHeight="480px"
+      class="scrollbar"
+      [scrollable]="true"
+      #dt1
+      [value]="clients"
+      dataKey="code"
+      [rows]="10"
+      [loading]="loading"
+      [rowHover]="true"
+      styleClass="p-datatable-gridlines scrollbar"
+      [paginator]="true"
+      [globalFilterFields]="['code', 'nom', 'prenom', 'email', 'telephone']"
+      responsiveLayout="scroll"
+    >
       <ng-template pTemplate="caption">
         <div class="flex justify-content-between flex-column sm:flex-row">
           <div class="flex align-items-center gap-4">
             Exporter:
             <div class="flex gap-1">
-              <p-button size="small" label="Excel" [loading]="loading" (onClick)="load()"></p-button>
-              <p-button size="small" label="CSV" [loading]="loading" (onClick)="load()"></p-button>
+              <p-button
+                size="small"
+                label="Excel"
+                [loading]="loading"
+                (onClick)="load()"
+              ></p-button>
+              <p-button
+                size="small"
+                label="CSV"
+                [loading]="loading"
+                (onClick)="load()"
+              ></p-button>
             </div>
-            <div *ngIf="selectedClients.length>0" class="flex align-items-center gap-2">
+            <div
+              *ngIf="selectedClients.length > 0"
+              class="flex align-items-center gap-2"
+            >
               Envoyer:
               <div class="flex gap-1">
-                <p-button (click)="onSendMessageDrawer()" size="small" label="Message" [badge]="selectedClients.length > 0 ? selectedClients.length.toString(): ''" [loading]="loading"></p-button>
+                <p-button
+                  (click)="onSendMessageDrawer()"
+                  size="small"
+                  label="Message"
+                  [badge]="
+                    selectedClients.length > 0
+                      ? selectedClients.length.toString()
+                      : ''
+                  "
+                  [loading]="loading"
+                ></p-button>
               </div>
             </div>
           </div>
           <div class="flex gap-2">
             <span class="p-input-icon-left mb-2">
-							<i class="pi pi-search"></i>
-							<input size="small" pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)" placeholder="Rechercher" class="w-20rem"/>
-						</span>
+              <i class="pi pi-search"></i>
+              <input
+                size="small"
+                pInputText
+                type="text"
+                #filter
+                (input)="onGlobalFilter(dt1, $event)"
+                placeholder="Rechercher"
+                class="w-20rem"
+              />
+            </span>
           </div>
-
         </div>
       </ng-template>
       <ng-template pTemplate="header">
@@ -145,28 +195,28 @@
             <p-tableCheckbox [value]="client"></p-tableCheckbox>
           </td>
           <td pFrozenColumn>
-            {{client.code}}
+            {{ client.code }}
           </td>
           <td pFrozenColumn>
-            <span class="ml-2">{{client.nom}}</span>
+            <span class="ml-2">{{ client.nom }}</span>
           </td>
           <td>
-            {{client.prenom}}
+            {{ client.prenom }}
           </td>
           <td>
-            {{client.telephone}}
+            {{ client.telephone }}
           </td>
           <td>
-            <span>{{client.email}}</span>
+            <span>{{ client.email }}</span>
           </td>
           <td>
-            {{client.caht | currency:'USD':'symbol'}}
+            {{ client.caht | currency : "USD" : "symbol" }}
           </td>
           <td class="">
-            {{client.cattc | currency:'USD':'symbol'}}
+            {{ client.cattc | currency : "USD" : "symbol" }}
           </td>
           <td class="">
-            {{client.benefice}}
+            {{ client.benefice }}
           </td>
         </tr>
       </ng-template>
