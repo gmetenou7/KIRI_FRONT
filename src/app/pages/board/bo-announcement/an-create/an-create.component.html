@@ -1,7 +1,6 @@
 <button (click)="showCreateModal = true" pButton pRipple label="Ajouter une annonces" icon="pi pi-plus-circle"
   class="mr-2"></button>
-<p-dialog class="scrollbar" [draggable]="false" [(visible)]="showCreateModal" [modal]="true"
-  [breakpoints]="{'960px': '75vw', '640px': '100vw'}" [style]="{width: '40vw'}">
+<p-sidebar [showCloseIcon] = "true" [dismissible]="false" [(visible)]="showCreateModal" styleClass="w-full lg:w-30rem" position="right">
   <ng-template pTemplate="header">
     <div class="flex align-items-center">
       <span class="flex align-items-center justify-content-center bg-cyan-100 text-cyan-800 mr-3 border-circle"
@@ -48,10 +47,10 @@
     </div>
   </div>
   <ng-template pTemplate="footer">
-    <div class=" border-top-1 surface-border pt-3">
+    <div class="flex justify-content-end gap-2 border-top-1 surface-border pt-3">
       <button pButton pRipple icon="pi pi-times" (click)="showCreateModal =false" label="Annuler"
         class="p-button-text"></button>
-      <button pButton pRipple icon="pi pi-save" (click)="closeModal()" label="Enregistrer"></button>
+      <button pButton pRipple icon="pi pi-save" (click)="showCreateModal =false" label="Enregistrer"></button>
     </div>
   </ng-template>
-</p-dialog>
+</p-sidebar>

@@ -1,0 +1,32 @@
+<p-sidebar (onHide)="onDrawerHide()" [showCloseIcon]="true" [dismissible]="false" [(visible)]="showDetailDrawer"
+  styleClass="w-full lg:w-30rem" position="right">
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
+        style="width:32px;height:32px">
+        <i class="pi pi-file text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Voir les détails
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-2">
+    <div class="scrollbar">
+      <ul class="list-none p-0 m-0">
+        <li class="flex align-items-center justify-content-between py-3 px-2 flex-wrap">
+          <div class="text-500 w-6 md:w-4 font-medium">E-commerce</div>
+          <div class="text-900 w-full md:w-8 md:flex-order-0 flex-order-1">
+            XAF 100000000
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-end">
+      <button pButton pRipple icon="pi pi-times" (click)="showDetailDrawer =false" label="Fermer"
+        class="p-button-text"></button>
+    </div>
+  </ng-template>
+</p-sidebar>

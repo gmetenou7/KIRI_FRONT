@@ -21,6 +21,29 @@ import {InputSwitchModule} from "primeng/inputswitch";
 import {StyleClassModule} from "primeng/styleclass";
 import {SidebarModule} from "primeng/sidebar";
 import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.component';
+import {MultiSelectModule} from "primeng/multiselect";
+import {DropdownModule} from "primeng/dropdown";
+import {ChartModule} from "primeng/chart";
+import { BoPpvComponent } from './bo-ppv/bo-ppv.component';
+import {TableModule} from "primeng/table";
+import {FormsModule} from "@angular/forms";
+import {SliderModule} from "primeng/slider";
+import {BadgeModule} from "primeng/badge";
+import { BoBestClientsComponent } from './bo-best-clients/bo-best-clients.component';
+import { BcSendMessageComponent } from './bo-best-clients/bc-send-message/bc-send-message.component';
+import {RippleModule} from "primeng/ripple";
+import { BoDebtsComponent } from './bo-debts/bo-debts.component';
+import { DeSendMessageComponent } from './bo-debts/de-send-message/de-send-message.component';
+import { BoCaSourcesComponent } from './bo-ca-souces/bo-ca-sources.component';
+import { CasDetailComponent } from './bo-ca-souces/cas-detail/cas-detail.component';
+import {CalendarModule} from "primeng/calendar";
+import {ChipModule} from "primeng/chip";
+import { BoProductsPerClientComponent } from './bo-products-per-client/bo-products-per-client.component';
+import { PrcSendMessageComponent } from './bo-products-per-client/prc-send-message/prc-send-message.component';
+import { BoCashSituationComponent } from './bo-cash-situation/bo-cash-situation.component';
+import { CloseCashSituationComponent } from './bo-cash-situation/close-cash-situation/close-cash-situation.component';
+import { DateEventsComponent } from './bo-cash-situation/date-events/date-events.component';
+import { PrinteComponent } from './bo-cash-situation/printe/printe.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +53,20 @@ import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.com
     AnCreateComponent,
     AnUpdateComponent,
     AnDetailComponent,
-    BoAnnualGrowthComponent
+    BoAnnualGrowthComponent,
+    BoPpvComponent,
+    BoBestClientsComponent,
+    BcSendMessageComponent,
+    BoDebtsComponent,
+    DeSendMessageComponent,
+    BoCaSourcesComponent,
+    CasDetailComponent,
+    BoProductsPerClientComponent,
+    PrcSendMessageComponent,
+    BoCashSituationComponent,
+    CloseCashSituationComponent,
+    DateEventsComponent,
+    PrinteComponent
   ],
   imports: [
     CommonModule,
@@ -47,7 +83,17 @@ import { BoAnnualGrowthComponent } from './bo-annual-growth/bo-annual-growth.com
     AvatarModule,
     InputSwitchModule,
     StyleClassModule,
-    SidebarModule
+    SidebarModule,
+    MultiSelectModule,
+    DropdownModule,
+    ChartModule,
+    TableModule,
+    FormsModule,
+    SliderModule,
+    BadgeModule,
+    RippleModule,
+    CalendarModule,
+    ChipModule
   ]
 })
 

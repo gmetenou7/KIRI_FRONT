@@ -1,0 +1,99 @@
+<div class="">
+  <div
+    class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
+    <div class="w-full bg-green-50">
+      <p-calendar placeholder="Cliquez sur une date puis sur une autre pour choirsir l'interval" [(ngModel)]="dates"
+        selectionMode="range" [readonlyInput]="true" styleClass="w-full"></p-calendar>
+    </div>
+    <div class="w-full">
+      <p-dropdown [filter]="true" [options]="agencies" [(ngModel)]="selectedAgency" optionLabel="name" id="agencies"
+        placeholder="Choisir le mode de recupération" styleClass="w-full">
+        <ng-template pTemplate="selectedItem">
+          <div class="flex align-items-center gap-2" *ngIf="selectedAgency">
+            <div>{{ selectedAgency.name }}</div>
+          </div>
+        </ng-template>
+
+        <ng-template let-agency pTemplate="item">
+          <div class="flex align-items-center gap-2">
+            <div>{{ agency.name }}</div>
+          </div>
+        </ng-template>
+      </p-dropdown>
+    </div>
+    <div class="w-full flex justify-content-end">
+      <p-button (click)="onShowCloseCashSituationDrawer()" label="Cloturer" class="px-4"></p-button>
+    </div>
+  </div>
+  <div class="mt-4">
+    <div
+      class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300">
+      <div class="flex align-items-center gap-2">
+        <div class="flex justify-content-center align-items-center bg-blue-800 h-4rem w-4rem border-circle">
+          <i class="pi pi-building text-3xl text-white"></i>
+        </div>
+        <div class="flex flex-column justify-content-start align-items-start gap-1">
+          <h4 class="text-xl font-medium text-900 m-0 text-muted">Premice Computer</h4>
+          <h4 class="text-xl font-bold text-900 m-0 text-green-700">XAF 100.000.000</h4>
+        </div>
+      </div>
+      <div class="mt-3 md:mt-0">
+        <div class="surface-card border-round p-3 flex align-items-center gap-3 w-16rem">
+          <div
+            class="flex justify-content-center align-items-center bg-green-600 h-4rem w-4rem border-round text-white">
+            Etat
+          </div>
+          <div class="flex flex-column justify-content-start align-items-start gap-2 w-full">
+            <div class="flex justify-content-between  align-items-center gap-1 w-full">
+              <div class="flex align-items-center gap-2">
+                <i class="pi pi-check-circle text-green-800"></i>
+                <span>Cloturé</span>
+              </div>
+              <p-badge (click)="onShowDateEventDrawer()" class="cursor-pointer" value="2" severity="success"></p-badge>
+            </div>
+            <div class="flex justify-content-between  align-items-center gap-1 w-full">
+              <div class="flex align-items-center gap-2">
+                <i class="pi pi-check-circle text-blue-700"></i>
+                <span>Non cloturé</span>
+              </div>
+              <p-badge (click)="onShowDateEventDrawer()" class="cursor-pointer" value="6" severity="info"></p-badge>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid mt-4">
+    <div *ngFor="let item of [1, 2, 3, 4, 5, 6]" class="col-12 lg:col-4 p-2">
+      <div class="surface-card border-round p-4 h-full">
+        <div class="flex align-items-center">
+          <div class="bg-transparent border-round inline-flex align-items-center justify-content-center"
+            style="width:52px; height: 52px">
+            <i class="pi pi-map-marker text-3xl text-blue-700"></i>
+          </div>
+          <div class="ml-3 flex-1">
+            <span class="block text-600 mb-1 text-xl font-medium">Agence {{item}}</span>
+          </div>
+        </div>
+        <div class="flex align-items-center mt-2">
+          <div class="bg-green-100 border-round inline-flex align-items-center justify-content-center"
+            style="width:52px; height: 52px">
+            <i class="pi pi-money-bill text-3xl text-green-700"></i>
+          </div>
+          <div class="ml-3 flex-1">
+            <span class="block text-green-700 mb-1 text-xl font-bold">
+              XAF {{item * 100000000}}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex align-items-center justify-content-center mt-8">
+    <p-button size="large" icon="pi pi-print" (click)="onShowCloseCashSituationDrawer()" label="Imprimer"
+      class="px-4"></p-button>
+  </div>
+  <app-close-cash-situation (onDrawerClose)="onShowCloseCashSituationDrawer()"
+    [drawerVisible]="showCloseCashSituationDrawer"></app-close-cash-situation>
+  <app-date-events [drawerVisible]="showDateEventDrawer" (onDrawerClose)="onShowDateEventDrawer()"></app-date-events>
+</div>
