@@ -1,12 +1,9 @@
-<div class="px-2 py-0 md:px-3 lg:px-4">
-  <div class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
+<div class="">
+  <div
+    class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
     <div class="w-full bg-green-50">
-      <p-dropdown
-        [filter]="true" [options]="years"
-        id="year"
-        placeholder="Choisir le mode de recupération"
-        styleClass="w-full"
-      >
+      <p-dropdown [filter]="true" [options]="years" id="year" placeholder="Choisir le mode de recupération"
+        styleClass="w-full">
         <ng-template pTemplate="selectedItem">
           <div class="flex align-items-center gap-2" *ngIf="selectedYear">
             <div>{{ selectedYear }}</div>
@@ -21,13 +18,8 @@
       </p-dropdown>
     </div>
     <div class="w-full bg-green-50">
-      <p-dropdown
-        [filter]="true" [options]="agencies"
-        optionLabel="name"
-        id="agencies"
-        placeholder="Choisir le mode de recupération"
-        styleClass="w-full"
-      >
+      <p-dropdown [filter]="true" [options]="agencies" optionLabel="name" id="agencies"
+        placeholder="Choisir le mode de recupération" styleClass="w-full">
         <ng-template pTemplate="selectedItem">
           <div class="flex align-items-center gap-2" *ngIf="selectedAgency">
             <div>{{ selectedAgency.name }}</div>
@@ -42,13 +34,8 @@
       </p-dropdown>
     </div>
     <div class="w-full bg-green-50">
-      <p-dropdown
-        [filter]="true" [options]="clients"
-        optionLabel="name"
-        id="client"
-        placeholder="Choisir le mode de recupération"
-        styleClass="w-full"
-      >
+      <p-dropdown [filter]="true" [options]="clients" optionLabel="name" id="client"
+        placeholder="Choisir le mode de recupération" styleClass="w-full">
         <ng-template pTemplate="selectedItem">
           <div class="flex align-items-center gap-2" *ngIf="selectClient">
             <div>{{ selectClient.name }}</div>
@@ -64,7 +51,10 @@
     </div>
   </div>
   <div class="surface-card p-4 overflow-x-auto border-round scrollbar mt-4">
-    <p-table [(selection)]="selectedClients" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1 [value]="clientsList" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true" styleClass="p-datatable-gridlines scrollbar" [paginator]="true" [globalFilterFields]="['code','nom','prenom','email', 'telephone']" responsiveLayout="scroll">
+    <p-table [(selection)]="selectedClients" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1
+      [value]="clientsList" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true"
+      styleClass="p-datatable-gridlines scrollbar" [paginator]="true"
+      [globalFilterFields]="['code','nom','prenom','email', 'telephone']" responsiveLayout="scroll">
       <ng-template pTemplate="caption">
         <div class="flex justify-content-between flex-column sm:flex-row">
           <div class="flex align-items-center gap-4">
@@ -76,15 +66,18 @@
             <div *ngIf="selectedClients.length>0" class="flex align-items-center gap-2">
               Envoyer:
               <div class="flex gap-1">
-                <p-button (click)="onSendMessageDrawer()" size="small" label="Message" [badge]="selectedClients.length > 0 ? selectedClients.length.toString(): ''" [loading]="loading"></p-button>
+                <p-button (click)="onSendMessageDrawer()" size="small" label="Message"
+                  [badge]="selectedClients.length > 0 ? selectedClients.length.toString(): ''"
+                  [loading]="loading"></p-button>
               </div>
             </div>
           </div>
           <div class="flex gap-2">
             <span class="p-input-icon-left mb-2">
-							<i class="pi pi-search"></i>
-							<input size="small" pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)" placeholder="Rechercher" class="w-20rem"/>
-						</span>
+              <i class="pi pi-search"></i>
+              <input size="small" pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)"
+                placeholder="Rechercher" class="w-20rem" />
+            </span>
           </div>
 
         </div>
@@ -179,8 +172,6 @@
       </ng-template>
     </p-table>
   </div>
-  <app-bc-send-message
-    [drawerVisible] = "showSendMessageDrawer"
-    (onDrawerClose)="onSendMessageDrawer()"
-  ></app-bc-send-message>
+  <app-bc-send-message [drawerVisible]="showSendMessageDrawer"
+    (onDrawerClose)="onSendMessageDrawer()"></app-bc-send-message>
 </div>

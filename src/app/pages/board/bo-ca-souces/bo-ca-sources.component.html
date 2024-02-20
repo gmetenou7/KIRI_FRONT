@@ -1,21 +1,21 @@
 <div class="px-2 py-0 md:px-3 lg:px-4">
-  <div class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
+  <div
+    class="flex md:align-items-center md:justify-content-between flex-column md:flex-row pb-2 border-bottom-2 border-gray-300 gap-5">
     <div class="w-full">
-      <p-calendar placeholder="Cliquez sur une date puis sur une autre pour choirsir l'interval" [(ngModel)]="dates" selectionMode="range" [readonlyInput]="true" styleClass="w-full"></p-calendar>
+      <p-calendar placeholder="Cliquez sur une date puis sur une autre pour choirsir l'interval" [(ngModel)]="dates"
+        selectionMode="range" [readonlyInput]="true" styleClass="w-full"></p-calendar>
     </div>
   </div>
-  <app-cas-detail
-    (onDrawerClose)="onShowDetailDrawer()"
-    [drawerVisible]="showSourceDetailDrawer"
-  ></app-cas-detail>
+  <app-cas-detail (onDrawerClose)="onShowDetailDrawer()" [drawerVisible]="showSourceDetailDrawer"></app-cas-detail>
   <div class="grid mt-4">
     <div class="col-12 lg:col-6 xl:col-3 cursor-pointer" (click)="onShowDetailDrawer()">
-      <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+      <div class="surface-card p-3 border-1 border-50 border-round">
         <div class="flex justify-content-between mb-3">
           <div>
             <span class="block text-500 font-medium mb-3">E-commerce</span>
           </div>
-          <div class="flex align-items-center justify-content-center bg-blue-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-blue-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-shopping-cart text-blue-500 text-xl"></i>
           </div>
         </div>
@@ -23,12 +23,13 @@
       </div>
     </div>
     <div class="col-12 lg:col-6 xl:col-3 cursor-pointer" (click)="onShowDetailDrawer()">
-      <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+      <div class="surface-card p-3 border-1 border-50 border-round">
         <div class="flex justify-content-between mb-3">
           <div>
             <span class="block text-500 font-medium mb-3">Banque</span>
           </div>
-          <div class="flex align-items-center justify-content-center bg-orange-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-orange-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-money-bill text-orange-500 text-xl"></i>
           </div>
         </div>
@@ -36,12 +37,13 @@
       </div>
     </div>
     <div class="col-12 lg:col-6 xl:col-3 cursor-pointer" (click)="onShowDetailDrawer()">
-      <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+      <div class="surface-card p-3 border-1 border-50 border-round">
         <div class="flex justify-content-between mb-3">
           <div>
             <span class="block text-500 font-medium mb-3">Caisse</span>
           </div>
-          <div class="flex align-items-center justify-content-center bg-cyan-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-cyan-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-inbox text-cyan-500 text-xl"></i>
           </div>
         </div>
@@ -49,13 +51,14 @@
       </div>
     </div>
     <div class="col-12 lg:col-6 xl:col-3 cursor-pointer" (click)="onShowDetailDrawer()">
-      <div class="surface-card shadow-2 p-3 border-1 border-50 border-round">
+      <div class="surface-card p-3 border-1 border-50 border-round">
         <div class="flex justify-content-between mb-3">
           <div>
             <span class="block text-500 font-medium mb-3">Total entreprise</span>
 
           </div>
-          <div class="flex align-items-center justify-content-center bg-green-100 border-round" style="width:2.5rem;height:2.5rem">
+          <div class="flex align-items-center justify-content-center bg-green-100 border-round"
+            style="width:2.5rem;height:2.5rem">
             <i class="pi pi-dollar text-green-500 text-xl"></i>
           </div>
         </div>
