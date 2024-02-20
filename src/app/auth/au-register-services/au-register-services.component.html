@@ -7,7 +7,7 @@
           Ajouter des services
         </div>
         <span class="text-600 font-medium">
-          Prêt à vous lancer ? Il est temps de ceer votre première agence.
+          Il est temps d'ajouter les services à votre agence
         </span>
       </div>
 
@@ -15,10 +15,10 @@
       <div class="w-full flex flex-column gap-5">
         <div class="">
           <label for="phone" class="block text-600 text-md font-medium mb-2">
-            Téléphone
+            Intitulé
           </label>
           <form [formGroup]="serviceAddPhoneForm" (ngSubmit)="addService()" class="flex justify-content-between gap-3">
-            <input id="phone" pInputText type="tel" class="w-full" placeholder="Saissisez le nom de l'agence"
+            <input id="phone" pInputText type="tel" class="w-full" placeholder="Saissisez le nom du service"
                    formControlName="phone" />
             <p-button type="submit" icon="pi pi-plus" severity="secondary"></p-button>
           </form>
