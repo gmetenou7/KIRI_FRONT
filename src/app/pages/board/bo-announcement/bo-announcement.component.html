@@ -7,8 +7,8 @@
     <div class="flex align-items-center gap-2">
       <div class="mt-3 lg:mt-0">
         <app-an-create></app-an-create>
-        <app-an-update (onDrawerClose)="openUpdateDrawer()" [drawerVisible] = "showUpdateDrawer"></app-an-update>
-        <app-an-detail (onDrawerClose)="openViewMoreDrawer()" [drawerVisible] = "showDetailsDrawer"></app-an-detail>
+        <app-an-update (onDrawerClose)="openUpdateDrawer()" [drawerVisible]="showUpdateDrawer"></app-an-update>
+        <app-an-detail (onDrawerClose)="openViewMoreDrawer()" [drawerVisible]="showDetailsDrawer"></app-an-detail>
       </div>
     </div>
   </div>
@@ -16,7 +16,7 @@
 
 <div class="grid mt-3">
   <div *ngFor="let item of [1,2,3,4,5,6,7,8,9]" class="col-12">
-    <div class="p-3 border-round shadow-2 flex align-items-center surface-card">
+    <div class="p-3 border-round flex align-items-center surface-card">
       <div style="min-width:48px;height:48px;border-radius:10px"
         class="bg-teal-100 inline-flex align-items-center justify-content-center mr-3">
         <p class="text-teal-600 text-3xl m-0">
