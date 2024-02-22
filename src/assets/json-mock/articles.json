@@ -1,0 +1,704 @@
+{
+  "data": [
+    {
+      "code_barre": "47797",
+      "designation": "Unbranded Plastic Bike",
+      "quentite": 5,
+      "depot": 30,
+      "code": "1"
+    },
+    {
+      "code_barre": "69695-6646",
+      "designation": "Ergonomic Soft Shirt",
+      "quentite": 94,
+      "depot": 34,
+      "code": "2"
+    },
+    {
+      "code_barre": "51544-8442",
+      "designation": "Small Cotton Table",
+      "quentite": 81,
+      "depot": 59,
+      "code": "3"
+    },
+    {
+      "code_barre": "12153-6581",
+      "designation": "Handmade Wooden Ball",
+      "quentite": 21,
+      "depot": 39,
+      "code": "4"
+    },
+    {
+      "code_barre": "03515",
+      "designation": "Generic Cotton Mouse",
+      "quentite": 58,
+      "depot": 95,
+      "code": "5"
+    },
+    {
+      "code_barre": "56769",
+      "designation": "Recycled Concrete Chair",
+      "quentite": 2,
+      "depot": 35,
+      "code": "6"
+    },
+    {
+      "code_barre": "52117",
+      "designation": "Unbranded Frozen Keyboard",
+      "quentite": 91,
+      "depot": 17,
+      "code": "7"
+    },
+    {
+      "code_barre": "25298",
+      "designation": "Fantastic Rubber Salad",
+      "quentite": 79,
+      "depot": 32,
+      "code": "8"
+    },
+    {
+      "code_barre": "50687-0450",
+      "designation": "Refined Wooden Towels",
+      "quentite": 83,
+      "depot": 45,
+      "code": "9"
+    },
+    {
+      "code_barre": "08502-6458",
+      "designation": "Incredible Steel Towels",
+      "quentite": 84,
+      "depot": 100,
+      "code": "10"
+    },
+    {
+      "code_barre": "64141-0474",
+      "designation": "Luxurious Rubber Shirt",
+      "quentite": 90,
+      "depot": 37,
+      "code": "11"
+    },
+    {
+      "code_barre": "83418-5493",
+      "designation": "Oriental Fresh Shirt",
+      "quentite": 6,
+      "depot": 30,
+      "code": "12"
+    },
+    {
+      "code_barre": "12964-1922",
+      "designation": "Modern Granite Bacon",
+      "quentite": 23,
+      "depot": 54,
+      "code": "13"
+    },
+    {
+      "code_barre": "21485",
+      "designation": "Gorgeous Metal Shoes",
+      "quentite": 40,
+      "depot": 78,
+      "code": "14"
+    },
+    {
+      "code_barre": "00324-9807",
+      "designation": "Bespoke Cotton Ball",
+      "quentite": 19,
+      "depot": 66,
+      "code": "15"
+    },
+    {
+      "code_barre": "85063-8604",
+      "designation": "Sleek Fresh Sausages",
+      "quentite": 20,
+      "depot": 58,
+      "code": "16"
+    },
+    {
+      "code_barre": "06871",
+      "designation": "Intelligent Concrete Shoes",
+      "quentite": 1,
+      "depot": 22,
+      "code": "17"
+    },
+    {
+      "code_barre": "72271",
+      "designation": "Oriental Metal Cheese",
+      "quentite": 20,
+      "depot": 39,
+      "code": "18"
+    },
+    {
+      "code_barre": "39474-4789",
+      "designation": "Oriental Soft Salad",
+      "quentite": 33,
+      "depot": 94,
+      "code": "19"
+    },
+    {
+      "code_barre": "00766",
+      "designation": "Intelligent Steel Car",
+      "quentite": 79,
+      "depot": 53,
+      "code": "20"
+    },
+    {
+      "code_barre": "28872",
+      "designation": "Elegant Soft Sausages",
+      "quentite": 27,
+      "depot": 5,
+      "code": "21"
+    },
+    {
+      "code_barre": "57504",
+      "designation": "Practical Wooden Salad",
+      "quentite": 72,
+      "depot": 48,
+      "code": "22"
+    },
+    {
+      "code_barre": "56740",
+      "designation": "Gorgeous Soft Chair",
+      "quentite": 40,
+      "depot": 29,
+      "code": "23"
+    },
+    {
+      "code_barre": "83596",
+      "designation": "Luxurious Concrete Pants",
+      "quentite": 1,
+      "depot": 97,
+      "code": "24"
+    },
+    {
+      "code_barre": "65317-5683",
+      "designation": "Elegant Concrete Ball",
+      "quentite": 57,
+      "depot": 83,
+      "code": "25"
+    },
+    {
+      "code_barre": "75342",
+      "designation": "Bespoke Cotton Pizza",
+      "quentite": 95,
+      "depot": 27,
+      "code": "26"
+    },
+    {
+      "code_barre": "62136",
+      "designation": "Bespoke Frozen Computer",
+      "quentite": 1,
+      "depot": 8,
+      "code": "27"
+    },
+    {
+      "code_barre": "29367",
+      "designation": "Small Granite Shirt",
+      "quentite": 75,
+      "depot": 53,
+      "code": "28"
+    },
+    {
+      "code_barre": "12217",
+      "designation": "Small Steel Bacon",
+      "quentite": 32,
+      "depot": 50,
+      "code": "29"
+    },
+    {
+      "code_barre": "34679-4651",
+      "designation": "Sleek Wooden Bacon",
+      "quentite": 28,
+      "depot": 30,
+      "code": "30"
+    },
+    {
+      "code_barre": "80386",
+      "designation": "Bespoke Frozen Car",
+      "quentite": 63,
+      "depot": 1,
+      "code": "31"
+    },
+    {
+      "code_barre": "97563",
+      "designation": "Refined Metal Pizza",
+      "quentite": 85,
+      "depot": 87,
+      "code": "32"
+    },
+    {
+      "code_barre": "15432-6579",
+      "designation": "Electronic Wooden Hat",
+      "quentite": 5,
+      "depot": 47,
+      "code": "33"
+    },
+    {
+      "code_barre": "30119",
+      "designation": "Practical Frozen Keyboard",
+      "quentite": 25,
+      "depot": 85,
+      "code": "34"
+    },
+    {
+      "code_barre": "19909",
+      "designation": "Awesome Granite Car",
+      "quentite": 76,
+      "depot": 74,
+      "code": "35"
+    },
+    {
+      "code_barre": "85343",
+      "designation": "Incredible Soft Towels",
+      "quentite": 44,
+      "depot": 42,
+      "code": "36"
+    },
+    {
+      "code_barre": "12371",
+      "designation": "Unbranded Soft Chair",
+      "quentite": 29,
+      "depot": 16,
+      "code": "37"
+    },
+    {
+      "code_barre": "06621-4863",
+      "designation": "Small Plastic Bike",
+      "quentite": 18,
+      "depot": 12,
+      "code": "38"
+    },
+    {
+      "code_barre": "38718",
+      "designation": "Unbranded Plastic Shirt",
+      "quentite": 32,
+      "depot": 10,
+      "code": "39"
+    },
+    {
+      "code_barre": "94479-5744",
+      "designation": "Small Cotton Keyboard",
+      "quentite": 96,
+      "depot": 25,
+      "code": "40"
+    },
+    {
+      "code_barre": "45161-8986",
+      "designation": "Luxurious Bronze Computer",
+      "quentite": 4,
+      "depot": 86,
+      "code": "41"
+    },
+    {
+      "code_barre": "94758-6892",
+      "designation": "Electronic Wooden Shoes",
+      "quentite": 29,
+      "depot": 61,
+      "code": "42"
+    },
+    {
+      "code_barre": "45644",
+      "designation": "Oriental Frozen Pizza",
+      "quentite": 61,
+      "depot": 15,
+      "code": "43"
+    },
+    {
+      "code_barre": "59811",
+      "designation": "Rustic Cotton Bike",
+      "quentite": 48,
+      "depot": 52,
+      "code": "44"
+    },
+    {
+      "code_barre": "12229",
+      "designation": "Intelligent Plastic Cheese",
+      "quentite": 23,
+      "depot": 80,
+      "code": "45"
+    },
+    {
+      "code_barre": "92524-1351",
+      "designation": "Luxurious Steel Cheese",
+      "quentite": 41,
+      "depot": 100,
+      "code": "46"
+    },
+    {
+      "code_barre": "35082",
+      "designation": "Elegant Fresh Mouse",
+      "quentite": 72,
+      "depot": 7,
+      "code": "47"
+    },
+    {
+      "code_barre": "69312-6733",
+      "designation": "Handmade Bronze Computer",
+      "quentite": 23,
+      "depot": 81,
+      "code": "48"
+    },
+    {
+      "code_barre": "14974",
+      "designation": "Incredible Steel Keyboard",
+      "quentite": 57,
+      "depot": 34,
+      "code": "49"
+    },
+    {
+      "code_barre": "48021",
+      "designation": "Tasty Rubber Car",
+      "quentite": 100,
+      "depot": 5,
+      "code": "50"
+    },
+    {
+      "code_barre": "13315",
+      "designation": "Luxurious Rubber Chips",
+      "quentite": 42,
+      "depot": 6,
+      "code": "51"
+    },
+    {
+      "code_barre": "12730-7692",
+      "designation": "Awesome Soft Chicken",
+      "quentite": 55,
+      "depot": 43,
+      "code": "52"
+    },
+    {
+      "code_barre": "37223",
+      "designation": "Practical Cotton Bacon",
+      "quentite": 33,
+      "depot": 98,
+      "code": "53"
+    },
+    {
+      "code_barre": "61167",
+      "designation": "Gorgeous Granite Bike",
+      "quentite": 68,
+      "depot": 33,
+      "code": "54"
+    },
+    {
+      "code_barre": "42712",
+      "designation": "Ergonomic Rubber Computer",
+      "quentite": 41,
+      "depot": 64,
+      "code": "55"
+    },
+    {
+      "code_barre": "90263",
+      "designation": "Ergonomic Cotton Pants",
+      "quentite": 31,
+      "depot": 22,
+      "code": "56"
+    },
+    {
+      "code_barre": "23729",
+      "designation": "Sleek Fresh Soap",
+      "quentite": 82,
+      "depot": 12,
+      "code": "57"
+    },
+    {
+      "code_barre": "83121",
+      "designation": "Modern Steel Mouse",
+      "quentite": 40,
+      "depot": 67,
+      "code": "58"
+    },
+    {
+      "code_barre": "47207-2510",
+      "designation": "Recycled Soft Chicken",
+      "quentite": 99,
+      "depot": 7,
+      "code": "59"
+    },
+    {
+      "code_barre": "97329",
+      "designation": "Small Concrete Soap",
+      "quentite": 81,
+      "depot": 32,
+      "code": "60"
+    },
+    {
+      "code_barre": "12390",
+      "designation": "Small Fresh Sausages",
+      "quentite": 25,
+      "depot": 4,
+      "code": "61"
+    },
+    {
+      "code_barre": "57866-8475",
+      "designation": "Intelligent Bronze Soap",
+      "quentite": 83,
+      "depot": 51,
+      "code": "62"
+    },
+    {
+      "code_barre": "23340-8073",
+      "designation": "Sleek Granite Car",
+      "quentite": 7,
+      "depot": 75,
+      "code": "63"
+    },
+    {
+      "code_barre": "32985-1393",
+      "designation": "Recycled Concrete Ball",
+      "quentite": 82,
+      "depot": 95,
+      "code": "64"
+    },
+    {
+      "code_barre": "77016",
+      "designation": "Small Steel Gloves",
+      "quentite": 45,
+      "depot": 16,
+      "code": "65"
+    },
+    {
+      "code_barre": "84662-6390",
+      "designation": "Bespoke Concrete Sausages",
+      "quentite": 8,
+      "depot": 69,
+      "code": "66"
+    },
+    {
+      "code_barre": "93503-3516",
+      "designation": "Refined Bronze Bacon",
+      "quentite": 5,
+      "depot": 61,
+      "code": "67"
+    },
+    {
+      "code_barre": "74443",
+      "designation": "Tasty Plastic Sausages",
+      "quentite": 69,
+      "depot": 29,
+      "code": "68"
+    },
+    {
+      "code_barre": "66255-6824",
+      "designation": "Incredible Steel Bacon",
+      "quentite": 99,
+      "depot": 9,
+      "code": "69"
+    },
+    {
+      "code_barre": "35991-5898",
+      "designation": "Gorgeous Bronze Computer",
+      "quentite": 82,
+      "depot": 40,
+      "code": "70"
+    },
+    {
+      "code_barre": "15473",
+      "designation": "Unbranded Metal Bike",
+      "quentite": 77,
+      "depot": 62,
+      "code": "71"
+    },
+    {
+      "code_barre": "51611-5473",
+      "designation": "Sleek Frozen Ball",
+      "quentite": 35,
+      "depot": 3,
+      "code": "72"
+    },
+    {
+      "code_barre": "89438-7029",
+      "designation": "Handcrafted Soft Cheese",
+      "quentite": 65,
+      "depot": 52,
+      "code": "73"
+    },
+    {
+      "code_barre": "26631",
+      "designation": "Incredible Bronze Keyboard",
+      "quentite": 22,
+      "depot": 67,
+      "code": "74"
+    },
+    {
+      "code_barre": "50582",
+      "designation": "Intelligent Fresh Pants",
+      "quentite": 98,
+      "depot": 4,
+      "code": "75"
+    },
+    {
+      "code_barre": "23616",
+      "designation": "Bespoke Cotton Chips",
+      "quentite": 35,
+      "depot": 73,
+      "code": "76"
+    },
+    {
+      "code_barre": "29830",
+      "designation": "Generic Wooden Chair",
+      "quentite": 84,
+      "depot": 40,
+      "code": "77"
+    },
+    {
+      "code_barre": "29341",
+      "designation": "Unbranded Rubber Keyboard",
+      "quentite": 22,
+      "depot": 51,
+      "code": "78"
+    },
+    {
+      "code_barre": "31169-2729",
+      "designation": "Oriental Metal Shirt",
+      "quentite": 54,
+      "depot": 92,
+      "code": "79"
+    },
+    {
+      "code_barre": "93707",
+      "designation": "Luxurious Fresh Chicken",
+      "quentite": 12,
+      "depot": 20,
+      "code": "80"
+    },
+    {
+      "code_barre": "53028-9240",
+      "designation": "Fantastic Metal Table",
+      "quentite": 26,
+      "depot": 2,
+      "code": "81"
+    },
+    {
+      "code_barre": "51515-6223",
+      "designation": "Recycled Metal Bike",
+      "quentite": 76,
+      "depot": 48,
+      "code": "82"
+    },
+    {
+      "code_barre": "52951-3441",
+      "designation": "Electronic Wooden Mouse",
+      "quentite": 75,
+      "depot": 84,
+      "code": "83"
+    },
+    {
+      "code_barre": "13476",
+      "designation": "Practical Soft Bacon",
+      "quentite": 23,
+      "depot": 76,
+      "code": "84"
+    },
+    {
+      "code_barre": "92990",
+      "designation": "Handcrafted Bronze Pants",
+      "quentite": 37,
+      "depot": 34,
+      "code": "85"
+    },
+    {
+      "code_barre": "45665-9965",
+      "designation": "Sleek Cotton Sausages",
+      "quentite": 82,
+      "depot": 13,
+      "code": "86"
+    },
+    {
+      "code_barre": "72758-3485",
+      "designation": "Electronic Rubber Towels",
+      "quentite": 63,
+      "depot": 81,
+      "code": "87"
+    },
+    {
+      "code_barre": "12510",
+      "designation": "Generic Frozen Towels",
+      "quentite": 96,
+      "depot": 33,
+      "code": "88"
+    },
+    {
+      "code_barre": "16291",
+      "designation": "Intelligent Rubber Fish",
+      "quentite": 99,
+      "depot": 89,
+      "code": "89"
+    },
+    {
+      "code_barre": "01357",
+      "designation": "Fantastic Plastic Cheese",
+      "quentite": 41,
+      "depot": 20,
+      "code": "90"
+    },
+    {
+      "code_barre": "75114",
+      "designation": "Fantastic Granite Chicken",
+      "quentite": 0,
+      "depot": 99,
+      "code": "91"
+    },
+    {
+      "code_barre": "11597-2579",
+      "designation": "Generic Steel Fish",
+      "quentite": 72,
+      "depot": 93,
+      "code": "92"
+    },
+    {
+      "code_barre": "17066-8479",
+      "designation": "Handcrafted Cotton Shoes",
+      "quentite": 39,
+      "depot": 31,
+      "code": "93"
+    },
+    {
+      "code_barre": "78300",
+      "designation": "Sleek Granite Car",
+      "quentite": 47,
+      "depot": 81,
+      "code": "94"
+    },
+    {
+      "code_barre": "75969-3454",
+      "designation": "Incredible Frozen Chips",
+      "quentite": 83,
+      "depot": 70,
+      "code": "95"
+    },
+    {
+      "code_barre": "10018-8665",
+      "designation": "Incredible Plastic Car",
+      "quentite": 42,
+      "depot": 48,
+      "code": "96"
+    },
+    {
+      "code_barre": "51576",
+      "designation": "Luxurious Granite Chair",
+      "quentite": 95,
+      "depot": 72,
+      "code": "97"
+    },
+    {
+      "code_barre": "60503-3613",
+      "designation": "Awesome Granite Computer",
+      "quentite": 19,
+      "depot": 60,
+      "code": "98"
+    },
+    {
+      "code_barre": "26580",
+      "designation": "Tasty Wooden Fish",
+      "quentite": 35,
+      "depot": 29,
+      "code": "99"
+    },
+    {
+      "code_barre": "26117-7555",
+      "designation": "Luxurious Cotton Shoes",
+      "quentite": 48,
+      "depot": 75,
+      "code": "100"
+    }
+  ]
+}
