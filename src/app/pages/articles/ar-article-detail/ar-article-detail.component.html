@@ -1,0 +1,81 @@
+<p-sidebar
+  (onHide)="onDrawerHide()"
+  [showCloseIcon] = "true"
+  [dismissible]="false"
+  [(visible)]="articleDetailDrawer"
+  styleClass="w-full lg:w-30rem"
+  position="right"
+>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
+            style="width:32px;height:32px">
+        <i class="pi pi-file text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Détails de l'article
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-2">
+    <div class="scrollbar">
+      <ul class="list-none p-0 m-0">
+        <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-2 surface-card p-2 border-round">
+          <div class="flex">
+            <div class="mr-0 md:mr-8">
+              <div class="text-600">Code de l'article:</div>
+            </div>
+          </div>
+          <div class="mt-2 md:mt-0 flex flex-nowrap">
+            {{singleArticle?.code}}
+          </div>
+        </li>
+        <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-2 surface-card p-2 border-round">
+          <div class="flex">
+            <div class="mr-0 md:mr-8">
+              <div class="text-600">Code à barre:</div>
+            </div>
+          </div>
+          <div class="mt-2 md:mt-0 flex flex-nowrap">
+            {{singleArticle?.code_barre}}
+          </div>
+        </li>
+        <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-2 surface-card p-2 border-round">
+          <div class="flex">
+            <div class="mr-0 md:mr-8">
+              <div class="text-900">Désignation:</div>
+            </div>
+          </div>
+          <div class="mt-2 md:mt-0 flex flex-nowrap text-900">
+            {{singleArticle?.designation}}
+          </div>
+        </li>
+        <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-2 surface-card p-2 border-round">
+          <div class="flex">
+            <div class="mr-0 md:mr-8">
+              <div class="text-900">Stock:</div>
+            </div>
+          </div>
+          <div class="mt-2 md:mt-0 flex flex-nowrap text-900">
+            {{singleArticle?.quentite}}
+          </div>
+        </li>
+        <li class="flex flex-column md:flex-row md:align-items-center md:justify-content-between mb-2 surface-card p-2 border-round">
+          <div class="flex">
+            <div class="mr-0 md:mr-8">
+              <div class="text-900">Dépot:</div>
+            </div>
+          </div>
+          <div class="mt-2 md:mt-0 flex flex-nowrap text-900">
+            {{singleArticle?.depot}}
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-end gap-4">
+      <button pButton pRipple icon="pi pi-times" (click)="articleDetailDrawer =false" label="Fermer"></button>
+    </div>
+  </ng-template>
+</p-sidebar>

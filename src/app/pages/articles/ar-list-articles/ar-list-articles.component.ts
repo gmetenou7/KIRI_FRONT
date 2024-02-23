@@ -12,10 +12,15 @@ export class ArListArticlesComponent implements OnInit{
 
   articles: ArticlesModeleInterface[] = [];
   selectedArticles: ArticlesModeleInterface[] = [];
+  selectedSingleArticle: ArticlesModeleInterface|undefined;
   articlesFamilies: {id: number, name: string}[] = [];
   selectedFamily: {id: number, name: string} | undefined;
 
   loading: boolean = true;
+
+  // Actions buttons state are define here
+  showExportDrawer: boolean = false;
+  showArticleDetailDrawer: boolean = false;
 
   @ViewChild('filter') filter!: ElementRef;
   constructor(
@@ -49,5 +54,14 @@ export class ArListArticlesComponent implements OnInit{
     setTimeout(() => {
       this.loading = false
     }, 2000);
+  }
+
+  // Action buttons drawer callback
+  onShowExportOptionDrawer() {
+    this.showExportDrawer = !this.showExportDrawer
+  }
+
+  onShowArticleDetailDrawer() {
+    this.showArticleDetailDrawer = !this.showArticleDetailDrawer
   }
 }

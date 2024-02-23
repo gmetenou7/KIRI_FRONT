@@ -31,7 +31,7 @@
         </div>
         <div class="h-2rem py-1">
           <div *ngIf="selectedArticles.length>0" class="flex align-items-center gap-4">
-            <p-button size="small" label="Exporter" [badge]="selectedArticles.length.toString()" [loading]="loading" (onClick)="load()"></p-button>
+            <p-button size="small" label="Exporter" [badge]="selectedArticles.length.toString()" (onClick)="onShowExportOptionDrawer()"></p-button>
             <p-button size="small" label="Proformat" [badge]="selectedArticles.length.toString()"></p-button>
             <p-button size="small" label="Bon de livraison" [badge]="selectedArticles.length.toString()"></p-button>
             <p-button size="small" label="Validation sortie" [badge]="selectedArticles.length.toString()"></p-button>
@@ -87,7 +87,7 @@
           {{article.depot}}
         </td>
         <td class="text-center">
-          <a href="javascript: void(0);" class="text-blue-700 no-underline">
+          <a (click)="selectedSingleArticle = article; onShowArticleDetailDrawer()" href="javascript: void(0);" class="text-blue-700 no-underline">
             <i class="pi pi-eye"></i>
           </a>
         </td>
@@ -105,3 +105,15 @@
     </ng-template>
   </p-table>
 </div>
+
+<app-ar-export
+  (onDrawerClose)="onShowExportOptionDrawer()"
+  [drawerVisible]="showExportDrawer"
+>
+</app-ar-export>
+<app-ar-article-detail
+  [drawerVisible]="showArticleDetailDrawer"
+  (onDrawerClose)="onShowArticleDetailDrawer()"
+  [article]="selectedSingleArticle"
+>
+</app-ar-article-detail>

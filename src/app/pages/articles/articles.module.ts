@@ -10,11 +10,19 @@ import {SharedModule} from "primeng/api";
 import {TableModule} from "primeng/table";
 import {DropdownModule} from "primeng/dropdown";
 import {FormsModule} from "@angular/forms";
+import { ArExportComponent } from './ar-export/ar-export.component';
+import {SidebarModule} from "primeng/sidebar";
+import {MultiSelectModule} from "primeng/multiselect";
+import {FileUploadModule} from "primeng/fileupload";
+import { ArArticleDetailComponent } from './ar-article-detail/ar-article-detail.component';
+import {RippleModule} from "primeng/ripple";
 
 @NgModule({
     declarations: [
     ArListArticlesComponent,
-    ArMainLayoutComponent
+    ArMainLayoutComponent,
+    ArExportComponent,
+    ArArticleDetailComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +33,11 @@ import {FormsModule} from "@angular/forms";
     SharedModule,
     TableModule,
     DropdownModule,
-    FormsModule
+    FormsModule,
+    SidebarModule,
+    MultiSelectModule,
+    FileUploadModule,
+    RippleModule
   ]
 })
 
