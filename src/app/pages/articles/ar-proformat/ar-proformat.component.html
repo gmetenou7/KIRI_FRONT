@@ -1,0 +1,177 @@
+<p-sidebar
+  (onHide)="onDrawerHide()"
+  [showCloseIcon] = "true"
+  [dismissible]="false"
+  [(visible)]="proformatDrawer"
+  styleClass="w-full lg:w-9"
+  position="right"
+>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
+            style="width:32px;height:32px">
+        <i class="pi pi-file text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Facture Proformat
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-4 border-round">
+    <div class="scrollbar">
+      <div class="flex flex-column gap-2">
+        <label for="client">Client</label>
+        <p-dropdown [disabled]="loadingClient" [filter]="true" [options]="clients" [(ngModel)]="selectClient" optionLabel="nom" id="client"
+                    placeholder="Choisir le client" styleClass="w-full">
+          <ng-template pTemplate="selectedItem">
+            <div class="flex align-items-center gap-2" *ngIf="selectClient">
+              <div>{{ selectClient.nom }} {{ selectClient.prenom }}</div>
+            </div>
+          </ng-template>
+
+          <ng-template let-client pTemplate="item">
+            <div class="flex align-items-center gap-2">
+              <div>{{ client?.nom }} {{ client?.prenom }}</div>
+            </div>
+          </ng-template>
+        </p-dropdown>
+      </div>
+      <div class="mt-5">
+        <p-table scrollHeight="300px" class="scrollbar" [scrollable]="true" #dt1
+                 [value]="articles" dataKey="code" [rows]="10" [rowHover]="true"
+                 styleClass="p-datatable-gridlines scrollbar" [paginator]="true"
+                 [globalFilterFields]="['code_barre','designation','depot','quentite']" responsiveLayout="scroll">
+          <ng-template pTemplate="header">
+            <tr>
+              <th style="min-width: 5rem">
+                <div class="flex justify-content-between align-items-center">
+                  Code barre
+                </div>
+              </th>
+              <th style="min-width: 14rem">
+                <div class="flex justify-content-between align-items-center">
+                  Désignation
+                </div>
+              </th>
+              <th style="min-width: 2rem">
+                <div class="text-center">
+                  Stock
+                </div>
+              </th>
+              <th style="min-width: 4rem">
+                <div class="text-center">
+                  Dépot
+                </div>
+              </th>
+              <th style="min-width: 2rem">
+                <div class="text-center">
+                  Qté
+                </div>
+              </th>
+              <th style="min-width: 4rem">
+                <div class="text-center">
+                  Prix U
+                </div>
+              </th>
+              <th style="max-width: 4rem" class="text-center">
+                Action
+              </th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-article let-editing="editing">
+            <tr>
+              <td>
+                {{article.code_barre}}
+              </td>
+              <td>
+                <span class="ml-2">{{article.designation}}</span>
+              </td>
+              <td class="text-center">
+                {{article.quentite}}
+              </td>
+              <td class="text-center">
+                {{article.depot}}
+              </td>
+              <td [pEditableColumn]="article.qut" pEditableColumnField="qut" class="text-center">
+                <p-cellEditor>
+                  <ng-template pTemplate="input">
+                    <input size="small" pInputText type="number" [(ngModel)]="article.qut" />
+                  </ng-template>
+                  <ng-template pTemplate="output">
+                    {{article.qut}}
+                  </ng-template>
+                </p-cellEditor>
+              </td>
+              <td [pEditableColumn]="article.prix_unitaire" pEditableColumnField="prix_unitaire" class="text-center">
+                <p-cellEditor>
+                  <ng-template pTemplate="input">
+                    <input size="small" pInputText type="text" [(ngModel)]="article.prix_unitaire" />
+                  </ng-template>
+                  <ng-template pTemplate="output">
+                    {{article.prix_unitaire | currency : "USD" : "symbol"}}
+                  </ng-template>
+                </p-cellEditor>
+              </td>
+              <td class="text-center">
+                <a (click)="onRemoveArticles(article)" href="javascript: void(0);" class="text-red-600 no-underline">
+                  <i class="pi pi-times"></i>
+                </a>
+              </td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="emptymessage">
+            <tr>
+              <td colspan="8">Accun produit trouvé.</td>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="loadingbody">
+            <tr>
+              <td colspan="8">Chargement en cours.</td>
+            </tr>
+          </ng-template>
+        </p-table>
+      </div>
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex flex-column gap-4 px-4 surface-ground border-round py-3">
+      <div class="flex flex-column gap-2">
+        <label class="text-900 font-medium" for="taxes">Ajouter des taxes</label>
+        <div id="taxes" class="flex justify-content-start gap-3">
+          <div *ngFor="let tax of [1, 2, 3, 4]" class="flex align-items-center">
+            <p-checkbox label="{{'Taxe ' + tax}}" name="{{'tax-' + tax}}" value="{{'Taxe ' + tax}}" [(ngModel)]="taxes"></p-checkbox>
+          </div>
+        </div>
+      </div>
+      <div class="flex align-items-end gap-5">
+        <div class="mt-2 flex flex-column gap-2 w-7">
+          <div class="flex justify-content-between align-items-center mb-1">
+            <span class="text-900 font-medium">Total HT</span>
+            <span class="text-900">$123.00</span>
+          </div>
+          <div *ngFor="let tax of taxes" class="flex justify-content-between align-items-center mb-1">
+            <span class="text-900 font-medium">{{tax}}</span>
+            <span class="text-primary font-bold">$500.00</span>
+          </div>
+          <div class="flex justify-content-between align-items-center mb-3">
+            <span class="text-900 font-medium">Total TTC</span>
+            <span class="text-900">$200000</span>
+          </div>
+          <div class="flex justify-content-between align-items-center">
+            <span class="text-900 font-bold">Net à payer</span>
+            <span class="text-900 font-medium text-xl">$80000.00</span>
+          </div>
+        </div>
+        <div class="mt-2 flex justify-content-end gap-2 w-5">
+          <p-button (onClick)="onShowProformatPreviewDrawer()" size="large" label="Imprimer" icon="pi pi-print"></p-button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</p-sidebar>
+
+<app-pr-previw
+  [drawerVisible]="showProformatPreviewDrawer"
+  (onDrawerClose)="onShowProformatPreviewDrawer()"
+>
+</app-pr-previw>

@@ -32,7 +32,7 @@
         <div class="h-2rem py-1">
           <div *ngIf="selectedArticles.length>0" class="flex align-items-center gap-4">
             <p-button size="small" label="Exporter" [badge]="selectedArticles.length.toString()" (onClick)="onShowExportOptionDrawer()"></p-button>
-            <p-button size="small" label="Proformat" [badge]="selectedArticles.length.toString()"></p-button>
+            <p-button size="small" label="Proformat" [badge]="selectedArticles.length.toString()" (onClick)="onShowProformatDrawer()"></p-button>
             <p-button size="small" label="Bon de livraison" [badge]="selectedArticles.length.toString()"></p-button>
             <p-button size="small" label="Validation sortie" [badge]="selectedArticles.length.toString()"></p-button>
           </div>
@@ -117,3 +117,11 @@
   [article]="selectedSingleArticle"
 >
 </app-ar-article-detail>
+
+<app-ar-proformat
+  (onDrawerClose)="onShowProformatDrawer()"
+  [drawerVisible]="showProformatDrawer"
+  [selectedArticles]="selectedArticles"
+>
+
+</app-ar-proformat>

@@ -21,6 +21,7 @@ export class ArListArticlesComponent implements OnInit{
   // Actions buttons state are define here
   showExportDrawer: boolean = false;
   showArticleDetailDrawer: boolean = false;
+  showProformatDrawer: boolean = false;
 
   @ViewChild('filter') filter!: ElementRef;
   constructor(
@@ -58,10 +59,14 @@ export class ArListArticlesComponent implements OnInit{
 
   // Action buttons drawer callback
   onShowExportOptionDrawer() {
-    this.showExportDrawer = !this.showExportDrawer
+    this.showExportDrawer = !this.showExportDrawer;
   }
 
   onShowArticleDetailDrawer() {
-    this.showArticleDetailDrawer = !this.showArticleDetailDrawer
+    this.showArticleDetailDrawer = !this.showArticleDetailDrawer;
+  }
+
+  onShowProformatDrawer() {
+    this.showProformatDrawer = !this.showProformatDrawer;
   }
 }

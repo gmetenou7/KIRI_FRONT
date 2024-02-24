@@ -16,13 +16,19 @@ import {MultiSelectModule} from "primeng/multiselect";
 import {FileUploadModule} from "primeng/fileupload";
 import { ArArticleDetailComponent } from './ar-article-detail/ar-article-detail.component';
 import {RippleModule} from "primeng/ripple";
+import { ArProformatComponent } from './ar-proformat/ar-proformat.component';
+import {CheckboxModule} from "primeng/checkbox";
+import { PrPreviewComponent } from './ar-proformat/pr-previw/pr-preview.component';
+import {StyleClassModule} from "primeng/styleclass";
 
 @NgModule({
     declarations: [
     ArListArticlesComponent,
     ArMainLayoutComponent,
     ArExportComponent,
-    ArArticleDetailComponent
+    ArArticleDetailComponent,
+    ArProformatComponent,
+    PrPreviewComponent
   ],
   imports: [
     CommonModule,
@@ -37,7 +43,9 @@ import {RippleModule} from "primeng/ripple";
     SidebarModule,
     MultiSelectModule,
     FileUploadModule,
-    RippleModule
+    RippleModule,
+    CheckboxModule,
+    StyleClassModule
   ]
 })
 

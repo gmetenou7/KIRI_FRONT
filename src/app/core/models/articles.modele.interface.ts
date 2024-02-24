@@ -3,5 +3,7 @@ export interface ArticlesModeleInterface {
   designation: string,
   quentite: number
   depot: number,
-  code: string
+  code: string,
+  qut: number,
+  prix_unitaire: string
 }
