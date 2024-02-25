@@ -1,0 +1,63 @@
+<p-sidebar
+  (onHide)="onDrawerHide()"
+  [showCloseIcon] = "true"
+  [dismissible]="false"
+  [(visible)]="deliveryNoteDrawer"
+  styleClass="w-full lg:w-5"
+  position="right"
+>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
+            style="width:32px;height:32px">
+        <i class="pi pi-file text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Bons de livraison
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-4 border-round">
+    <div class="scrollbar">
+      <div class="flex flex-column lg:flex-row gap-3">
+        <div class="flex flex-column gap-2 w-full lg:w-6">
+          <p-dropdown [disabled]="loadingClient" [filter]="true" [options]="clients" [(ngModel)]="selectClient" optionLabel="nom" id="client"
+                      placeholder="Choisir le client" styleClass="w-full">
+            <ng-template pTemplate="selectedItem">
+              <div class="flex align-items-center gap-2" *ngIf="selectClient">
+                <div>{{ selectClient.nom }} {{ selectClient.prenom }}</div>
+              </div>
+            </ng-template>
+
+            <ng-template let-client pTemplate="item">
+              <div class="flex align-items-center gap-2">
+                <div>{{ client?.nom }} {{ client?.prenom }}</div>
+              </div>
+            </ng-template>
+          </p-dropdown>
+        </div>
+        <input class="w-full lg:w-6" placeholder="Code facture" id="email" type="text" pInputText required>
+      </div>
+      <div class="mt-5">
+        <h4>Factures</h4>
+        <div class="flex flex-column gap-2 mt-3">
+          <div *ngFor="let article of articles" class="flex gap-2 justify-content-between align-items-center surface-card border-round p-3">
+            <div class="text-600 font-medium">
+              Facture N°: {{article.code_barre}}
+            </div>
+            <a href="javascript:void(0);" (click)="selectedDeliveryNote=article; onShowDeliveryNoteDrawer()" class="text-blue-700 no-underline">
+              <i class="pi pi-eye"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</p-sidebar>
+
+<app-de-note-preview
+  [drawerVisible]="showPreviewDeliveryNoteDrawer"
+  (onDrawerClose)="onShowDeliveryNoteDrawer()"
+  [deliveryNote]="selectedDeliveryNote"
+>
+</app-de-note-preview>

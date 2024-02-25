@@ -20,6 +20,10 @@ import { ArProformatComponent } from './ar-proformat/ar-proformat.component';
 import {CheckboxModule} from "primeng/checkbox";
 import { PrPreviewComponent } from './ar-proformat/pr-previw/pr-preview.component';
 import {StyleClassModule} from "primeng/styleclass";
+import { ArDeliveryNoteComponent } from './ar-delivery-note/ar-delivery-note.component';
+import { DeNotePreviewComponent } from './ar-delivery-note/de-note-preview/de-note-preview.component';
+import { ArOutValidationComponent } from './ar-out-validation/ar-out-validation.component';
+import { OuValidationPreviewComponent } from './ar-out-validation/ou-validation-preview/ou-validation-preview.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +32,11 @@ import {StyleClassModule} from "primeng/styleclass";
     ArExportComponent,
     ArArticleDetailComponent,
     ArProformatComponent,
-    PrPreviewComponent
+    PrPreviewComponent,
+    ArDeliveryNoteComponent,
+    DeNotePreviewComponent,
+    ArOutValidationComponent,
+    OuValidationPreviewComponent
   ],
   imports: [
     CommonModule,

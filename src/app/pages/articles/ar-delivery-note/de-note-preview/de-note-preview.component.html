@@ -1,0 +1,76 @@
+<p-sidebar
+  (onHide)="onDrawerHide()"
+  [showCloseIcon] = "true"
+  [dismissible]="false"
+  [(visible)]="deliveryNotePreviewDrawer"
+  styleClass="w-full lg:w-9"
+  position="right"
+>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center">
+      <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
+            style="width:32px;height:32px">
+        <i class="pi pi-eye text-lg"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Prévisualiser
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-4 border-round">
+    <div class="scrollbar">
+
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div *ngIf="!noteSigned" class="flex flex-column lg:flex-row justify-content-between gap-3">
+      <div class="w-full w-5">
+        <p-dropdown
+          [(ngModel)]="selectedExportOption"
+          [filter]="true"
+          [options]="exportOptions"
+          id="exportt-option"
+          placeholder="Option d'exportation"
+          styleClass="w-full"
+        >
+          <ng-template pTemplate="selectedItem">
+            <div class="flex align-items-center gap-2" *ngIf="selectedExportOption">
+              <div>{{ selectedExportOption }}</div>
+            </div>
+          </ng-template>
+          <ng-template let-option pTemplate="item">
+            <div class="flex align-items-center gap-2">
+              <div>{{ option }}</div>
+            </div>
+          </ng-template>
+        </p-dropdown>
+      </div>
+      <div class="w-full lg:w-4">
+        <input class="w-full" *ngIf="selectedExportOption==='Email'"  placeholder="Entrez votre email" id="email" type="email" pInputText required>
+        <input class="w-full" *ngIf="selectedExportOption==='WhatsApp'"   placeholder="Entrez votre numéro whatsapp" id="whatsapp" type="tel" pInputText required>
+      </div>
+      <div class="w-full lg:w-3">
+        <p-button
+          (onClick)="noteSigned=true"
+          pStyleClass="w-full"
+          label="Signer et Télécharger"
+        ></p-button>
+      </div>
+    </div>
+    <div *ngIf="noteSigned" class="flex flex-column lg:flex-row justify-content-between gap-3">
+      <div class="w-full lg:w-9">
+        <input class="w-full" placeholder="Saisir le code envoyé par le client" id="code" type="text" pInputText required>
+      </div>
+      <div class="w-full lg:w-3">
+        <p-button
+          class="w-full"
+          (onClick)="deliveryNotePreviewDrawer=false"
+          pStyleClass="w-full"
+          label="Valider"
+          icon="pi pi-check"
+        ></p-button>
+      </div>
+    </div>
+
+  </ng-template>
+</p-sidebar>
