@@ -1,0 +1,904 @@
+{
+  "data": [
+    {
+      "code_barre": "29792",
+      "designation": "Small Rubber Fish",
+      "quentite": 6,
+      "depot": 78,
+      "qut": 38,
+      "prix_unitaire": "328.00",
+      "code": "1"
+    },
+    {
+      "code_barre": "02896-2303",
+      "designation": "Small Cotton Hat",
+      "quentite": 12,
+      "depot": 72,
+      "qut": 25,
+      "prix_unitaire": "843.00",
+      "code": "2"
+    },
+    {
+      "code_barre": "40225-0317",
+      "designation": "Rustic Soft Tuna",
+      "quentite": 45,
+      "depot": 32,
+      "qut": 65,
+      "prix_unitaire": "847.00",
+      "code": "3"
+    },
+    {
+      "code_barre": "13847-8351",
+      "designation": "Awesome Cotton Table",
+      "quentite": 87,
+      "depot": 43,
+      "qut": 43,
+      "prix_unitaire": "417.00",
+      "code": "4"
+    },
+    {
+      "code_barre": "89244-0042",
+      "designation": "Practical Plastic Ball",
+      "quentite": 37,
+      "depot": 65,
+      "qut": 70,
+      "prix_unitaire": "735.00",
+      "code": "5"
+    },
+    {
+      "code_barre": "56107-4940",
+      "designation": "Practical Soft Computer",
+      "quentite": 26,
+      "depot": 15,
+      "qut": 26,
+      "prix_unitaire": "953.00",
+      "code": "6"
+    },
+    {
+      "code_barre": "91451",
+      "designation": "Intelligent Frozen Pizza",
+      "quentite": 80,
+      "depot": 88,
+      "qut": 80,
+      "prix_unitaire": "557.00",
+      "code": "7"
+    },
+    {
+      "code_barre": "60957",
+      "designation": "Licensed Frozen Pizza",
+      "quentite": 88,
+      "depot": 27,
+      "qut": 98,
+      "prix_unitaire": "296.00",
+      "code": "8"
+    },
+    {
+      "code_barre": "41941",
+      "designation": "Handmade Soft Shoes",
+      "quentite": 81,
+      "depot": 33,
+      "qut": 48,
+      "prix_unitaire": "1.00",
+      "code": "9"
+    },
+    {
+      "code_barre": "45345",
+      "designation": "Intelligent Concrete Car",
+      "quentite": 30,
+      "depot": 98,
+      "qut": 71,
+      "prix_unitaire": "54.00",
+      "code": "10"
+    },
+    {
+      "code_barre": "38400",
+      "designation": "Handmade Cotton Pizza",
+      "quentite": 38,
+      "depot": 34,
+      "qut": 0,
+      "prix_unitaire": "157.00",
+      "code": "11"
+    },
+    {
+      "code_barre": "36406",
+      "designation": "Ergonomic Steel Chair",
+      "quentite": 98,
+      "depot": 5,
+      "qut": 33,
+      "prix_unitaire": "155.00",
+      "code": "12"
+    },
+    {
+      "code_barre": "11922-9458",
+      "designation": "Tasty Metal Chips",
+      "quentite": 92,
+      "depot": 74,
+      "qut": 70,
+      "prix_unitaire": "195.00",
+      "code": "13"
+    },
+    {
+      "code_barre": "06892",
+      "designation": "Modern Plastic Salad",
+      "quentite": 83,
+      "depot": 57,
+      "qut": 100,
+      "prix_unitaire": "237.00",
+      "code": "14"
+    },
+    {
+      "code_barre": "82977-5195",
+      "designation": "Unbranded Plastic Hat",
+      "quentite": 88,
+      "depot": 72,
+      "qut": 57,
+      "prix_unitaire": "894.00",
+      "code": "15"
+    },
+    {
+      "code_barre": "98884",
+      "designation": "Recycled Wooden Table",
+      "quentite": 77,
+      "depot": 54,
+      "qut": 22,
+      "prix_unitaire": "178.00",
+      "code": "16"
+    },
+    {
+      "code_barre": "28302",
+      "designation": "Refined Concrete Pants",
+      "quentite": 13,
+      "depot": 92,
+      "qut": 7,
+      "prix_unitaire": "582.00",
+      "code": "17"
+    },
+    {
+      "code_barre": "89837",
+      "designation": "Generic Granite Pizza",
+      "quentite": 54,
+      "depot": 100,
+      "qut": 73,
+      "prix_unitaire": "206.00",
+      "code": "18"
+    },
+    {
+      "code_barre": "12124",
+      "designation": "Rustic Steel Computer",
+      "quentite": 2,
+      "depot": 70,
+      "qut": 66,
+      "prix_unitaire": "108.00",
+      "code": "19"
+    },
+    {
+      "code_barre": "54926-4075",
+      "designation": "Unbranded Steel Bike",
+      "quentite": 89,
+      "depot": 70,
+      "qut": 21,
+      "prix_unitaire": "670.00",
+      "code": "20"
+    },
+    {
+      "code_barre": "45432",
+      "designation": "Oriental Fresh Salad",
+      "quentite": 64,
+      "depot": 87,
+      "qut": 4,
+      "prix_unitaire": "379.00",
+      "code": "21"
+    },
+    {
+      "code_barre": "73776",
+      "designation": "Sleek Bronze Keyboard",
+      "quentite": 74,
+      "depot": 38,
+      "qut": 58,
+      "prix_unitaire": "532.00",
+      "code": "22"
+    },
+    {
+      "code_barre": "16340-5501",
+      "designation": "Handcrafted Granite Shoes",
+      "quentite": 29,
+      "depot": 34,
+      "qut": 49,
+      "prix_unitaire": "667.00",
+      "code": "23"
+    },
+    {
+      "code_barre": "32554",
+      "designation": "Luxurious Concrete Bacon",
+      "quentite": 14,
+      "depot": 94,
+      "qut": 49,
+      "prix_unitaire": "968.00",
+      "code": "24"
+    },
+    {
+      "code_barre": "40814-2532",
+      "designation": "Gorgeous Granite Salad",
+      "quentite": 74,
+      "depot": 41,
+      "qut": 13,
+      "prix_unitaire": "639.00",
+      "code": "25"
+    },
+    {
+      "code_barre": "83024",
+      "designation": "Recycled Granite Pants",
+      "quentite": 99,
+      "depot": 53,
+      "qut": 15,
+      "prix_unitaire": "619.00",
+      "code": "26"
+    },
+    {
+      "code_barre": "05833-9293",
+      "designation": "Oriental Plastic Shoes",
+      "quentite": 79,
+      "depot": 31,
+      "qut": 53,
+      "prix_unitaire": "278.00",
+      "code": "27"
+    },
+    {
+      "code_barre": "42414",
+      "designation": "Awesome Metal Sausages",
+      "quentite": 83,
+      "depot": 78,
+      "qut": 17,
+      "prix_unitaire": "940.00",
+      "code": "28"
+    },
+    {
+      "code_barre": "00877",
+      "designation": "Licensed Rubber Hat",
+      "quentite": 80,
+      "depot": 84,
+      "qut": 35,
+      "prix_unitaire": "773.00",
+      "code": "29"
+    },
+    {
+      "code_barre": "69922-9540",
+      "designation": "Handcrafted Wooden Chips",
+      "quentite": 73,
+      "depot": 91,
+      "qut": 69,
+      "prix_unitaire": "293.00",
+      "code": "30"
+    },
+    {
+      "code_barre": "75955",
+      "designation": "Awesome Metal Sausages",
+      "quentite": 28,
+      "depot": 31,
+      "qut": 8,
+      "prix_unitaire": "575.00",
+      "code": "31"
+    },
+    {
+      "code_barre": "81473",
+      "designation": "Ergonomic Fresh Bike",
+      "quentite": 80,
+      "depot": 74,
+      "qut": 34,
+      "prix_unitaire": "563.00",
+      "code": "32"
+    },
+    {
+      "code_barre": "76868-5118",
+      "designation": "Tasty Rubber Gloves",
+      "quentite": 31,
+      "depot": 37,
+      "qut": 61,
+      "prix_unitaire": "145.00",
+      "code": "33"
+    },
+    {
+      "code_barre": "90171",
+      "designation": "Gorgeous Fresh Ball",
+      "quentite": 35,
+      "depot": 67,
+      "qut": 8,
+      "prix_unitaire": "680.00",
+      "code": "34"
+    },
+    {
+      "code_barre": "25454-8280",
+      "designation": "Fantastic Granite Shirt",
+      "quentite": 11,
+      "depot": 77,
+      "qut": 64,
+      "prix_unitaire": "901.00",
+      "code": "35"
+    },
+    {
+      "code_barre": "58420",
+      "designation": "Handmade Wooden Towels",
+      "quentite": 94,
+      "depot": 78,
+      "qut": 53,
+      "prix_unitaire": "63.00",
+      "code": "36"
+    },
+    {
+      "code_barre": "91469-1953",
+      "designation": "Ergonomic Cotton Pizza",
+      "quentite": 91,
+      "depot": 23,
+      "qut": 17,
+      "prix_unitaire": "698.00",
+      "code": "37"
+    },
+    {
+      "code_barre": "27240",
+      "designation": "Awesome Bronze Bike",
+      "quentite": 78,
+      "depot": 19,
+      "qut": 100,
+      "prix_unitaire": "908.00",
+      "code": "38"
+    },
+    {
+      "code_barre": "48777-2660",
+      "designation": "Sleek Rubber Towels",
+      "quentite": 9,
+      "depot": 38,
+      "qut": 40,
+      "prix_unitaire": "315.00",
+      "code": "39"
+    },
+    {
+      "code_barre": "56873",
+      "designation": "Bespoke Rubber Chicken",
+      "quentite": 4,
+      "depot": 53,
+      "qut": 15,
+      "prix_unitaire": "469.00",
+      "code": "40"
+    },
+    {
+      "code_barre": "37465",
+      "designation": "Refined Steel Car",
+      "quentite": 42,
+      "depot": 58,
+      "qut": 42,
+      "prix_unitaire": "488.00",
+      "code": "41"
+    },
+    {
+      "code_barre": "02713-8340",
+      "designation": "Handmade Granite Bacon",
+      "quentite": 43,
+      "depot": 3,
+      "qut": 20,
+      "prix_unitaire": "596.00",
+      "code": "42"
+    },
+    {
+      "code_barre": "79470-5750",
+      "designation": "Awesome Rubber Chair",
+      "quentite": 52,
+      "depot": 25,
+      "qut": 34,
+      "prix_unitaire": "555.00",
+      "code": "43"
+    },
+    {
+      "code_barre": "26097-7027",
+      "designation": "Rustic Frozen Shoes",
+      "quentite": 17,
+      "depot": 86,
+      "qut": 58,
+      "prix_unitaire": "487.00",
+      "code": "44"
+    },
+    {
+      "code_barre": "59248-2538",
+      "designation": "Ergonomic Wooden Soap",
+      "quentite": 71,
+      "depot": 79,
+      "qut": 10,
+      "prix_unitaire": "180.00",
+      "code": "45"
+    },
+    {
+      "code_barre": "73099",
+      "designation": "Small Wooden Chips",
+      "quentite": 47,
+      "depot": 76,
+      "qut": 13,
+      "prix_unitaire": "363.00",
+      "code": "46"
+    },
+    {
+      "code_barre": "86255-0024",
+      "designation": "Elegant Concrete Soap",
+      "quentite": 10,
+      "depot": 90,
+      "qut": 64,
+      "prix_unitaire": "182.00",
+      "code": "47"
+    },
+    {
+      "code_barre": "47135",
+      "designation": "Awesome Fresh Cheese",
+      "quentite": 1,
+      "depot": 89,
+      "qut": 53,
+      "prix_unitaire": "162.00",
+      "code": "48"
+    },
+    {
+      "code_barre": "80321-0171",
+      "designation": "Licensed Bronze Fish",
+      "quentite": 5,
+      "depot": 76,
+      "qut": 87,
+      "prix_unitaire": "862.00",
+      "code": "49"
+    },
+    {
+      "code_barre": "46610",
+      "designation": "Sleek Fresh Shoes",
+      "quentite": 54,
+      "depot": 42,
+      "qut": 92,
+      "prix_unitaire": "283.00",
+      "code": "50"
+    },
+    {
+      "code_barre": "02067",
+      "designation": "Recycled Metal Towels",
+      "quentite": 23,
+      "depot": 84,
+      "qut": 42,
+      "prix_unitaire": "999.00",
+      "code": "51"
+    },
+    {
+      "code_barre": "36495",
+      "designation": "Recycled Rubber Computer",
+      "quentite": 83,
+      "depot": 39,
+      "qut": 14,
+      "prix_unitaire": "842.00",
+      "code": "52"
+    },
+    {
+      "code_barre": "47634",
+      "designation": "Handmade Wooden Salad",
+      "quentite": 52,
+      "depot": 100,
+      "qut": 14,
+      "prix_unitaire": "645.00",
+      "code": "53"
+    },
+    {
+      "code_barre": "45647-1938",
+      "designation": "Sleek Cotton Tuna",
+      "quentite": 2,
+      "depot": 80,
+      "qut": 66,
+      "prix_unitaire": "235.00",
+      "code": "54"
+    },
+    {
+      "code_barre": "08950",
+      "designation": "Luxurious Steel Pizza",
+      "quentite": 63,
+      "depot": 67,
+      "qut": 57,
+      "prix_unitaire": "363.00",
+      "code": "55"
+    },
+    {
+      "code_barre": "76052",
+      "designation": "Gorgeous Concrete Salad",
+      "quentite": 38,
+      "depot": 50,
+      "qut": 94,
+      "prix_unitaire": "682.00",
+      "code": "56"
+    },
+    {
+      "code_barre": "16912",
+      "designation": "Recycled Metal Pizza",
+      "quentite": 55,
+      "depot": 16,
+      "qut": 86,
+      "prix_unitaire": "447.00",
+      "code": "57"
+    },
+    {
+      "code_barre": "80059-7032",
+      "designation": "Refined Fresh Keyboard",
+      "quentite": 94,
+      "depot": 13,
+      "qut": 83,
+      "prix_unitaire": "10.00",
+      "code": "58"
+    },
+    {
+      "code_barre": "65285",
+      "designation": "Fantastic Wooden Fish",
+      "quentite": 23,
+      "depot": 26,
+      "qut": 19,
+      "prix_unitaire": "569.00",
+      "code": "59"
+    },
+    {
+      "code_barre": "42286-7916",
+      "designation": "Luxurious Wooden Fish",
+      "quentite": 13,
+      "depot": 40,
+      "qut": 88,
+      "prix_unitaire": "700.00",
+      "code": "60"
+    },
+    {
+      "code_barre": "23200-4979",
+      "designation": "Incredible Metal Pants",
+      "quentite": 91,
+      "depot": 42,
+      "qut": 47,
+      "prix_unitaire": "978.00",
+      "code": "61"
+    },
+    {
+      "code_barre": "83742",
+      "designation": "Oriental Bronze Computer",
+      "quentite": 28,
+      "depot": 39,
+      "qut": 51,
+      "prix_unitaire": "877.00",
+      "code": "62"
+    },
+    {
+      "code_barre": "79428",
+      "designation": "Unbranded Rubber Ball",
+      "quentite": 55,
+      "depot": 81,
+      "qut": 73,
+      "prix_unitaire": "979.00",
+      "code": "63"
+    },
+    {
+      "code_barre": "63408",
+      "designation": "Small Soft Sausages",
+      "quentite": 42,
+      "depot": 89,
+      "qut": 44,
+      "prix_unitaire": "689.00",
+      "code": "64"
+    },
+    {
+      "code_barre": "04736",
+      "designation": "Oriental Granite Gloves",
+      "quentite": 45,
+      "depot": 43,
+      "qut": 91,
+      "prix_unitaire": "2.00",
+      "code": "65"
+    },
+    {
+      "code_barre": "17474",
+      "designation": "Gorgeous Plastic Shoes",
+      "quentite": 76,
+      "depot": 1,
+      "qut": 25,
+      "prix_unitaire": "346.00",
+      "code": "66"
+    },
+    {
+      "code_barre": "92697-0262",
+      "designation": "Electronic Metal Gloves",
+      "quentite": 94,
+      "depot": 12,
+      "qut": 57,
+      "prix_unitaire": "693.00",
+      "code": "67"
+    },
+    {
+      "code_barre": "75121",
+      "designation": "Handmade Wooden Cheese",
+      "quentite": 5,
+      "depot": 59,
+      "qut": 86,
+      "prix_unitaire": "175.00",
+      "code": "68"
+    },
+    {
+      "code_barre": "62136",
+      "designation": "Fantastic Metal Fish",
+      "quentite": 55,
+      "depot": 79,
+      "qut": 83,
+      "prix_unitaire": "156.00",
+      "code": "69"
+    },
+    {
+      "code_barre": "17708",
+      "designation": "Intelligent Wooden Chair",
+      "quentite": 71,
+      "depot": 85,
+      "qut": 7,
+      "prix_unitaire": "896.00",
+      "code": "70"
+    },
+    {
+      "code_barre": "11284",
+      "designation": "Fantastic Cotton Gloves",
+      "quentite": 22,
+      "depot": 9,
+      "qut": 82,
+      "prix_unitaire": "342.00",
+      "code": "71"
+    },
+    {
+      "code_barre": "07499-7897",
+      "designation": "Tasty Plastic Shirt",
+      "quentite": 58,
+      "depot": 15,
+      "qut": 43,
+      "prix_unitaire": "69.00",
+      "code": "72"
+    },
+    {
+      "code_barre": "98833-8283",
+      "designation": "Electronic Rubber Tuna",
+      "quentite": 29,
+      "depot": 45,
+      "qut": 52,
+      "prix_unitaire": "157.00",
+      "code": "73"
+    },
+    {
+      "code_barre": "41060-6726",
+      "designation": "Tasty Wooden Chips",
+      "quentite": 24,
+      "depot": 37,
+      "qut": 13,
+      "prix_unitaire": "544.00",
+      "code": "74"
+    },
+    {
+      "code_barre": "59788",
+      "designation": "Bespoke Wooden Table",
+      "quentite": 17,
+      "depot": 99,
+      "qut": 44,
+      "prix_unitaire": "818.00",
+      "code": "75"
+    },
+    {
+      "code_barre": "99001",
+      "designation": "Rustic Granite Soap",
+      "quentite": 71,
+      "depot": 72,
+      "qut": 37,
+      "prix_unitaire": "140.00",
+      "code": "76"
+    },
+    {
+      "code_barre": "33246",
+      "designation": "Sleek Wooden Gloves",
+      "quentite": 82,
+      "depot": 2,
+      "qut": 64,
+      "prix_unitaire": "65.00",
+      "code": "77"
+    },
+    {
+      "code_barre": "30854-1228",
+      "designation": "Rustic Cotton Shoes",
+      "quentite": 56,
+      "depot": 51,
+      "qut": 6,
+      "prix_unitaire": "642.00",
+      "code": "78"
+    },
+    {
+      "code_barre": "18583-1585",
+      "designation": "Fantastic Soft Chair",
+      "quentite": 98,
+      "depot": 71,
+      "qut": 18,
+      "prix_unitaire": "176.00",
+      "code": "79"
+    },
+    {
+      "code_barre": "40468",
+      "designation": "Modern Bronze Fish",
+      "quentite": 28,
+      "depot": 97,
+      "qut": 13,
+      "prix_unitaire": "484.00",
+      "code": "80"
+    },
+    {
+      "code_barre": "61463",
+      "designation": "Elegant Rubber Towels",
+      "quentite": 66,
+      "depot": 88,
+      "qut": 81,
+      "prix_unitaire": "238.00",
+      "code": "81"
+    },
+    {
+      "code_barre": "30367",
+      "designation": "Handmade Cotton Sausages",
+      "quentite": 16,
+      "depot": 98,
+      "qut": 80,
+      "prix_unitaire": "309.00",
+      "code": "82"
+    },
+    {
+      "code_barre": "76186",
+      "designation": "Intelligent Plastic Salad",
+      "quentite": 43,
+      "depot": 29,
+      "qut": 18,
+      "prix_unitaire": "15.00",
+      "code": "83"
+    },
+    {
+      "code_barre": "53467-0149",
+      "designation": "Electronic Steel Keyboard",
+      "quentite": 27,
+      "depot": 87,
+      "qut": 36,
+      "prix_unitaire": "842.00",
+      "code": "84"
+    },
+    {
+      "code_barre": "64003",
+      "designation": "Sleek Frozen Ball",
+      "quentite": 33,
+      "depot": 88,
+      "qut": 92,
+      "prix_unitaire": "694.00",
+      "code": "85"
+    },
+    {
+      "code_barre": "05960-4628",
+      "designation": "Modern Steel Table",
+      "quentite": 6,
+      "depot": 1,
+      "qut": 77,
+      "prix_unitaire": "989.00",
+      "code": "86"
+    },
+    {
+      "code_barre": "79528-4776",
+      "designation": "Ergonomic Plastic Keyboard",
+      "quentite": 13,
+      "depot": 22,
+      "qut": 50,
+      "prix_unitaire": "471.00",
+      "code": "87"
+    },
+    {
+      "code_barre": "75016-5755",
+      "designation": "Licensed Soft Fish",
+      "quentite": 99,
+      "depot": 97,
+      "qut": 77,
+      "prix_unitaire": "178.00",
+      "code": "88"
+    },
+    {
+      "code_barre": "40034-7321",
+      "designation": "Tasty Cotton Soap",
+      "quentite": 8,
+      "depot": 4,
+      "qut": 61,
+      "prix_unitaire": "674.00",
+      "code": "89"
+    },
+    {
+      "code_barre": "34777-4746",
+      "designation": "Intelligent Granite Gloves",
+      "quentite": 72,
+      "depot": 67,
+      "qut": 82,
+      "prix_unitaire": "378.00",
+      "code": "90"
+    },
+    {
+      "code_barre": "80032-0317",
+      "designation": "Rustic Fresh Salad",
+      "quentite": 10,
+      "depot": 75,
+      "qut": 49,
+      "prix_unitaire": "613.00",
+      "code": "91"
+    },
+    {
+      "code_barre": "49218",
+      "designation": "Generic Granite Chair",
+      "quentite": 16,
+      "depot": 89,
+      "qut": 59,
+      "prix_unitaire": "61.00",
+      "code": "92"
+    },
+    {
+      "code_barre": "61969-1083",
+      "designation": "Luxurious Steel Gloves",
+      "quentite": 4,
+      "depot": 100,
+      "qut": 63,
+      "prix_unitaire": "482.00",
+      "code": "93"
+    },
+    {
+      "code_barre": "78229",
+      "designation": "Electronic Steel Chips",
+      "quentite": 63,
+      "depot": 92,
+      "qut": 62,
+      "prix_unitaire": "780.00",
+      "code": "94"
+    },
+    {
+      "code_barre": "56946",
+      "designation": "Electronic Cotton Salad",
+      "quentite": 96,
+      "depot": 81,
+      "qut": 49,
+      "prix_unitaire": "574.00",
+      "code": "95"
+    },
+    {
+      "code_barre": "82766-6368",
+      "designation": "Luxurious Soft Keyboard",
+      "quentite": 35,
+      "depot": 94,
+      "qut": 94,
+      "prix_unitaire": "341.00",
+      "code": "96"
+    },
+    {
+      "code_barre": "00363",
+      "designation": "Modern Frozen Gloves",
+      "quentite": 49,
+      "depot": 58,
+      "qut": 20,
+      "prix_unitaire": "234.00",
+      "code": "97"
+    },
+    {
+      "code_barre": "45326-4169",
+      "designation": "Elegant Granite Sausages",
+      "quentite": 85,
+      "depot": 99,
+      "qut": 42,
+      "prix_unitaire": "611.00",
+      "code": "98"
+    },
+    {
+      "code_barre": "50928",
+      "designation": "Handcrafted Soft Table",
+      "quentite": 57,
+      "depot": 73,
+      "qut": 37,
+      "prix_unitaire": "434.00",
+      "code": "99"
+    },
+    {
+      "code_barre": "01164",
+      "designation": "Rustic Rubber Bacon",
+      "quentite": 89,
+      "depot": 88,
+      "qut": 49,
+      "prix_unitaire": "949.00",
+      "code": "100"
+    }
+  ]
+}

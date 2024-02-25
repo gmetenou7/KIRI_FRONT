@@ -1,5 +1,5 @@
 <div
-  class="bg-indigo-500 px-6 shadow-2 flex relative lg:static"
+  class="bg-indigo-500  shadow-2 flex relative lg:static"
   style="min-height: 75px"
 >
   <a
@@ -26,9 +26,8 @@
       <li *ngFor="let link of navigation_items" class="h-full">
         <a
           [routerLink]="link.link"
-          routerLinkActive="text-white bg-indigo-600"
           pRipple
-          class="cursor-pointer no-underline h-full inline-flex align-items-center justify-content-center px-5 text-indigo-100 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150"
+          [ngClass]="['cursor-pointer no-underline h-full inline-flex align-items-center justify-content-center px-5 hover:text-indigo-50 hover:bg-indigo-600 transition-colors transition-duration-150', currentUrl===link.link? 'text-indigo-50 bg-indigo-600': 'text-indigo-100']"
         >
           <span [ngClass]="['pi pi-' + link.icon, 'mr-2']"></span>
           <span class="font-medium">{{link.lable}}</span>

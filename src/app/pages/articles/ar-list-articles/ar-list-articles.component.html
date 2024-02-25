@@ -1,0 +1,127 @@
+<div class="surface-card p-4 overflow-x-auto border-round scrollbar">
+  <p-table [(selection)]="selectedArticles" scrollHeight="480px" class="scrollbar" [scrollable]="true" #dt1
+           [value]="articles" dataKey="code" [rows]="10" [loading]="loading" [rowHover]="true"
+           styleClass="p-datatable-gridlines scrollbar" [paginator]="true"
+           [globalFilterFields]="['code_barre','designation','depot','quentite']" responsiveLayout="scroll">
+    <ng-template pTemplate="caption">
+      <div class="flex flex-column gap-2">
+        <div class="flex flex-column sm:flex-row gap-4">
+          <div class="w-full">
+            <p-dropdown [(ngModel)]="selectedFamily" [filter]="true" [options]="articlesFamilies" optionLabel="name" id="year" placeholder="Famille d'article"
+                        styleClass="w-full">
+              <ng-template pTemplate="selectedItem">
+                <div class="flex align-items-center gap-2" *ngIf="selectedFamily">
+                  <div>{{ selectedFamily.name }}</div>
+                </div>
+              </ng-template>
+              <ng-template let-family pTemplate="item">
+                <div class="flex align-items-center gap-2">
+                  <div>{{ family.name }}</div>
+                </div>
+              </ng-template>
+            </p-dropdown>
+          </div>
+          <div class="flex gap-2 w-full">
+            <span class="p-input-icon-left mb-2 w-full">
+              <i class="pi pi-search"></i>
+              <input size="small" pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)"
+                     placeholder="Rechercher" class="w-full" />
+            </span>
+          </div>
+        </div>
+        <div class="h-2rem py-1">
+          <div *ngIf="selectedArticles.length>0" class="flex align-items-center gap-4">
+            <p-button size="small" label="Exporter" [badge]="selectedArticles.length.toString()" (onClick)="onShowExportOptionDrawer()"></p-button>
+            <p-button size="small" label="Proformat" [badge]="selectedArticles.length.toString()" (onClick)="onShowProformatDrawer()"></p-button>
+            <p-button size="small" label="Bon de livraison" [badge]="selectedArticles.length.toString()"></p-button>
+            <p-button size="small" label="Validation sortie" [badge]="selectedArticles.length.toString()"></p-button>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header">
+      <tr>
+        <th style="width: 4rem">
+          <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+        </th>
+        <th style="min-width: 5rem">
+          <div class="flex justify-content-between align-items-center">
+            Code barre
+          </div>
+        </th>
+        <th style="min-width: 20rem">
+          <div class="flex justify-content-between align-items-center">
+            Désignation
+          </div>
+        </th>
+        <th style="min-width: 2rem">
+          <div class="text-center">
+            Stock
+          </div>
+        </th>
+        <th style="min-width: 4rem">
+          <div class="text-center">
+            Dépot
+          </div>
+        </th>
+        <th style="max-width: 3rem" class="text-center">
+          Action
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-article>
+      <tr>
+        <td>
+          <p-tableCheckbox [value]="article"></p-tableCheckbox>
+        </td>
+        <td>
+          {{article.code_barre}}
+        </td>
+        <td>
+          <span class="ml-2">{{article.designation}}</span>
+        </td>
+        <td class="text-center">
+          {{article.quentite}}
+        </td>
+        <td class="text-center">
+          {{article.depot}}
+        </td>
+        <td class="text-center">
+          <a (click)="selectedSingleArticle = article; onShowArticleDetailDrawer()" href="javascript: void(0);" class="text-blue-700 no-underline">
+            <i class="pi pi-eye"></i>
+          </a>
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage">
+      <tr>
+        <td colspan="8">Accun produit trouvé.</td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="loadingbody">
+      <tr>
+        <td colspan="8">Chargement en cours.</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+
+<app-ar-export
+  (onDrawerClose)="onShowExportOptionDrawer()"
+  [drawerVisible]="showExportDrawer"
+>
+</app-ar-export>
+<app-ar-article-detail
+  [drawerVisible]="showArticleDetailDrawer"
+  (onDrawerClose)="onShowArticleDetailDrawer()"
+  [article]="selectedSingleArticle"
+>
+</app-ar-article-detail>
+
+<app-ar-proformat
+  (onDrawerClose)="onShowProformatDrawer()"
+  [drawerVisible]="showProformatDrawer"
+  [selectedArticles]="selectedArticles"
+>
+
+</app-ar-proformat>

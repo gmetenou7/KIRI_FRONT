@@ -3,12 +3,12 @@ import {TopBarNavigationModele} from "../models/top-bar-navigation-modele";
 export const TopbarNavItems:TopBarNavigationModele[] = [
   {
     lable: "Board",
-    link: "/",
+    link: "/board",
     icon: "home"
   },
   {
     lable: "Article",
-    link: "#",
+    link: "/board/articles",
     icon: "cart-plus"
   },
   {

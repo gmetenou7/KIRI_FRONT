@@ -13,6 +13,7 @@ import { BadgeModule } from 'primeng/badge';
 
 import { StyleClassModule } from 'primeng/styleclass';
 import { InputTextModule } from 'primeng/inputtext';
+import {RippleModule} from "primeng/ripple";
 
 @NgModule({
   declarations: [LaMainLayoutComponent, LaSidebarComponent, LaTopbarComponent],
@@ -29,6 +30,7 @@ import { InputTextModule } from 'primeng/inputtext';
         StyleClassModule,
         InputTextModule,
         RouterLinkActive,
+        RippleModule,
     ],
 })
 export class LayoutsModule {}
