@@ -33,8 +33,8 @@
           <div *ngIf="selectedArticles.length>0" class="flex align-items-center gap-4">
             <p-button size="small" label="Exporter" [badge]="selectedArticles.length.toString()" (onClick)="onShowExportOptionDrawer()"></p-button>
             <p-button size="small" label="Proformat" [badge]="selectedArticles.length.toString()" (onClick)="onShowProformatDrawer()"></p-button>
-            <p-button size="small" label="Bon de livraison" [badge]="selectedArticles.length.toString()"></p-button>
-            <p-button size="small" label="Validation sortie" [badge]="selectedArticles.length.toString()"></p-button>
+            <p-button size="small" label="Bon de livraison" [badge]="selectedArticles.length.toString()" (onClick)="onShowDeliveryNoteDrawer()"></p-button>
+            <p-button size="small" label="Validation sortie" [badge]="selectedArticles.length.toString()" (onClick)="onShowOutValidationDrawer()"></p-button>
           </div>
         </div>
       </div>
@@ -123,5 +123,18 @@
   [drawerVisible]="showProformatDrawer"
   [selectedArticles]="selectedArticles"
 >
-
 </app-ar-proformat>
+
+<app-ar-delivery-note
+  (onDrawerClose)="onShowDeliveryNoteDrawer()"
+  [drawerVisible]="showDeliveryNoteDrawer"
+  [selectedArticles]="selectedArticles"
+>
+</app-ar-delivery-note>
+
+<app-ar-out-validation
+  [drawerVisible]="showOutValidationDrawer"
+  (onDrawerClose)="onShowOutValidationDrawer()"
+  [selectedArticles]="selectedArticles"
+>
+</app-ar-out-validation>

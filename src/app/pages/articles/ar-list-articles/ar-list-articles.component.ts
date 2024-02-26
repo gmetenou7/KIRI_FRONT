@@ -22,6 +22,8 @@ export class ArListArticlesComponent implements OnInit{
   showExportDrawer: boolean = false;
   showArticleDetailDrawer: boolean = false;
   showProformatDrawer: boolean = false;
+  showDeliveryNoteDrawer: boolean = false;
+  showOutValidationDrawer: boolean = false;
 
   @ViewChild('filter') filter!: ElementRef;
   constructor(
@@ -68,5 +70,13 @@ export class ArListArticlesComponent implements OnInit{
 
   onShowProformatDrawer() {
     this.showProformatDrawer = !this.showProformatDrawer;
+  }
+
+  onShowDeliveryNoteDrawer() {
+    this.showDeliveryNoteDrawer = !this.showDeliveryNoteDrawer;
+  }
+
+  onShowOutValidationDrawer() {
+    this.showOutValidationDrawer = !this.showOutValidationDrawer;
   }
 }
