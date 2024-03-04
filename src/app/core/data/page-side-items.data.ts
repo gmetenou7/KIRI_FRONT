@@ -1,6 +1,6 @@
-import {PageSidebarLinkModele} from "../models/page-sidebar-link.modele";
+import {PageSidebarLinkModel} from "../models/page-sidebar-link.model";
 
-export const DashboardPageSideItems: PageSidebarLinkModele [] = [
+export const DashboardPageSideItems: PageSidebarLinkModel [] = [
   {
     link: "/board",
     label: "CA Journalier"
@@ -37,5 +37,22 @@ export const DashboardPageSideItems: PageSidebarLinkModele [] = [
   {
     link: "/board/products-per-client",
     label: "Produits par client",
+  },
+]
+
+export const CommunicationSideBarLinks: PageSidebarLinkModel [] = [
+  {
+    label: "Envoi",
+    icon: 'pi pi-plus',
+    action: "new-message",
+  },
+  {
+    label: "Messages pré-enregistrés",
+    icon: 'pi pi-comment',
+    action: "pre-saved-messages",
+  },
+  {
+    label: "Clients",
+    icon: 'pi pi-users',
   },
 ]

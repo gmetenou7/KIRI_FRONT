@@ -1,7 +1,6 @@
 import {NgModule} from "@angular/core";
 import {RouterModule, Routes} from "@angular/router";
 import {LaMainLayoutComponent} from "../layouts/la-main-layout/la-main-layout.component";
-import {PaDashboardComponent} from "./pa-dashboard/pa-dashboard.component";
 
 const routes : Routes= [
   {
@@ -15,6 +14,10 @@ const routes : Routes= [
       {
         path: 'articles',
         loadChildren: () => import('./articles/articles.module').then(m => m.ArticlesModule)
+      },
+      {
+        path: 'communication',
+        loadChildren: () => import('./communication/communication.module').then(m => m.CommunicationModule)
       }
     ]
   }

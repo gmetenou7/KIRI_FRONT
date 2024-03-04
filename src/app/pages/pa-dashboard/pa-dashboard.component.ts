@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {PageSidebarLinkModele} from "../../core/models/page-sidebar-link.modele";
+import {PageSidebarLinkModel} from "../../core/models/page-sidebar-link.model";
 import {DashboardPageSideItems} from "../../core/data/page-side-items.data";
 
 @Component({
@@ -9,7 +9,7 @@ import {DashboardPageSideItems} from "../../core/data/page-side-items.data";
 })
 export class PaDashboardComponent implements OnInit{
 
-  leftSidebarItems: PageSidebarLinkModele[] = []
+  leftSidebarItems: PageSidebarLinkModel[] = []
 
   ngOnInit() {
     this.leftSidebarItems = DashboardPageSideItems
