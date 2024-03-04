@@ -1,29 +1,63 @@
-<div [ngClass]="['min-h-full flex', toggled? 'gap-4': 'gap-0']">
-  <div *ngIf="showLeftNav"
-    [ngClass]="['flex flex-column surface-section border-round flex-shrink-0 flex-grow-1 md:flex-grow-0 wrapper-h relative']">
+<div [ngClass]="['min-h-full flex', toggled ? 'gap-4' : 'gap-0']">
+  <div
+    *ngIf="showLeftNav"
+    [ngClass]="[
+      'flex flex-column surface-section border-round flex-shrink-0 flex-grow-1 md:flex-grow-0 wrapper-h relative'
+    ]"
+  >
     <div
-      [ngClass]="['flex-auto h-screen overflow-y-auto transition-all animation-duration-500 scrollbar', toggled ? 'open' : 'close']">
+      [ngClass]="[
+        'flex-auto h-screen overflow-y-auto transition-all animation-duration-500 scrollbar',
+        toggled ? 'open' : 'close'
+      ]"
+    >
       <div class="overflow-y-auto">
         <ul class="list-none p-3 m-0">
           <li *ngFor="let link of sideBarLinks">
-            <a [routerLink]="link.link" pRipple
-              [ngClass]="['flex align-items-center no-underline cursor-pointer p-3 border-round text-700 hover:bg-primary hover:text-white transition-duration-150 transition-colors mb-3', currentUrl === link.link ? 'bg-primary text-white': 'surface-100']">
-              <i *ngIf="link.icon" [ngClass]="['pi pi-' + link.icon, 'mr-2']"></i>
-              <span class="font-medium">{{link.label}}</span>
-              <span *ngIf="link.count"
+            <a
+              [routerLink]="link.link"
+              pRipple
+              [ngClass]="[
+                'flex align-items-center no-underline cursor-pointer p-3 border-round text-700 hover:bg-primary hover:text-white transition-duration-150 transition-colors mb-3',
+                currentUrl === link.link
+                  ? 'bg-primary text-white'
+                  : 'surface-100'
+              ]"
+            >
+              <i
+                *ngIf="link.icon"
+                [ngClass]="['pi pi-' + link.icon, 'mr-2']"
+              ></i>
+              <span class="font-medium">{{ link.label }}</span>
+              <span
+                *ngIf="link.count"
                 class="inline-flex align-items-center justify-content-center ml-auto bg-blue-700 text-0 border-circle"
-                style="min-width: 1.5rem; height: 1.5rem">{{link.count}}</span>
+                style="min-width: 1.5rem; height: 1.5rem"
+                >{{ link.count }}</span
+              >
             </a>
           </li>
         </ul>
       </div>
     </div>
-    <button (click)="onToggle()" pButton [icon]="toggled? 'pi pi-angle-left': 'pi pi-angle-right'"
-      [ngClass]="['p-button-rounded p-button-text p-button-plain p-3 h-1rem w-1rem bg-primary absolute z-3 right-0 top-0', toggled? '-mr-3 -mt-2': '-mr-5 lg:-mr-3 -mt-2']"
-      size="small" pStyleClass="#app-sidebar" leaveToClass="hidden" leaveActiveClass="fadeoutleft"></button>
+    <button
+      (click)="onToggle()"
+      pButton
+      [icon]="toggled ? 'pi pi-angle-left' : 'pi pi-angle-right'"
+      [ngClass]="[
+        'p-button-rounded p-button-text p-button-plain p-3 h-1rem w-1rem bg-primary absolute z-3 right-0 top-0',
+        toggled ? '-mr-3 -mt-2' : '-mr-5 lg:-mr-3 -mt-2'
+      ]"
+      size="small"
+      pStyleClass="#app-sidebar"
+      leaveToClass="hidden"
+      leaveActiveClass="fadeoutleft"
+    ></button>
   </div>
 
-  <div class="border-round flex-auto wrapper-h overflow-y-auto overflow-x-hidden scrollbar px-2">
+  <div
+    class="border-round flex-auto wrapper-h overflow-y-auto overflow-x-hidden scrollbar px-2"
+  >
     <ng-content></ng-content>
   </div>
 </div>
