@@ -13,7 +13,7 @@ export const TopbarNavItems:TopBarNavigationModele[] = [
   },
   {
     lable: "Com",
-    link: "#",
+    link: "/board/communication",
     icon: "megaphone"
   },
   {

@@ -9,6 +9,7 @@ import {TieredMenuModule} from "primeng/tieredmenu";
 import {ButtonModule} from "primeng/button";
 import { ShPageWrapperComponent } from './sh-page-wrapper/sh-page-wrapper.component';
 import {StyleClassModule} from "primeng/styleclass";
+import {RippleModule} from "primeng/ripple";
 
 
 
@@ -31,7 +32,8 @@ import {StyleClassModule} from "primeng/styleclass";
     NgOptimizedImage,
     TieredMenuModule,
     ButtonModule,
-    StyleClassModule
+    StyleClassModule,
+    RippleModule
   ]
 })
 export class SharedModule { }

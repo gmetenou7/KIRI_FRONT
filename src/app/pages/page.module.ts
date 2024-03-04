@@ -6,6 +6,10 @@ import {ButtonModule} from "primeng/button";
 import {SharedModule} from "../shared/shared.module";
 import {BoardModule} from "./board/board.module";
 import {BoardRouting} from "./board/board.routing";
+import {ArticlesRouting} from "./articles/articles-routing";
+import {ArticlesModule} from "./articles/articles.module";
+import {CommunicationModule} from "./communication/communication.module";
+import {CommunicationRouting} from "./communication/communication-routing";
 
 
 
@@ -18,6 +22,10 @@ import {BoardRouting} from "./board/board.routing";
         PageRoutingModule,
         BoardModule,
         BoardRouting,
+        ArticlesRouting,
+        ArticlesModule,
+        CommunicationModule,
+        CommunicationRouting,
         ButtonModule,
         SharedModule
     ]

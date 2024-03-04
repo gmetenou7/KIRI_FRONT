@@ -6,8 +6,8 @@
       <div class="overflow-y-auto">
         <ul class="list-none p-3 m-0">
           <li *ngFor="let link of sideBarLinks">
-            <a [routerLink]="link.link" pRipple
-              [ngClass]="['flex align-items-center no-underline cursor-pointer p-3 border-round text-700 hover:bg-primary hover:text-white transition-duration-150 transition-colors mb-3', currentUrl === link.link ? 'bg-primary text-white': 'surface-100']">
+            <a [routerLink]="link.link" (click)="link.action ? generateLink(link) : null" pRipple
+              [ngClass]="['flex align-items-center no-underline cursor-pointer p-3 border-round text-700 hover:bg-primary hover:text-white transition-duration-150 transition-colors mb-3', (link.link  === currentUrl || (link.action && link.action  === currentAction)) ? 'bg-primary text-white': 'surface-100']">
               <i *ngIf="link.icon" [ngClass]="['pi pi-' + link.icon, 'mr-2']"></i>
               <span class="font-medium">{{link.label}}</span>
               <span *ngIf="link.count"
