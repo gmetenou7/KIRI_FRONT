@@ -1,0 +1,65 @@
+<p-sidebar
+  (onHide)="onDrawerHide()"
+  [showCloseIcon] = "true"
+  [dismissible]="false"
+  [(visible)]="messageDetailDrawer"
+  styleClass="w-full lg:w-5"
+  position="right"
+>
+  <ng-template pTemplate="header">
+    <div class="flex align-items-center gap-2">
+      <span *ngIf="!preSavedMessage" (click)="onShowClientPerMessageDrawer()" class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle cursor-pointer"
+            style="width:32px;height:32px">
+        <i class="pi pi-users text-xl" pBadge value="5"></i>
+      </span>
+      <span class="font-medium text-2xl text-900">
+        Détails du message
+      </span>
+    </div>
+  </ng-template>
+  <div class="flex flex-column justify-content-between min-h-full surface-ground p-2">
+    <div class="scrollbar p-2">
+      <div *ngIf="!preSavedMessage" class="text-600 text-sm mb-3">
+        <span>Publier </span>
+        <span class="font-bold">{{singleMessage?.date_created | relativeTime}}</span>
+        <span> par </span>
+        <span class="font-bold">Claire Williams</span>
+      </div>
+      <div class="border-blue-600 font-medium text-xl p-3 mb-3 text-900" style="border-left: 2px solid">
+        {{singleMessage?.object}}
+      </div>
+      <div *ngIf="!preSavedMessage" class="mb-5 flex justify-content-between align-items-center">
+        <div class="">
+          <p-tag value="New" class="mr-2"></p-tag>
+          <p-tag value="Technology" severity="success" class="mr-2"></p-tag>
+          <p-tag value="Education" severity="warning"></p-tag>
+        </div>
+        <p-button (onClick)="onShowClientPerMessageDrawer()" label="Clients" icon="pi pi-users" size="small"  badge="5" badgeClass="p-badge-danger" [outlined]="true"></p-button>
+      </div>
+      <div class="line-height-3 text-md text-700 mb-5">
+        {{singleMessage?.message}}
+      </div>
+      <div *ngIf="!preSavedMessage" class="flex flex-column md:flex-row lg:flex-row gap-3 flex-wrap">
+        <div *ngFor="let item of [1, 2, 3, 4]" class="flex flex-column surface-section border-round">
+          <img alt="" height="500" width="500" ngSrc="https://interiord.nelsonmandeladev.dev/assets/images/person_3.jpg" class="h-8rem w-8rem border-round" />
+          <div class="flex justify-content-between align-items-center mt-2 p-1">
+            <p-button icon="pi pi-eye" class="p-1" [rounded]="true" [outlined]="true" [size]="'small'"></p-button>
+            <p-button icon="pi pi-save" [rounded]="true" severity="secondary" [outlined]="true" [size]="'small'"></p-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-end gap-4">
+      <button pButton pRipple icon="pi pi-times" (click)="messageDetailDrawer =false" label="Fermer"></button>
+    </div>
+  </ng-template>
+</p-sidebar>
+
+<app-cm-clients-per-message
+  (onDrawerClose)="onShowClientPerMessageDrawer()"
+  [drawerVisible]="shoClientPerMessageDrawer"
+  [selectMessage]="singleMessage"
+>
+</app-cm-clients-per-message>

@@ -43,7 +43,6 @@ export class ShPageWrapperComponent implements OnInit, OnDestroy {
     if (link.action) {
       this.router
         .navigate([], {
-          relativeTo: this.route,
           queryParams: {
             action: link.action,
           },
