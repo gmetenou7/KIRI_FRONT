@@ -52,7 +52,7 @@
             <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/onyamalimba.png" size="normal" shape="circle"></p-avatar>
             <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/ionibowcher.png" size="normal" shape="circle"></p-avatar>
             <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/xuxuefeng.png" size="normal" shape="circle"></p-avatar>
-            <p-avatar label="+2" shape="circle" size="normal" [style]="{ 'background-color': '#9c27b0', color: '#ffffff' }"></p-avatar>
+            <p-avatar class="cursor-pointer" (click)="selectedMessage = message; onShowClientParMessageDrawer()" label="+2" shape="circle" size="normal" [style]="{ 'background-color': '#9c27b0', color: '#ffffff' }"></p-avatar>
           </p-avatarGroup>
         </div>
         </td>
@@ -63,7 +63,7 @@
           {{message.date_created | relativeTime}}
         </td>
         <td class="text-center">
-          <a (click)="selectedMessage = message;" href="javascript: void(0);" class="text-blue-700 no-underline">
+          <a (click)="selectedMessage = message; onShowMessageDetailDrawer()" href="javascript: void(0);" class="text-blue-700 no-underline">
             <i class="pi pi-eye"></i>
           </a>
         </td>
@@ -81,3 +81,47 @@
     </ng-template>
   </p-table>
 </div>
+
+<app-cm-message-detail
+  [drawerVisible]="showMessageDetailDrawer"
+  [selectMessage]="selectedMessage"
+  (onDrawerClose)="onShowMessageDetailDrawer()"
+>
+</app-cm-message-detail>
+
+<app-cm-new-message
+  (onDrawerClose)="onShowNewMessageDrawer(true)"
+  [drawerVisible]="showNewMessageDrawer"
+>
+</app-cm-new-message>
+
+<app-cm-pre-saved-message
+  (onDrawerClose)="onShowPreSaveMessagesDrawer(true)"
+  [drawerVisible]="showPreSavedMessageDrawer"
+>
+
+</app-cm-pre-saved-message>
+
+<app-cm-clients-per-message
+  [selectMessage]="selectedMessage"
+  (onDrawerClose)="onShowClientParMessageDrawer()"
+  [drawerVisible]="showClientsPerMessageDrawer"
+>
+</app-cm-clients-per-message>
+
+<p-dialog (onHide)="clearUrlParams()" header="Header" [draggable]="false" [(visible)]="createNewMessageDialog" [modal]="true" [style]="{ width: '35rem' }" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+  <ng-template pTemplate="header">
+    <div class="inline-flex align-items-center justify-content-center gap-2">
+      <span class="font-bold white-space-nowrap text-lg">Gerrer les messages</span>
+    </div>
+  </ng-template>
+  <p class="text-center px-5 text-md font-medium">
+    Que voulez-vous faire ?
+  </p>
+  <ng-template pTemplate="footer">
+    <div class="flex justify-content-between align-items-center">
+      <p-button icon="pi pi-plus" (click)="onConfirmCreateNewMessage(true, false)" label="Nouveau message"></p-button>
+      <p-button icon="pi pi-save" (click)="onConfirmCreateNewMessage(false, true)" label="Message pré-enregistré"></p-button>
+    </div>
+  </ng-template>
+</p-dialog>

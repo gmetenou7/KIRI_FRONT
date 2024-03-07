@@ -40,9 +40,8 @@ export class ShPageWrapperComponent implements OnInit, OnDestroy {
   generateLink(link: PageSidebarLinkModel): void | string {
     if (link.action) {
       this.router.navigate([], {
-        relativeTo: this.route,
         queryParams: {
-          action: link.action
+          action: link.action,
         },
         queryParamsHandling: 'merge' // Merge with existing query params
       }).then(r => {});

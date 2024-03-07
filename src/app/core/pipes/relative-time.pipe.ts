@@ -7,8 +7,8 @@ import { fr } from 'date-fns/locale';
 })
 export class RelativeTimePipe implements PipeTransform {
 
-  transform(value: string): string {
-    return formatDistanceToNow(new Date(value), {addSuffix: true, locale: fr})
+  transform(value?: string): string {
+    return formatDistanceToNow(value ? new Date(value) : new Date(), {addSuffix: true, locale: fr})
   }
 
 }
