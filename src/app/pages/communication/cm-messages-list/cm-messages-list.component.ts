@@ -20,6 +20,7 @@ export class CmMessagesListComponent implements OnInit, OnDestroy {
   showPreSavedMessageDrawer: boolean = false;
   showMessageDetailDrawer: boolean = false;
   showClientsPerMessageDrawer: boolean = false;
+  showClientsListDrawer: boolean = false;
   createNewMessageDialog: boolean = false
 
   loadingMessages: boolean = true;
@@ -82,6 +83,14 @@ export class CmMessagesListComponent implements OnInit, OnDestroy {
     this.showClientsPerMessageDrawer = !this.showClientsPerMessageDrawer;
   }
 
+  // Handle show clients that have agreed to receive messages
+  onShowClientListDrawer(closed:boolean =false) {
+    this.showClientsListDrawer = !this.showClientsListDrawer;
+    if (closed) {
+      this.clearUrlParams()
+    }
+  }
+
   // Handle show confirm message dialog and further actions
   onConfirmCreateNewMessage(newMessage?: boolean, preSaveMessage?:boolean) {
     this.createNewMessageDialog = !this.createNewMessageDialog;
@@ -110,6 +119,9 @@ export class CmMessagesListComponent implements OnInit, OnDestroy {
         }
         if (action==="pre-saved-messages") {
           this.onShowPreSaveMessagesDrawer()
+        }
+        if (action==="clients-list") {
+          this.onShowClientListDrawer()
         }
       }
     })

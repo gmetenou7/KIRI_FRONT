@@ -29,6 +29,8 @@ import {MultiSelectModule} from "primeng/multiselect";
 import {EditorModule} from "primeng/editor";
 import {InputTextareaModule} from "primeng/inputtextarea";
 import {FileUploadModule} from "primeng/fileupload";
+import {CheckboxModule} from "primeng/checkbox";
+import { CmClientsListComponent } from './cm-clients-list/cm-clients-list.component';
 
 @NgModule({
   declarations: [
@@ -37,35 +39,37 @@ import {FileUploadModule} from "primeng/fileupload";
       CmNewMessageComponent,
       CmPreSavedMessageComponent,
       CmClientsPerMessageComponent,
-      CmMessageDetailComponent
+      CmMessageDetailComponent,
+      CmClientsListComponent
   ],
-  imports: [
-    CommonModule,
-    CommunicationRouting,
-    KiriSharedModule,
-    ButtonModule,
-    DropdownModule,
-    InputTextModule,
-    SharedModule,
-    TableModule,
-    CoreModule,
-    AvatarGroupModule,
-    AvatarModule,
-    SidebarModule,
-    BadgeModule,
-    TagModule,
-    NgOptimizedImage,
-    StyleClassModule,
-    RippleModule,
-    OverlayPanelModule,
-    ConfirmDialogModule,
-    DialogModule,
-    FormsModule,
-    MultiSelectModule,
-    EditorModule,
-    InputTextareaModule,
-    FileUploadModule
-  ]
+    imports: [
+        CommonModule,
+        CommunicationRouting,
+        KiriSharedModule,
+        ButtonModule,
+        DropdownModule,
+        InputTextModule,
+        SharedModule,
+        TableModule,
+        CoreModule,
+        AvatarGroupModule,
+        AvatarModule,
+        SidebarModule,
+        BadgeModule,
+        TagModule,
+        NgOptimizedImage,
+        StyleClassModule,
+        RippleModule,
+        OverlayPanelModule,
+        ConfirmDialogModule,
+        DialogModule,
+        FormsModule,
+        MultiSelectModule,
+        EditorModule,
+        InputTextareaModule,
+        FileUploadModule,
+        CheckboxModule
+    ]
 })
 
 export class CommunicationModule {}

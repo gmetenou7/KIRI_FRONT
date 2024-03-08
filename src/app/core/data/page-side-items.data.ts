@@ -54,5 +54,6 @@ export const CommunicationSideBarLinks: PageSidebarLinkModel [] = [
   {
     label: "Clients",
     icon: 'pi pi-users',
+    action: "clients-list",
   },
 ]
