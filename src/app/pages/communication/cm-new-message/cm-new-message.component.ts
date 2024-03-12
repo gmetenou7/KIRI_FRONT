@@ -15,6 +15,8 @@ export class CmNewMessageComponent implements OnInit {
   @Input('selectedClients') selectedClients?: ClientModele[];
   @Input('preSavedMessage') preSavedMessage?:MessageModelInterface;
   @Input("isPreSaved") isPreSavedMessage?: boolean = false;
+  selectedLanguage?:string
+  languages: string[] = ["Français", "Anglais"]
 
   text?: string;
 
