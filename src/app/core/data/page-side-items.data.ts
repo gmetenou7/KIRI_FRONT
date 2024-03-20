@@ -57,3 +57,91 @@ export const CommunicationSideBarLinks: PageSidebarLinkModel [] = [
     action: "clients-list",
   },
 ]
+
+export const stockSidebarLinks: PageSidebarLinkModel[] = [
+  {
+    label: "Famille",
+    link: "/board/stock"
+  },
+  {
+    label: "Sous Famille",
+    link: "/board/stock/sub-family"
+  },
+  {
+    label: "Tags",
+    link: "/board/stock/tags"
+  },
+  {
+    label: "Fournisseur",
+    link: "/board/stock/fournisseur"
+  },
+  {
+    label: "Variants",
+    link: "/board/stock/variants"
+  },
+  {
+    label: "Article",
+    link: "/board/stock/article"
+  },
+  {
+    label: "Depot",
+    link: "/board/stock/depot"
+  },
+  {
+    label: "Entrer en Stock",
+    link: "/board/stock/entrer-en-stock"
+  },
+  {
+    label: "Mouvement Entrer",
+    link: "/board/stock/mouvement-entrer"
+  },
+  {
+    label: "Mouvement Sorti",
+    link: "/board/stock/mouvement-sorti"
+  },
+  {
+    label: "Transfert de Stock",
+    link: "/board/stock/transfert-de-stock"
+  },
+  {
+    label: "Inventaire",
+    link: "/board/stock/inventaire"
+  },
+  {
+    label: "Alert Stock",
+    link: "/board/stock/alert-stock"
+  },
+  {
+    label: "Suivi Article",
+    link: "/board/stock/suivi-article"
+  },
+  {
+    label: "Commande",
+    link: "/board/stock/commande"
+  },
+  {
+    label: "Remboursement",
+    link: "/board/stock/remboursement"
+  },
+  {
+    label: "Promotions",
+    link: "/board/stock/promotions"
+  },
+  {
+    label: "Code Promo",
+    link: "/board/stock/code-promo"
+  },
+  {
+    label: "Paniers",
+    link: "/board/stock/paniers"
+  },
+  {
+    label: "Favoris",
+    link: "/board/stock/favoris"
+  },
+  {
+    label: "Marques",
+    link: "/board/stock/marques"
+  }
+];
+

@@ -18,6 +18,10 @@ const routes : Routes= [
       {
         path: 'communication',
         loadChildren: () => import('./communication/communication.module').then(m => m.CommunicationModule)
+      },
+      {
+        path: 'stock',
+        loadChildren: () => import('./stock/stock.module').then(m => m.StockModule)
       }
     ]
   }

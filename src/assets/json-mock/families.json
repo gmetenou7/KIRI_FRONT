@@ -1,0 +1,804 @@
+{
+  "data":[
+    {
+      "nom": "Industrial",
+      "code_famille": "code_famille 1",
+      "created_at": "2023-09-27T14:09:55.957Z",
+      "updated_at": "2023-10-30T23:11:07.299Z",
+      "created_by": "Gilbert Boyle",
+      "code": "1"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 2",
+      "created_at": "2024-01-19T01:17:09.896Z",
+      "updated_at": "2024-01-28T12:03:26.257Z",
+      "created_by": "Marian Hirthe III",
+      "code": "2"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 3",
+      "created_at": "2023-10-17T08:39:44.846Z",
+      "updated_at": "2023-10-07T07:43:42.001Z",
+      "created_by": "Wesley Maggio",
+      "code": "3"
+    },
+    {
+      "nom": "Outdoors",
+      "code_famille": "code_famille 4",
+      "created_at": "2023-08-25T00:26:26.725Z",
+      "updated_at": "2023-04-03T08:13:53.093Z",
+      "created_by": "Tamara Kris",
+      "code": "4"
+    },
+    {
+      "nom": "Music",
+      "code_famille": "code_famille 5",
+      "created_at": "2024-02-13T23:51:28.802Z",
+      "updated_at": "2023-12-30T07:20:55.662Z",
+      "created_by": "Dr. Edmund Muller",
+      "code": "5"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 6",
+      "created_at": "2024-03-18T23:02:37.429Z",
+      "updated_at": "2024-02-09T02:37:07.375Z",
+      "created_by": "Mildred Huels PhD",
+      "code": "6"
+    },
+    {
+      "nom": "Home",
+      "code_famille": "code_famille 7",
+      "created_at": "2024-02-22T08:46:53.836Z",
+      "updated_at": "2023-12-15T10:23:39.171Z",
+      "created_by": "Tracy Schneider",
+      "code": "7"
+    },
+    {
+      "nom": "Clothing",
+      "code_famille": "code_famille 8",
+      "created_at": "2023-05-17T18:35:07.330Z",
+      "updated_at": "2023-04-03T02:48:10.420Z",
+      "created_by": "Valerie Romaguera",
+      "code": "8"
+    },
+    {
+      "nom": "Jewelery",
+      "code_famille": "code_famille 9",
+      "created_at": "2023-08-11T10:50:18.433Z",
+      "updated_at": "2023-12-04T16:18:13.647Z",
+      "created_by": "Randall Mann",
+      "code": "9"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 10",
+      "created_at": "2023-06-14T19:14:06.770Z",
+      "updated_at": "2023-05-15T18:52:07.526Z",
+      "created_by": "Ms. Beulah Anderson",
+      "code": "10"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 11",
+      "created_at": "2023-05-29T18:25:50.216Z",
+      "updated_at": "2023-06-18T11:40:26.170Z",
+      "created_by": "Mrs. Estelle Jerde",
+      "code": "11"
+    },
+    {
+      "nom": "Industrial",
+      "code_famille": "code_famille 12",
+      "created_at": "2023-04-04T12:49:58.275Z",
+      "updated_at": "2023-05-19T08:38:59.044Z",
+      "created_by": "Desiree Bogisich",
+      "code": "12"
+    },
+    {
+      "nom": "Automotive",
+      "code_famille": "code_famille 13",
+      "created_at": "2023-11-19T15:03:08.091Z",
+      "updated_at": "2023-08-03T19:35:52.833Z",
+      "created_by": "Myron Fritsch",
+      "code": "13"
+    },
+    {
+      "nom": "Clothing",
+      "code_famille": "code_famille 14",
+      "created_at": "2023-11-24T09:11:39.868Z",
+      "updated_at": "2023-07-17T11:45:53.892Z",
+      "created_by": "Alexandra Braun",
+      "code": "14"
+    },
+    {
+      "nom": "Tools",
+      "code_famille": "code_famille 15",
+      "created_at": "2023-10-27T13:37:22.694Z",
+      "updated_at": "2023-11-03T01:17:56.974Z",
+      "created_by": "Corey Keebler",
+      "code": "15"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 16",
+      "created_at": "2023-03-28T09:58:39.528Z",
+      "updated_at": "2023-07-07T17:30:09.612Z",
+      "created_by": "Wesley Miller",
+      "code": "16"
+    },
+    {
+      "nom": "Books",
+      "code_famille": "code_famille 17",
+      "created_at": "2023-04-08T18:43:38.322Z",
+      "updated_at": "2023-09-17T21:11:19.376Z",
+      "created_by": "Janet Funk",
+      "code": "17"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 18",
+      "created_at": "2023-09-06T14:43:03.785Z",
+      "updated_at": "2023-12-13T21:02:19.968Z",
+      "created_by": "Shawn Wunsch",
+      "code": "18"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 19",
+      "created_at": "2024-02-05T11:08:12.628Z",
+      "updated_at": "2023-11-07T04:57:58.372Z",
+      "created_by": "Catherine Kassulke",
+      "code": "19"
+    },
+    {
+      "nom": "Home",
+      "code_famille": "code_famille 20",
+      "created_at": "2024-02-27T20:15:53.115Z",
+      "updated_at": "2023-08-31T23:56:41.279Z",
+      "created_by": "Janis Bogan III",
+      "code": "20"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 21",
+      "created_at": "2023-08-12T09:08:32.070Z",
+      "updated_at": "2023-04-11T21:01:16.366Z",
+      "created_by": "Catherine Wiza I",
+      "code": "21"
+    },
+    {
+      "nom": "Outdoors",
+      "code_famille": "code_famille 22",
+      "created_at": "2023-06-04T03:56:27.813Z",
+      "updated_at": "2023-10-20T17:03:17.054Z",
+      "created_by": "Elaine Mante",
+      "code": "22"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 23",
+      "created_at": "2023-10-17T18:55:06.630Z",
+      "updated_at": "2023-05-16T03:01:33.008Z",
+      "created_by": "Cathy Considine",
+      "code": "23"
+    },
+    {
+      "nom": "Games",
+      "code_famille": "code_famille 24",
+      "created_at": "2023-10-25T18:29:12.599Z",
+      "updated_at": "2023-08-27T20:34:38.339Z",
+      "created_by": "Sam Greenfelder",
+      "code": "24"
+    },
+    {
+      "nom": "Books",
+      "code_famille": "code_famille 25",
+      "created_at": "2023-11-14T21:43:36.821Z",
+      "updated_at": "2023-09-21T15:17:50.912Z",
+      "created_by": "Renee Kautzer",
+      "code": "25"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 26",
+      "created_at": "2023-08-03T20:38:15.469Z",
+      "updated_at": "2023-04-06T09:26:05.055Z",
+      "created_by": "Miss Allison Greenholt",
+      "code": "26"
+    },
+    {
+      "nom": "Outdoors",
+      "code_famille": "code_famille 27",
+      "created_at": "2023-09-27T23:22:45.766Z",
+      "updated_at": "2023-06-15T11:42:38.022Z",
+      "created_by": "Mr. Erica Hartmann",
+      "code": "27"
+    },
+    {
+      "nom": "Computers",
+      "code_famille": "code_famille 28",
+      "created_at": "2023-12-02T06:34:13.502Z",
+      "updated_at": "2023-07-28T07:13:57.676Z",
+      "created_by": "Rene Will",
+      "code": "28"
+    },
+    {
+      "nom": "Jewelery",
+      "code_famille": "code_famille 29",
+      "created_at": "2023-06-27T11:29:56.212Z",
+      "updated_at": "2023-10-26T01:00:59.293Z",
+      "created_by": "Dr. Iris Bergstrom",
+      "code": "29"
+    },
+    {
+      "nom": "Outdoors",
+      "code_famille": "code_famille 30",
+      "created_at": "2023-03-31T13:20:15.095Z",
+      "updated_at": "2023-09-12T06:52:25.866Z",
+      "created_by": "Dominick Heathcote I",
+      "code": "30"
+    },
+    {
+      "nom": "Clothing",
+      "code_famille": "code_famille 31",
+      "created_at": "2023-07-13T01:43:54.569Z",
+      "updated_at": "2023-07-16T18:04:37.944Z",
+      "created_by": "Edward Ziemann",
+      "code": "31"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 32",
+      "created_at": "2023-04-02T13:55:36.694Z",
+      "updated_at": "2024-01-02T10:38:14.064Z",
+      "created_by": "Lee Boyle",
+      "code": "32"
+    },
+    {
+      "nom": "Grocery",
+      "code_famille": "code_famille 33",
+      "created_at": "2024-03-14T02:16:00.631Z",
+      "updated_at": "2024-01-25T12:11:46.418Z",
+      "created_by": "Angelo Moen",
+      "code": "33"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 34",
+      "created_at": "2023-12-19T09:50:07.862Z",
+      "updated_at": "2023-09-19T23:11:27.392Z",
+      "created_by": "Mr. Omar Fadel",
+      "code": "34"
+    },
+    {
+      "nom": "Garden",
+      "code_famille": "code_famille 35",
+      "created_at": "2023-04-03T05:05:13.148Z",
+      "updated_at": "2023-06-01T02:30:17.692Z",
+      "created_by": "Angelo Block",
+      "code": "35"
+    },
+    {
+      "nom": "Home",
+      "code_famille": "code_famille 36",
+      "created_at": "2023-05-31T09:38:55.859Z",
+      "updated_at": "2023-09-03T19:45:39.658Z",
+      "created_by": "Lena Hintz",
+      "code": "36"
+    },
+    {
+      "nom": "Automotive",
+      "code_famille": "code_famille 37",
+      "created_at": "2023-08-23T11:06:48.776Z",
+      "updated_at": "2023-10-13T20:40:07.830Z",
+      "created_by": "Mrs. Nathaniel Stiedemann",
+      "code": "37"
+    },
+    {
+      "nom": "Electronics",
+      "code_famille": "code_famille 38",
+      "created_at": "2023-11-19T02:52:46.574Z",
+      "updated_at": "2023-09-30T13:40:13.332Z",
+      "created_by": "Susie Dooley Sr.",
+      "code": "38"
+    },
+    {
+      "nom": "Industrial",
+      "code_famille": "code_famille 39",
+      "created_at": "2024-03-01T05:33:55.312Z",
+      "updated_at": "2023-10-17T08:09:04.158Z",
+      "created_by": "Garrett Kilback",
+      "code": "39"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 40",
+      "created_at": "2023-08-24T16:46:41.371Z",
+      "updated_at": "2023-12-09T08:31:06.497Z",
+      "created_by": "Mrs. Ernest Casper",
+      "code": "40"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 41",
+      "created_at": "2023-07-02T17:37:02.588Z",
+      "updated_at": "2023-10-14T16:02:53.928Z",
+      "created_by": "Orlando Orn",
+      "code": "41"
+    },
+    {
+      "nom": "Music",
+      "code_famille": "code_famille 42",
+      "created_at": "2023-05-13T05:51:59.664Z",
+      "updated_at": "2024-01-25T01:01:22.572Z",
+      "created_by": "Jan Casper",
+      "code": "42"
+    },
+    {
+      "nom": "Music",
+      "code_famille": "code_famille 43",
+      "created_at": "2023-04-23T18:23:20.158Z",
+      "updated_at": "2023-07-24T04:36:01.497Z",
+      "created_by": "Jamie Medhurst",
+      "code": "43"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 44",
+      "created_at": "2023-11-27T00:44:16.500Z",
+      "updated_at": "2024-02-06T08:59:13.429Z",
+      "created_by": "Joann Kuhlman",
+      "code": "44"
+    },
+    {
+      "nom": "Automotive",
+      "code_famille": "code_famille 45",
+      "created_at": "2023-06-09T13:07:49.428Z",
+      "updated_at": "2023-10-26T14:53:45.677Z",
+      "created_by": "Salvatore Beahan MD",
+      "code": "45"
+    },
+    {
+      "nom": "Games",
+      "code_famille": "code_famille 46",
+      "created_at": "2023-09-07T01:38:38.154Z",
+      "updated_at": "2023-09-26T05:48:48.552Z",
+      "created_by": "Dewey Smith",
+      "code": "46"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 47",
+      "created_at": "2023-05-16T09:09:33.325Z",
+      "updated_at": "2023-12-05T04:17:13.425Z",
+      "created_by": "Mrs. Marcos Bahringer",
+      "code": "47"
+    },
+    {
+      "nom": "Movies",
+      "code_famille": "code_famille 48",
+      "created_at": "2024-01-30T13:32:56.743Z",
+      "updated_at": "2024-02-27T00:27:30.553Z",
+      "created_by": "Harry Wolf",
+      "code": "48"
+    },
+    {
+      "nom": "Industrial",
+      "code_famille": "code_famille 49",
+      "created_at": "2023-08-06T20:52:04.442Z",
+      "updated_at": "2024-01-07T05:45:44.450Z",
+      "created_by": "Ada Zboncak",
+      "code": "49"
+    },
+    {
+      "nom": "Jewelery",
+      "code_famille": "code_famille 50",
+      "created_at": "2024-01-29T07:06:36.748Z",
+      "updated_at": "2023-10-15T17:15:17.963Z",
+      "created_by": "Mr. Alexis Pollich",
+      "code": "50"
+    },
+    {
+      "nom": "Computers",
+      "code_famille": "code_famille 51",
+      "created_at": "2023-12-11T01:40:43.964Z",
+      "updated_at": "2023-10-16T16:42:09.226Z",
+      "created_by": "Alberta Walsh",
+      "code": "51"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 52",
+      "created_at": "2024-03-11T13:51:28.173Z",
+      "updated_at": "2024-01-01T00:15:15.119Z",
+      "created_by": "Sheila Sipes",
+      "code": "52"
+    },
+    {
+      "nom": "Toys",
+      "code_famille": "code_famille 53",
+      "created_at": "2023-05-18T19:25:55.721Z",
+      "updated_at": "2023-05-30T05:13:54.327Z",
+      "created_by": "Jaime Mante",
+      "code": "53"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 54",
+      "created_at": "2023-08-20T10:29:53.415Z",
+      "updated_at": "2023-04-10T10:42:26.407Z",
+      "created_by": "Lester Schimmel",
+      "code": "54"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 55",
+      "created_at": "2023-10-29T01:44:52.073Z",
+      "updated_at": "2023-04-23T01:11:17.854Z",
+      "created_by": "Mrs. Marshall Kozey",
+      "code": "55"
+    },
+    {
+      "nom": "Computers",
+      "code_famille": "code_famille 56",
+      "created_at": "2023-07-12T19:05:52.650Z",
+      "updated_at": "2023-12-30T15:43:54.280Z",
+      "created_by": "Brent Herzog",
+      "code": "56"
+    },
+    {
+      "nom": "Electronics",
+      "code_famille": "code_famille 57",
+      "created_at": "2023-07-20T17:00:12.930Z",
+      "updated_at": "2023-11-25T14:03:30.066Z",
+      "created_by": "Stanley Pfeffer",
+      "code": "57"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 58",
+      "created_at": "2023-10-24T12:28:38.674Z",
+      "updated_at": "2024-01-09T16:05:34.340Z",
+      "created_by": "Meredith Schumm",
+      "code": "58"
+    },
+    {
+      "nom": "Industrial",
+      "code_famille": "code_famille 59",
+      "created_at": "2023-10-16T12:54:34.850Z",
+      "updated_at": "2023-06-20T04:14:00.794Z",
+      "created_by": "Mrs. Irene Block",
+      "code": "59"
+    },
+    {
+      "nom": "Automotive",
+      "code_famille": "code_famille 60",
+      "created_at": "2023-05-10T09:29:43.416Z",
+      "updated_at": "2023-09-01T20:51:50.208Z",
+      "created_by": "Kristy Flatley DVM",
+      "code": "60"
+    },
+    {
+      "nom": "Grocery",
+      "code_famille": "code_famille 61",
+      "created_at": "2023-09-07T14:39:50.346Z",
+      "updated_at": "2023-06-05T07:33:58.691Z",
+      "created_by": "Aubrey Dooley DDS",
+      "code": "61"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 62",
+      "created_at": "2024-01-06T07:08:39.467Z",
+      "updated_at": "2024-02-22T02:09:57.655Z",
+      "created_by": "Sergio Torp IV",
+      "code": "62"
+    },
+    {
+      "nom": "Garden",
+      "code_famille": "code_famille 63",
+      "created_at": "2023-05-13T09:05:24.201Z",
+      "updated_at": "2023-12-18T12:30:17.304Z",
+      "created_by": "Edmund Auer",
+      "code": "63"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 64",
+      "created_at": "2024-01-05T08:21:19.141Z",
+      "updated_at": "2023-09-10T03:40:44.128Z",
+      "created_by": "Moses Spencer",
+      "code": "64"
+    },
+    {
+      "nom": "Outdoors",
+      "code_famille": "code_famille 65",
+      "created_at": "2024-01-01T19:00:13.854Z",
+      "updated_at": "2023-04-09T03:43:37.774Z",
+      "created_by": "Kristin Hickle",
+      "code": "65"
+    },
+    {
+      "nom": "Tools",
+      "code_famille": "code_famille 66",
+      "created_at": "2023-12-24T16:59:01.322Z",
+      "updated_at": "2023-11-10T11:15:19.622Z",
+      "created_by": "Alexis Rogahn",
+      "code": "66"
+    },
+    {
+      "nom": "Music",
+      "code_famille": "code_famille 67",
+      "created_at": "2023-07-28T01:17:53.428Z",
+      "updated_at": "2023-08-07T12:34:50.065Z",
+      "created_by": "Mandy Moore",
+      "code": "67"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 68",
+      "created_at": "2023-09-09T23:25:55.448Z",
+      "updated_at": "2023-10-14T02:58:27.102Z",
+      "created_by": "Franklin Hermiston",
+      "code": "68"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 69",
+      "created_at": "2023-05-20T06:51:22.670Z",
+      "updated_at": "2023-06-02T01:13:57.412Z",
+      "created_by": "Dr. Gina Shanahan",
+      "code": "69"
+    },
+    {
+      "nom": "Jewelery",
+      "code_famille": "code_famille 70",
+      "created_at": "2023-09-18T12:49:11.731Z",
+      "updated_at": "2023-11-27T18:28:54.875Z",
+      "created_by": "Delia Swift",
+      "code": "70"
+    },
+    {
+      "nom": "Toys",
+      "code_famille": "code_famille 71",
+      "created_at": "2023-06-18T22:38:39.925Z",
+      "updated_at": "2023-09-13T06:06:55.166Z",
+      "created_by": "Jared Grimes",
+      "code": "71"
+    },
+    {
+      "nom": "Games",
+      "code_famille": "code_famille 72",
+      "created_at": "2023-11-05T00:20:45.376Z",
+      "updated_at": "2024-02-07T19:21:21.161Z",
+      "created_by": "Rose Predovic",
+      "code": "72"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 73",
+      "created_at": "2023-11-03T10:05:49.058Z",
+      "updated_at": "2023-10-28T16:05:46.274Z",
+      "created_by": "Vincent Emard",
+      "code": "73"
+    },
+    {
+      "nom": "Health",
+      "code_famille": "code_famille 74",
+      "created_at": "2023-08-09T20:28:55.936Z",
+      "updated_at": "2024-02-15T21:37:07.163Z",
+      "created_by": "Edna Hoppe",
+      "code": "74"
+    },
+    {
+      "nom": "Games",
+      "code_famille": "code_famille 75",
+      "created_at": "2023-07-06T00:00:02.432Z",
+      "updated_at": "2023-06-25T08:28:12.305Z",
+      "created_by": "Lynda Krajcik",
+      "code": "75"
+    },
+    {
+      "nom": "Home",
+      "code_famille": "code_famille 76",
+      "created_at": "2023-10-27T14:59:49.479Z",
+      "updated_at": "2023-05-15T04:51:47.410Z",
+      "created_by": "Tina Parisian",
+      "code": "76"
+    },
+    {
+      "nom": "Garden",
+      "code_famille": "code_famille 77",
+      "created_at": "2023-09-23T00:54:29.250Z",
+      "updated_at": "2023-05-20T03:20:12.804Z",
+      "created_by": "Joyce Spinka",
+      "code": "77"
+    },
+    {
+      "nom": "Health",
+      "code_famille": "code_famille 78",
+      "created_at": "2023-11-19T06:53:41.194Z",
+      "updated_at": "2023-10-21T16:15:51.648Z",
+      "created_by": "Kirk Franecki",
+      "code": "78"
+    },
+    {
+      "nom": "Shoes",
+      "code_famille": "code_famille 79",
+      "created_at": "2023-08-02T12:13:17.750Z",
+      "updated_at": "2023-04-27T12:24:31.758Z",
+      "created_by": "Corey Parisian II",
+      "code": "79"
+    },
+    {
+      "nom": "Computers",
+      "code_famille": "code_famille 80",
+      "created_at": "2023-04-24T14:08:35.215Z",
+      "updated_at": "2023-07-14T20:16:08.218Z",
+      "created_by": "Mindy Goldner",
+      "code": "80"
+    },
+    {
+      "nom": "Clothing",
+      "code_famille": "code_famille 81",
+      "created_at": "2023-06-17T18:28:00.847Z",
+      "updated_at": "2024-03-04T01:53:04.819Z",
+      "created_by": "Pat Reynolds",
+      "code": "81"
+    },
+    {
+      "nom": "Clothing",
+      "code_famille": "code_famille 82",
+      "created_at": "2024-03-04T12:32:39.730Z",
+      "updated_at": "2023-12-25T02:12:34.400Z",
+      "created_by": "Gilberto Wiegand",
+      "code": "82"
+    },
+    {
+      "nom": "Grocery",
+      "code_famille": "code_famille 83",
+      "created_at": "2023-04-12T14:56:59.404Z",
+      "updated_at": "2024-02-05T21:56:06.834Z",
+      "created_by": "Spencer Fisher",
+      "code": "83"
+    },
+    {
+      "nom": "Games",
+      "code_famille": "code_famille 84",
+      "created_at": "2023-08-18T07:12:40.821Z",
+      "updated_at": "2024-02-25T13:37:13.523Z",
+      "created_by": "Shannon Glover",
+      "code": "84"
+    },
+    {
+      "nom": "Automotive",
+      "code_famille": "code_famille 85",
+      "created_at": "2024-02-06T10:49:59.992Z",
+      "updated_at": "2023-03-30T21:58:34.249Z",
+      "created_by": "Omar Considine",
+      "code": "85"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 86",
+      "created_at": "2023-04-29T12:27:53.069Z",
+      "updated_at": "2023-07-08T17:43:05.155Z",
+      "created_by": "Gwendolyn Hartmann",
+      "code": "86"
+    },
+    {
+      "nom": "Kids",
+      "code_famille": "code_famille 87",
+      "created_at": "2024-03-15T17:38:52.269Z",
+      "updated_at": "2024-03-05T22:52:27.323Z",
+      "created_by": "Sheldon Torp",
+      "code": "87"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 88",
+      "created_at": "2023-09-13T18:27:57.513Z",
+      "updated_at": "2024-03-05T02:22:32.428Z",
+      "created_by": "Carmen Heaney",
+      "code": "88"
+    },
+    {
+      "nom": "Computers",
+      "code_famille": "code_famille 89",
+      "created_at": "2023-10-27T01:26:13.416Z",
+      "updated_at": "2023-11-20T08:10:04.229Z",
+      "created_by": "Irene MacGyver",
+      "code": "89"
+    },
+    {
+      "nom": "Health",
+      "code_famille": "code_famille 90",
+      "created_at": "2023-08-24T21:33:22.956Z",
+      "updated_at": "2023-09-14T16:58:31.792Z",
+      "created_by": "Scott Bednar",
+      "code": "90"
+    },
+    {
+      "nom": "Garden",
+      "code_famille": "code_famille 91",
+      "created_at": "2023-09-03T09:46:11.305Z",
+      "updated_at": "2023-10-31T11:33:54.520Z",
+      "created_by": "Byron Toy",
+      "code": "91"
+    },
+    {
+      "nom": "Health",
+      "code_famille": "code_famille 92",
+      "created_at": "2023-11-05T14:23:45.385Z",
+      "updated_at": "2023-11-13T05:49:26.419Z",
+      "created_by": "Victoria Sauer",
+      "code": "92"
+    },
+    {
+      "nom": "Home",
+      "code_famille": "code_famille 93",
+      "created_at": "2023-04-24T17:34:10.012Z",
+      "updated_at": "2023-08-22T00:33:00.891Z",
+      "created_by": "Scott Gibson",
+      "code": "93"
+    },
+    {
+      "nom": "Jewelery",
+      "code_famille": "code_famille 94",
+      "created_at": "2024-01-15T23:47:53.452Z",
+      "updated_at": "2023-08-02T06:33:13.320Z",
+      "created_by": "Sonia Spencer",
+      "code": "94"
+    },
+    {
+      "nom": "Garden",
+      "code_famille": "code_famille 95",
+      "created_at": "2024-01-20T08:31:04.572Z",
+      "updated_at": "2024-01-03T22:56:02.839Z",
+      "created_by": "Gladys Heidenreich",
+      "code": "95"
+    },
+    {
+      "nom": "Books",
+      "code_famille": "code_famille 96",
+      "created_at": "2024-03-16T07:57:18.276Z",
+      "updated_at": "2023-08-21T16:02:42.360Z",
+      "created_by": "Howard Rice",
+      "code": "96"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 97",
+      "created_at": "2023-11-30T08:33:19.587Z",
+      "updated_at": "2023-12-07T10:05:12.611Z",
+      "created_by": "Billy Reilly",
+      "code": "97"
+    },
+    {
+      "nom": "Books",
+      "code_famille": "code_famille 98",
+      "created_at": "2023-07-20T11:57:25.605Z",
+      "updated_at": "2023-11-19T09:01:43.393Z",
+      "created_by": "Carmen Luettgen",
+      "code": "98"
+    },
+    {
+      "nom": "Sports",
+      "code_famille": "code_famille 99",
+      "created_at": "2023-10-02T02:42:31.454Z",
+      "updated_at": "2024-02-26T23:06:30.273Z",
+      "created_by": "George Volkman",
+      "code": "99"
+    },
+    {
+      "nom": "Beauty",
+      "code_famille": "code_famille 100",
+      "created_at": "2023-05-11T09:10:41.129Z",
+      "updated_at": "2023-10-19T10:53:39.870Z",
+      "created_by": "Frederick Vandervort",
+      "code": "100"
+    }
+  ]
+}

@@ -10,6 +10,8 @@ import {ArticlesRouting} from "./articles/articles-routing";
 import {ArticlesModule} from "./articles/articles.module";
 import {CommunicationModule} from "./communication/communication.module";
 import {CommunicationRouting} from "./communication/communication-routing";
+import {StockRouting} from "./stock/stock.routing";
+import {StockModule} from "./stock/stock.module";
 
 
 
@@ -26,6 +28,8 @@ import {CommunicationRouting} from "./communication/communication-routing";
         ArticlesModule,
         CommunicationModule,
         CommunicationRouting,
+        StockModule,
+        StockRouting,
         ButtonModule,
         SharedModule
     ]

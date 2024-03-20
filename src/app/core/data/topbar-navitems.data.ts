@@ -18,7 +18,7 @@ export const TopbarNavItems:TopBarNavigationModele[] = [
   },
   {
     lable: "Stock",
-    link: "#",
+    link: "/board/stock",
     icon: "box"
   },
   {
