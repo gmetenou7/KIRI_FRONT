@@ -1,0 +1,13 @@
+<div class="flex justify-content-center align-items-center">
+    <p-selectButton [options]="stateOptions" [(ngModel)]="activeLevel" optionLabel="label"
+        optionValue="value"></p-selectButton>
+</div>
+
+<div class="mt-5">
+    <div *ngIf="activeLevel === 'level-one'" class="">
+        <app-lo-list></app-lo-list>
+    </div>
+    <div *ngIf="activeLevel === 'level-two'" class="">
+        <app-lt-list></app-lt-list>
+    </div>
+</div>
