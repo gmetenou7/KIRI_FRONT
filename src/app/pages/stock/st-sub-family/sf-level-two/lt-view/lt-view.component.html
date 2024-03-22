@@ -16,7 +16,7 @@
         <div class="scrollbar p-3">
             <div *ngIf="useDrawerAs!=='detail'" class="grid formgrid p-fluid">
                 <div class="field mb-4 col-12">
-                    <label class="mb-2 text-lg font-medium" for="language">Langue d'envois du message</label>
+                    <label class="mb-2 text-lg font-medium" for="language">Famille parent</label>
                     <p-dropdown [(ngModel)]="selectedFamily" [filter]="true" [options]="families" id="language"
                         placeholder="Choisir une famille" optionLabel="nom" styleClass="w-full">
                         <ng-template pTemplate="selectedItem">
@@ -32,7 +32,7 @@
                     </p-dropdown>
                 </div>
                 <div class="field mb-4 col-12">
-                    <label class="mb-2 text-lg font-medium" for="object">Non de la sous famille</label>
+                    <label class="mb-2 text-lg font-medium" for="object">Nom de la sous famille</label>
                     <input [value]="subFamily?.nom" id="object" pInputText type="text" placeholder="" class="w-full" />
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<p-sidebar (onHide)="onDrawerHide()" [showCloseIcon]="true" [dismissible]="false" [(visible)]="familyViewStateDrawer"
+<p-sidebar (onHide)="onDrawerHide()" [showCloseIcon]="true" [dismissible]="false" [(visible)]="tagViewStateDrawer"
     styleClass="w-full lg:w-4" position="right">
     <ng-template pTemplate="header">
         <div class="flex align-items-center">
@@ -7,8 +7,7 @@
                 <i class="pi pi-file text-lg"></i>
             </span>
             <span class="font-medium text-2xl text-900">
-                {{useDrawerAs==='create'? 'Nouvelle': useDrawerAs==='update' ? 'Modifier la': 'Détails de la'}} sous
-                Famille
+                {{useDrawerAs==='create'? 'Nouveau': useDrawerAs==='update' ? 'Modifier le': 'Détails du'}} Tag
             </span>
         </div>
     </ng-template>
@@ -16,49 +15,34 @@
         <div class="scrollbar p-3">
             <div *ngIf="useDrawerAs!=='detail'" class="grid formgrid p-fluid">
                 <div class="field mb-4 col-12">
-                    <label class="mb-2 text-lg font-medium" for="language">Famille parent</label>
-                    <p-dropdown [(ngModel)]="selectedFamily" [filter]="true" [options]="families" id="language"
-                        placeholder="Choisir une famille" optionLabel="nom" styleClass="w-full">
-                        <ng-template pTemplate="selectedItem">
-                            <div class="flex align-items-center gap-2" *ngIf="selectedFamily">
-                                <div>{{ selectedFamily.nom }}</div>
-                            </div>
-                        </ng-template>
-                        <ng-template let-family pTemplate="item">
-                            <div class="flex align-items-center gap-2">
-                                <div>{{ family.nom }}</div>
-                            </div>
-                        </ng-template>
-                    </p-dropdown>
-                </div>
-                <div class="field mb-4 col-12">
-                    <label class="mb-2 text-lg font-medium" for="object">Nom de la sous famille</label>
-                    <input [value]="subFamily?.nom" id="object" pInputText type="text" placeholder="" class="w-full" />
+                    <label class="mb-2 text-lg font-medium" for="object">Nom du tag</label>
+                    <input [value]="selectedTag?.nom" id="object" pInputText type="text" placeholder=""
+                        class="w-full" />
                 </div>
             </div>
             <div *ngIf="useDrawerAs==='detail'" class="">
                 <ul class="list-none p-0 m-0">
                     <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
                         <div class="text-500 w-6 font-medium">Code</div>
-                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{subFamily?.code_famille}}</div>
+                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{selectedTag?.code_tag}}</div>
                     </li>
                     <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
                         <div class="text-500 w-6 font-medium">Nom</div>
-                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{subFamily?.nom}}</div>
+                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{selectedTag?.nom}}</div>
                     </li>
                     <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
                         <div class="text-500 w-6 font-medium">Date de création</div>
-                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{subFamily?.created_at |
+                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{selectedTag?.created_at |
                             relativeTime}}</div>
                     </li>
                     <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
                         <div class="text-500 w-6 font-medium">Dernière modification</div>
-                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{subFamily?.updated_at |
+                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{selectedTag?.updated_at |
                             relativeTime}}</div>
                     </li>
                     <li class="flex align-items-center py-3 px-2 border-top-1 surface-border flex-wrap">
                         <div class="text-500 w-6 font-medium">Crée par</div>
-                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{subFamily?.created_by}}</div>
+                        <div class="text-900 w-6 md:flex-order-0 flex-order-1">{{selectedTag?.created_by}}</div>
                     </li>
                 </ul>
             </div>
@@ -66,10 +50,10 @@
     </div>
     <ng-template pTemplate="footer">
         <div class="flex justify-content-end gap-4">
-            <button pButton pRipple icon="pi pi-times" (click)="familyViewStateDrawer =false"
+            <button pButton pRipple icon="pi pi-times" (click)="tagViewStateDrawer =false"
                 label="{{useDrawerAs==='detail' ? 'Fermer' : 'Annuler'}}"></button>
             <button *ngIf="useDrawerAs !== 'detail'" pButton pRipple icon="pi pi-save"
-                (click)="familyViewStateDrawer =false" label="Enregistrer"></button>
+                (click)="tagViewStateDrawer =false" label="Enregistrer"></button>
         </div>
     </ng-template>
 </p-sidebar>
