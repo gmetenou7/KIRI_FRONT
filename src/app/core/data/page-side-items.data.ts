@@ -1,6 +1,6 @@
-import {PageSidebarLinkModel} from "../models/page-sidebar-link.model";
+import { PageSidebarLinkModel } from "../models/page-sidebar-link.model";
 
-export const DashboardPageSideItems: PageSidebarLinkModel [] = [
+export const DashboardPageSideItems: PageSidebarLinkModel[] = [
   {
     link: "/board",
     label: "CA Journalier"
@@ -40,7 +40,7 @@ export const DashboardPageSideItems: PageSidebarLinkModel [] = [
   },
 ]
 
-export const CommunicationSideBarLinks: PageSidebarLinkModel [] = [
+export const CommunicationSideBarLinks: PageSidebarLinkModel[] = [
   {
     label: "Envoi",
     icon: 'pi pi-plus',
@@ -72,8 +72,8 @@ export const stockSidebarLinks: PageSidebarLinkModel[] = [
     link: "/board/stock/tags"
   },
   {
-    label: "Fournisseur",
-    link: "/board/stock/fournisseur"
+    label: "Fournisseurs",
+    link: "/board/stock/providers"
   },
   {
     label: "Variants",

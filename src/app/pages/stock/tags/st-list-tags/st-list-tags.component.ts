@@ -19,11 +19,11 @@ export class StListTagsComponent implements OnInit {
   rows: number = 15;
 
   constructor(
-    private familyService: TagsService
+    private tagService: TagsService
   ) {
   }
   ngOnInit() {
-    this.familyService.getAllTags().then(data => {
+    this.tagService.getAllTags().then(data => {
       this.loadingTags = false;
       this.tags = data;
       this.updateDisplayedTags();
