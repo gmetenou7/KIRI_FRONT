@@ -1,15 +1,9 @@
-<p-sidebar
-  (onHide)="onDrawerHide()"
-  [showCloseIcon] = "true"
-  [dismissible]="false"
-  [(visible)]="familyViewStateDrawer"
-  styleClass="w-full lg:w-4"
-  position="right"
->
+<p-sidebar (onHide)="onDrawerHide()" [showCloseIcon]="true" [dismissible]="false" [(visible)]="familyViewStateDrawer"
+  styleClass="w-full lg:w-4" position="right">
   <ng-template pTemplate="header">
     <div class="flex align-items-center">
       <span class="flex align-items-center justify-content-center bg-blue-100 text-blue-800 mr-3 border-circle"
-            style="width:32px;height:32px">
+        style="width:32px;height:32px">
         <i class="pi pi-file text-lg"></i>
       </span>
       <span class="font-medium text-2xl text-900">
@@ -21,7 +15,7 @@
     <div class="scrollbar p-3">
       <div *ngIf="useDrawerAs!=='detail'" class="grid formgrid p-fluid">
         <div class="field mb-4 col-12">
-          <label class="mb-2 text-lg font-medium" for="object">Non de la famille</label>
+          <label class="mb-2 text-lg font-medium" for="object">Nom de la famille</label>
           <input [value]="selectedFamily?.nom" id="object" pInputText type="text" placeholder="" class="w-full" />
         </div>
       </div>
@@ -53,8 +47,10 @@
   </div>
   <ng-template pTemplate="footer">
     <div class="flex justify-content-end gap-4">
-      <button pButton pRipple icon="pi pi-times" (click)="familyViewStateDrawer =false" label="{{useDrawerAs==='detail' ? 'Fermer' : 'Annuler'}}"></button>
-      <button *ngIf="useDrawerAs !== 'detail'" pButton pRipple icon="pi pi-save" (click)="familyViewStateDrawer =false" label="Enregistrer"></button>
+      <button pButton pRipple icon="pi pi-times" (click)="familyViewStateDrawer =false"
+        label="{{useDrawerAs==='detail' ? 'Fermer' : 'Annuler'}}"></button>
+      <button *ngIf="useDrawerAs !== 'detail'" pButton pRipple icon="pi pi-save" (click)="familyViewStateDrawer =false"
+        label="Enregistrer"></button>
     </div>
   </ng-template>
 </p-sidebar>

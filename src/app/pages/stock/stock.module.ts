@@ -17,6 +17,8 @@ import { LoListComponent } from './st-sub-family/sf-level-one/lo-list/lo-list.co
 import { LoViewComponent } from './st-sub-family/sf-level-one/lo-view/lo-view.component';
 import { LtListComponent } from './st-sub-family/sf-level-two/lt-list/lt-list.component';
 import { LtViewComponent } from './st-sub-family/sf-level-two/lt-view/lt-view.component';
+import { StListTagsComponent } from './tags/st-list-tags/st-list-tags.component';
+import { StTagViewComponent } from './tags/st-tag-view/st-tag-view.component';
 
 
 
@@ -30,6 +32,8 @@ import { LtViewComponent } from './st-sub-family/sf-level-two/lt-view/lt-view.co
     LoViewComponent,
     LtListComponent,
     LtViewComponent,
+    StListTagsComponent,
+    StTagViewComponent,
   ],
   imports: [
     CommonModule,
