@@ -5,6 +5,7 @@ import { StListFamiliesComponent } from "./st-family/st-list-families/st-list-fa
 import { StSubFamilyComponent } from "./st-sub-family/st-sub-family.component";
 import { StListTagsComponent } from "./tags/st-list-tags/st-list-tags.component";
 import { StListProvidersComponent } from "./st-providers/st-list-providers/st-list-providers.component";
+import { StListVariantComponent } from "./st-variant/st-list-variant/st-list-variant.component";
 
 
 const routes: Routes = [
@@ -27,7 +28,11 @@ const routes: Routes = [
       {
         path: "providers",
         component: StListProvidersComponent
-      }
+      },
+      {
+        path: "variants",
+        component: StListVariantComponent
+      },
     ]
   }
 ]
