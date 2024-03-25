@@ -23,6 +23,8 @@ import { StProviderViewComponent } from './st-providers/st-provider-view/st-prov
 import { StListProvidersComponent } from './st-providers/st-list-providers/st-list-providers.component';
 import { ChipsModule } from 'primeng/chips';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
+import { StListVariantComponent } from './st-variant/st-list-variant/st-list-variant.component';
+import { StVariantViewComponent } from './st-variant/st-variant-view/st-variant-view.component';
 
 
 
@@ -40,6 +42,8 @@ import { OverlayPanelModule } from 'primeng/overlaypanel';
     StTagViewComponent,
     StProviderViewComponent,
     StListProvidersComponent,
+    StListVariantComponent,
+    StVariantViewComponent,
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,1504 @@
+{
+    "data": [
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 1",
+            "created_at": "2023-07-02T22:06:12.630Z",
+            "updated_at": "2024-01-09T11:59:26.039Z",
+            "created_by": "Roland Lynch",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "1"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 2",
+            "created_at": "2023-05-10T23:09:04.124Z",
+            "updated_at": "2023-05-20T18:37:02.093Z",
+            "created_by": "Harvey Spinka",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "2"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 3",
+            "created_at": "2023-06-16T06:41:46.979Z",
+            "updated_at": "2023-10-05T09:59:25.738Z",
+            "created_by": "Dr. Clark Koss",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "3"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 4",
+            "created_at": "2023-10-13T15:22:23.780Z",
+            "updated_at": "2023-10-16T16:38:44.581Z",
+            "created_by": "Ida Skiles",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "4"
+        },
+        {
+            "nom": "Bronze",
+            "code_variant": "code_variant 5",
+            "created_at": "2023-05-05T13:12:16.654Z",
+            "updated_at": "2023-05-10T19:46:22.663Z",
+            "created_by": "Gregory Volkman DVM",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "5"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 6",
+            "created_at": "2023-09-03T21:37:41.209Z",
+            "updated_at": "2023-03-28T06:30:01.381Z",
+            "created_by": "Devin Gleason V",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "6"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 7",
+            "created_at": "2023-04-11T17:48:31.341Z",
+            "updated_at": "2023-11-27T00:17:28.232Z",
+            "created_by": "Jeffrey Johns",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "7"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 8",
+            "created_at": "2023-10-23T21:24:31.841Z",
+            "updated_at": "2023-07-30T21:10:09.739Z",
+            "created_by": "Gerald Steuber",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "8"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 9",
+            "created_at": "2023-09-19T18:36:34.533Z",
+            "updated_at": "2023-06-26T02:42:30.320Z",
+            "created_by": "Eileen Yost",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "9"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 10",
+            "created_at": "2023-04-10T03:58:46.142Z",
+            "updated_at": "2023-11-29T04:39:54.316Z",
+            "created_by": "Justin Considine",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "10"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 11",
+            "created_at": "2023-05-01T13:15:47.849Z",
+            "updated_at": "2024-03-02T00:01:33.211Z",
+            "created_by": "Rufus Labadie",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "11"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 12",
+            "created_at": "2023-11-27T09:19:39.886Z",
+            "updated_at": "2023-05-05T02:53:07.919Z",
+            "created_by": "Bryant Olson DVM",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "12"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 13",
+            "created_at": "2023-12-02T07:10:30.178Z",
+            "updated_at": "2023-11-09T00:02:41.026Z",
+            "created_by": "Rogelio Kutch",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "13"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 14",
+            "created_at": "2024-02-21T17:20:48.459Z",
+            "updated_at": "2023-05-06T12:32:59.828Z",
+            "created_by": "Josefina Klein",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "14"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 15",
+            "created_at": "2024-03-14T11:28:53.076Z",
+            "updated_at": "2023-11-21T12:40:25.021Z",
+            "created_by": "Miss Kay Botsford",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "15"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 16",
+            "created_at": "2023-04-28T07:53:33.206Z",
+            "updated_at": "2024-02-22T11:29:34.534Z",
+            "created_by": "Dolores O'Kon",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "16"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 17",
+            "created_at": "2024-03-10T04:29:50.530Z",
+            "updated_at": "2024-02-16T20:22:00.379Z",
+            "created_by": "Natalie Watsica",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "17"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 18",
+            "created_at": "2023-10-06T13:46:50.400Z",
+            "updated_at": "2023-10-07T11:40:21.745Z",
+            "created_by": "Henrietta Abernathy PhD",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "18"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 19",
+            "created_at": "2023-09-09T14:40:59.577Z",
+            "updated_at": "2023-05-22T07:21:48.510Z",
+            "created_by": "Dr. Christian Kassulke",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "19"
+        },
+        {
+            "nom": "Soft",
+            "code_variant": "code_variant 20",
+            "created_at": "2023-11-10T02:47:38.764Z",
+            "updated_at": "2023-10-31T07:38:41.621Z",
+            "created_by": "Hector Leannon",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "20"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 21",
+            "created_at": "2023-11-06T16:58:57.898Z",
+            "updated_at": "2023-12-01T01:47:15.266Z",
+            "created_by": "Mindy Bogan",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "21"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 22",
+            "created_at": "2024-02-13T02:09:29.235Z",
+            "updated_at": "2023-12-05T19:22:15.288Z",
+            "created_by": "Deanna D'Amore",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "22"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 23",
+            "created_at": "2023-04-21T10:46:56.446Z",
+            "updated_at": "2023-10-23T07:17:03.066Z",
+            "created_by": "Mattie Nicolas",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "23"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 24",
+            "created_at": "2023-07-20T10:55:26.140Z",
+            "updated_at": "2023-11-26T20:33:18.478Z",
+            "created_by": "Donald Auer",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "24"
+        },
+        {
+            "nom": "Soft",
+            "code_variant": "code_variant 25",
+            "created_at": "2023-05-13T12:00:29.072Z",
+            "updated_at": "2023-11-08T08:11:15.844Z",
+            "created_by": "Francisco Bartell DDS",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "25"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 26",
+            "created_at": "2023-08-19T11:47:16.966Z",
+            "updated_at": "2023-11-09T11:38:11.488Z",
+            "created_by": "Santiago Windler",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "26"
+        },
+        {
+            "nom": "Bronze",
+            "code_variant": "code_variant 27",
+            "created_at": "2023-10-23T06:44:57.461Z",
+            "updated_at": "2023-10-05T02:25:34.779Z",
+            "created_by": "Johnathan Marquardt Jr.",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "27"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 28",
+            "created_at": "2024-01-14T20:35:02.779Z",
+            "updated_at": "2023-07-11T09:34:20.760Z",
+            "created_by": "Jared Greenfelder",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "28"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 29",
+            "created_at": "2023-04-03T17:45:51.240Z",
+            "updated_at": "2023-06-15T00:11:12.316Z",
+            "created_by": "Mr. Debbie Hermiston",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "29"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 30",
+            "created_at": "2023-09-20T03:09:34.549Z",
+            "updated_at": "2024-03-21T22:50:01.586Z",
+            "created_by": "Hope Rath",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "30"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 31",
+            "created_at": "2024-03-15T06:24:23.504Z",
+            "updated_at": "2024-03-15T16:47:41.879Z",
+            "created_by": "Tyler Waelchi",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "31"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 32",
+            "created_at": "2023-10-20T03:19:42.704Z",
+            "updated_at": "2024-03-08T20:32:01.416Z",
+            "created_by": "Miss Kevin Lind",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "32"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 33",
+            "created_at": "2023-08-21T14:21:26.738Z",
+            "updated_at": "2024-01-11T23:22:19.866Z",
+            "created_by": "Willie Bauch",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "33"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 34",
+            "created_at": "2023-09-27T13:40:58.571Z",
+            "updated_at": "2023-11-08T07:47:55.297Z",
+            "created_by": "Pamela Johnston",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "34"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 35",
+            "created_at": "2023-12-08T13:54:30.551Z",
+            "updated_at": "2023-07-27T07:24:57.338Z",
+            "created_by": "Ruben Kuhn",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "35"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 36",
+            "created_at": "2024-03-21T23:30:34.003Z",
+            "updated_at": "2023-04-25T17:46:25.226Z",
+            "created_by": "Robyn Wolf",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "36"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 37",
+            "created_at": "2023-11-29T09:29:44.279Z",
+            "updated_at": "2023-08-30T01:32:46.339Z",
+            "created_by": "Salvador Will",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "37"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 38",
+            "created_at": "2024-02-10T06:08:32.975Z",
+            "updated_at": "2023-05-11T11:12:16.190Z",
+            "created_by": "Pete Swaniawski",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "38"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 39",
+            "created_at": "2024-01-12T12:06:29.850Z",
+            "updated_at": "2023-09-08T05:00:52.447Z",
+            "created_by": "Shelly Hansen",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "39"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 40",
+            "created_at": "2023-07-28T16:55:49.115Z",
+            "updated_at": "2023-12-03T17:16:31.689Z",
+            "created_by": "Karl Olson",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "40"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 41",
+            "created_at": "2023-04-14T09:12:41.777Z",
+            "updated_at": "2023-10-16T13:36:54.452Z",
+            "created_by": "Bertha Reinger",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "41"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 42",
+            "created_at": "2023-05-31T17:45:58.917Z",
+            "updated_at": "2023-12-29T12:16:58.539Z",
+            "created_by": "Maria Predovic",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "42"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 43",
+            "created_at": "2023-08-28T15:46:22.411Z",
+            "updated_at": "2024-03-02T12:43:39.039Z",
+            "created_by": "Diana Gerlach",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "43"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 44",
+            "created_at": "2023-11-08T06:26:51.565Z",
+            "updated_at": "2023-05-25T04:22:42.081Z",
+            "created_by": "Lila Boyle",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "44"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 45",
+            "created_at": "2024-01-15T03:03:29.873Z",
+            "updated_at": "2023-10-12T20:51:26.876Z",
+            "created_by": "Edmond Zulauf",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "45"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 46",
+            "created_at": "2023-07-14T01:12:19.252Z",
+            "updated_at": "2024-02-03T03:55:03.331Z",
+            "created_by": "Vanessa Paucek",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "46"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 47",
+            "created_at": "2023-07-26T10:35:00.226Z",
+            "updated_at": "2023-08-28T05:36:14.536Z",
+            "created_by": "Vera Will I",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "47"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 48",
+            "created_at": "2023-05-24T05:42:51.759Z",
+            "updated_at": "2024-03-12T14:52:59.358Z",
+            "created_by": "Irving Reilly",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "48"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 49",
+            "created_at": "2023-07-23T02:34:20.303Z",
+            "updated_at": "2023-12-04T08:59:03.794Z",
+            "created_by": "Taylor Gulgowski",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "49"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 50",
+            "created_at": "2023-07-16T14:17:12.599Z",
+            "updated_at": "2024-02-06T16:27:28.672Z",
+            "created_by": "Jorge Quigley V",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "50"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 51",
+            "created_at": "2023-09-26T11:35:49.686Z",
+            "updated_at": "2023-07-23T15:26:59.529Z",
+            "created_by": "Dr. Roxanne Wiza",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "51"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 52",
+            "created_at": "2023-09-22T01:33:41.413Z",
+            "updated_at": "2024-01-16T17:22:03.141Z",
+            "created_by": "Angie Russel",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "52"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 53",
+            "created_at": "2024-02-12T02:32:57.771Z",
+            "updated_at": "2024-02-27T19:31:11.353Z",
+            "created_by": "Mr. Carolyn Weimann",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "53"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 54",
+            "created_at": "2023-11-06T19:48:59.626Z",
+            "updated_at": "2023-10-25T16:45:12.278Z",
+            "created_by": "Jody Friesen PhD",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "54"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 55",
+            "created_at": "2023-05-26T02:07:46.563Z",
+            "updated_at": "2023-11-02T05:19:33.247Z",
+            "created_by": "Amber Sauer",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "55"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 56",
+            "created_at": "2023-10-06T03:09:42.039Z",
+            "updated_at": "2023-12-03T03:51:39.978Z",
+            "created_by": "Lawrence Grant",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "56"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 57",
+            "created_at": "2023-08-13T12:15:51.996Z",
+            "updated_at": "2024-02-19T18:49:28.069Z",
+            "created_by": "Meghan Carroll",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "57"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 58",
+            "created_at": "2023-06-22T00:40:55.362Z",
+            "updated_at": "2023-06-14T16:51:58.659Z",
+            "created_by": "Mario Mann",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "58"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 59",
+            "created_at": "2023-09-13T07:37:18.694Z",
+            "updated_at": "2024-01-25T19:15:11.616Z",
+            "created_by": "Alicia Pacocha",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "59"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 60",
+            "created_at": "2023-09-29T12:17:53.781Z",
+            "updated_at": "2023-04-07T08:26:37.172Z",
+            "created_by": "Cecil Little",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "60"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 61",
+            "created_at": "2024-01-09T02:25:43.819Z",
+            "updated_at": "2023-12-05T00:56:15.537Z",
+            "created_by": "Benjamin Cole",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "61"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 62",
+            "created_at": "2024-02-05T12:13:34.862Z",
+            "updated_at": "2024-03-15T02:52:02.093Z",
+            "created_by": "Ms. Don Weber",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "62"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 63",
+            "created_at": "2024-02-03T05:49:19.655Z",
+            "updated_at": "2023-07-30T23:03:25.795Z",
+            "created_by": "Mrs. Beverly Franey",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "63"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 64",
+            "created_at": "2023-06-27T14:08:56.538Z",
+            "updated_at": "2023-11-20T00:43:02.395Z",
+            "created_by": "Linda Vandervort",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "64"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 65",
+            "created_at": "2023-11-27T22:47:40.388Z",
+            "updated_at": "2024-02-14T05:25:43.170Z",
+            "created_by": "Kirk Buckridge",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "65"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 66",
+            "created_at": "2024-02-01T11:25:06.026Z",
+            "updated_at": "2023-04-14T01:32:54.771Z",
+            "created_by": "Casey Deckow DVM",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "66"
+        },
+        {
+            "nom": "Soft",
+            "code_variant": "code_variant 67",
+            "created_at": "2023-05-16T17:57:39.153Z",
+            "updated_at": "2023-04-03T04:25:19.727Z",
+            "created_by": "Winifred Bahringer III",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "67"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 68",
+            "created_at": "2023-08-19T00:01:25.896Z",
+            "updated_at": "2023-07-08T12:36:29.591Z",
+            "created_by": "Harriet Boyle",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "68"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 69",
+            "created_at": "2023-06-25T19:49:47.346Z",
+            "updated_at": "2023-08-28T04:24:06.148Z",
+            "created_by": "Mrs. Rosa DuBuque",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "69"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 70",
+            "created_at": "2024-01-13T04:18:15.855Z",
+            "updated_at": "2023-12-30T04:08:31.673Z",
+            "created_by": "Carrie Ritchie",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "70"
+        },
+        {
+            "nom": "Rubber",
+            "code_variant": "code_variant 71",
+            "created_at": "2023-10-19T13:25:11.945Z",
+            "updated_at": "2023-03-30T15:17:16.325Z",
+            "created_by": "Nick Waters",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "71"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 72",
+            "created_at": "2023-10-03T21:12:20.400Z",
+            "updated_at": "2023-10-14T10:07:27.376Z",
+            "created_by": "Elisa Sanford",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "72"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 73",
+            "created_at": "2024-01-25T17:52:06.283Z",
+            "updated_at": "2023-12-16T20:53:52.935Z",
+            "created_by": "Roman Homenick V",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "73"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 74",
+            "created_at": "2024-01-08T08:03:06.076Z",
+            "updated_at": "2023-10-10T23:03:05.740Z",
+            "created_by": "Emanuel Johnston",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "74"
+        },
+        {
+            "nom": "Soft",
+            "code_variant": "code_variant 75",
+            "created_at": "2024-02-11T08:39:27.943Z",
+            "updated_at": "2024-02-24T21:05:19.476Z",
+            "created_by": "Terrance Bogan",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "75"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 76",
+            "created_at": "2023-09-29T19:29:02.617Z",
+            "updated_at": "2023-06-09T09:01:30.335Z",
+            "created_by": "Matthew Kemmer",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "76"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 77",
+            "created_at": "2024-03-18T06:57:33.752Z",
+            "updated_at": "2023-04-08T07:14:14.921Z",
+            "created_by": "Marsha Erdman",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "77"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 78",
+            "created_at": "2023-08-29T16:16:33.230Z",
+            "updated_at": "2023-05-27T05:04:02.342Z",
+            "created_by": "Dr. Mitchell Homenick",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "78"
+        },
+        {
+            "nom": "Bronze",
+            "code_variant": "code_variant 79",
+            "created_at": "2023-06-19T18:02:31.782Z",
+            "updated_at": "2023-08-01T06:30:19.138Z",
+            "created_by": "Carla Prosacco",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "79"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 80",
+            "created_at": "2023-05-27T06:15:53.790Z",
+            "updated_at": "2024-02-06T17:01:51.494Z",
+            "created_by": "Deborah Hayes",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "80"
+        },
+        {
+            "nom": "Bronze",
+            "code_variant": "code_variant 81",
+            "created_at": "2023-05-12T09:42:22.802Z",
+            "updated_at": "2023-06-03T03:14:29.019Z",
+            "created_by": "Cody Yost",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "81"
+        },
+        {
+            "nom": "Granite",
+            "code_variant": "code_variant 82",
+            "created_at": "2023-07-19T14:26:03.427Z",
+            "updated_at": "2023-04-21T23:46:02.602Z",
+            "created_by": "Tasha Mills",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "82"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 83",
+            "created_at": "2023-06-23T06:07:04.777Z",
+            "updated_at": "2023-07-11T19:57:37.776Z",
+            "created_by": "Darrell O'Connell",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "83"
+        },
+        {
+            "nom": "Soft",
+            "code_variant": "code_variant 84",
+            "created_at": "2023-07-27T23:47:54.584Z",
+            "updated_at": "2023-08-27T01:57:25.423Z",
+            "created_by": "Dana Hilll",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "84"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 85",
+            "created_at": "2023-04-29T19:44:45.255Z",
+            "updated_at": "2024-03-20T08:03:41.538Z",
+            "created_by": "Byron Miller",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "85"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 86",
+            "created_at": "2024-01-12T12:42:55.917Z",
+            "updated_at": "2023-11-19T11:32:29.365Z",
+            "created_by": "Mathew Blanda",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "86"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 87",
+            "created_at": "2023-09-01T09:01:44.866Z",
+            "updated_at": "2023-11-24T21:01:04.048Z",
+            "created_by": "Sam Brekke",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "87"
+        },
+        {
+            "nom": "Bronze",
+            "code_variant": "code_variant 88",
+            "created_at": "2023-03-29T07:29:54.280Z",
+            "updated_at": "2023-04-04T02:32:04.302Z",
+            "created_by": "Lauren Fahey",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "88"
+        },
+        {
+            "nom": "Plastic",
+            "code_variant": "code_variant 89",
+            "created_at": "2023-07-30T11:49:17.238Z",
+            "updated_at": "2023-12-02T05:01:49.262Z",
+            "created_by": "Irene Franey",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "89"
+        },
+        {
+            "nom": "Concrete",
+            "code_variant": "code_variant 90",
+            "created_at": "2023-06-14T23:49:39.279Z",
+            "updated_at": "2024-03-22T12:49:59.433Z",
+            "created_by": "Hope Steuber",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "90"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 91",
+            "created_at": "2023-05-09T16:49:00.339Z",
+            "updated_at": "2024-01-15T09:18:27.158Z",
+            "created_by": "Karen Kirlin",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "91"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 92",
+            "created_at": "2023-05-05T02:45:48.247Z",
+            "updated_at": "2023-09-14T22:46:50.573Z",
+            "created_by": "Christy Barton Jr.",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "92"
+        },
+        {
+            "nom": "Cotton",
+            "code_variant": "code_variant 93",
+            "created_at": "2023-06-03T11:27:31.083Z",
+            "updated_at": "2023-07-02T07:33:40.917Z",
+            "created_by": "Melody Pacocha",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "93"
+        },
+        {
+            "nom": "Steel",
+            "code_variant": "code_variant 94",
+            "created_at": "2024-03-06T00:40:32.544Z",
+            "updated_at": "2023-12-06T18:30:30.051Z",
+            "created_by": "Johnny Ziemann",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "94"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 95",
+            "created_at": "2023-07-11T04:32:09.309Z",
+            "updated_at": "2023-12-24T08:57:27.701Z",
+            "created_by": "Stanley Strosin",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "95"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 96",
+            "created_at": "2023-06-09T20:54:35.944Z",
+            "updated_at": "2024-02-17T20:41:24.848Z",
+            "created_by": "Mr. Guadalupe Christiansen",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "96"
+        },
+        {
+            "nom": "Wooden",
+            "code_variant": "code_variant 97",
+            "created_at": "2024-02-08T01:34:02.946Z",
+            "updated_at": "2023-12-26T14:27:13.324Z",
+            "created_by": "Mindy Schinner",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "97"
+        },
+        {
+            "nom": "Frozen",
+            "code_variant": "code_variant 98",
+            "created_at": "2023-05-11T21:27:10.741Z",
+            "updated_at": "2023-05-24T17:42:33.593Z",
+            "created_by": "Mitchell Herman",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "98"
+        },
+        {
+            "nom": "Metal",
+            "code_variant": "code_variant 99",
+            "created_at": "2023-05-02T07:16:11.011Z",
+            "updated_at": "2023-10-09T11:24:36.611Z",
+            "created_by": "Gregory Hauck",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "99"
+        },
+        {
+            "nom": "Fresh",
+            "code_variant": "code_variant 100",
+            "created_at": "2023-06-21T04:27:32.373Z",
+            "updated_at": "2024-01-11T02:08:01.940Z",
+            "created_by": "Bernice White",
+            "variants": [
+                "variant 1",
+                "variant 2",
+                "variant 3",
+                "variant 4",
+                "variant 5"
+            ],
+            "code": "100"
+        }
+    ]
+}
