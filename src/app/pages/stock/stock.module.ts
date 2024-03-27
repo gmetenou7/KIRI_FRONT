@@ -25,6 +25,11 @@ import { ChipsModule } from 'primeng/chips';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { StListVariantComponent } from './st-variant/st-list-variant/st-list-variant.component';
 import { StVariantViewComponent } from './st-variant/st-variant-view/st-variant-view.component';
+import { ArtListArticlesComponent } from './st-articles/art-list-articles/art-list-articles.component';
+import { TableModule } from 'primeng/table';
+import { ImageModule } from 'primeng/image';
+import { RatingModule } from 'primeng/rating';
+import { FormateDatePipe } from 'src/app/core/pipes/formate-date.pipe';
 
 
 
@@ -44,6 +49,7 @@ import { StVariantViewComponent } from './st-variant/st-variant-view/st-variant-
     StListProvidersComponent,
     StListVariantComponent,
     StVariantViewComponent,
+    ArtListArticlesComponent,
   ],
   imports: [
     CommonModule,
@@ -57,7 +63,10 @@ import { StVariantViewComponent } from './st-variant/st-variant-view/st-variant-
     CoreModule,
     SelectButtonModule,
     ChipsModule,
-    OverlayPanelModule
+    OverlayPanelModule,
+    TableModule,
+    ImageModule,
+    RatingModule,
   ]
 })
 export class StockModule { }

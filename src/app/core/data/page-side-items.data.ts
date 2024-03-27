@@ -80,8 +80,8 @@ export const stockSidebarLinks: PageSidebarLinkModel[] = [
     link: "/board/stock/variants"
   },
   {
-    label: "Article",
-    link: "/board/stock/article"
+    label: "Articles",
+    link: "/board/stock/articles"
   },
   {
     label: "Depot",

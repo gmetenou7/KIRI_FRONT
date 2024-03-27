@@ -1,0 +1,210 @@
+<div class="grid">
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="surface-card shadow-1 p-3 border-round">
+            <div class="flex justify-content-between">
+                <div>
+                    <span class="block text-500 font-medium mb-3">Tous</span>
+                    <div class="text-900 font-medium text-xl">152</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-blue-100 border-round"
+                    style="width:2.5rem;height:2.5rem">
+                    <i class="pi pi-inbox  text-blue-500 text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="surface-card shadow-1 p-3 border-round">
+            <div class="flex justify-content-between">
+                <div>
+                    <span class="block text-500 font-medium mb-3">Brouillon</span>
+                    <div class="text-900 font-medium text-xl">2100</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-yellow-100 border-round"
+                    style="width:2.5rem;height:2.5rem">
+                    <i class="pi pi-file text-yellow-500 text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="surface-card shadow-1 p-3 border-round">
+            <div class="flex justify-content-between">
+                <div>
+                    <span class="block text-500 font-medium mb-3">Publiés</span>
+                    <div class="text-900 font-medium text-xl">28441</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-green-100 border-round"
+                    style="width:2.5rem;height:2.5rem">
+                    <i class="pi pi-shopping-cart text-green-500 text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 md:col-6 lg:col-3">
+        <div class="surface-card shadow-1 p-3 border-round">
+            <div class="flex justify-content-between">
+                <div>
+                    <span class="block text-500 font-medium mb-3">Désactivés</span>
+                    <div class="text-900 font-medium text-xl">152</div>
+                </div>
+                <div class="flex align-items-center justify-content-center bg-red-100 border-round"
+                    style="width:2.5rem;height:2.5rem">
+                    <i class="pi pi-times text-red-500 text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="surface-card p-4 overflow-x-auto border-round scrollbar mt-3">
+    <p-table [(selection)]="selectedArticles" scrollHeight="400px" class="scrollbar" [scrollable]="true" #dt1
+        [value]="articles" dataKey="code" [rows]="10" [loading]="loadingArticles" [rowHover]="true"
+        styleClass="p-datatable-gridlines scrollbar" [paginator]="true"
+        [globalFilterFields]="['name','price','tags','category', 'provider', 'created_at']" responsiveLayout="scroll">
+        <ng-template pTemplate="caption">
+            <div class="flex flex-column justify-content-between align-items-center md:flex-row">
+                <div class="flex flex-column sm:flex-row gap-4 w-full">
+                    <div class="flex gap-2 w-3">
+                        <span class="p-input-icon-left mb-2 w-full">
+                            <i class="pi pi-search"></i>
+                            <input size="small" pInputText type="text" #filter (input)="onGlobalFilter(dt1, $event)"
+                                placeholder="Rechercher" class="w-full" />
+                        </span>
+                    </div>
+                    <div class="w-2">
+                        <p-dropdown [(ngModel)]="selectedCategory" [filter]="true" [options]="categories"
+                            optionLabel="name" id="year" placeholder="Categorie d'article" styleClass="w-full">
+                            <ng-template pTemplate="selectedItem">
+                                <div class="flex align-items-center gap-2" *ngIf="selectedCategory">
+                                    <div>{{ selectedCategory }}</div>
+                                </div>
+                            </ng-template>
+                            <ng-template let-category pTemplate="item">
+                                <div class="flex align-items-center gap-2">
+                                    <div>{{ category }}</div>
+                                </div>
+                            </ng-template>
+                        </p-dropdown>
+                    </div>
+                    <div class="w-2">
+                        <p-dropdown [(ngModel)]="selectedVendor" [filter]="true" [options]="vendors" optionLabel="name"
+                            id="year" placeholder="Fournisseur" styleClass="w-full">
+                            <ng-template pTemplate="selectedItem">
+                                <div class="flex align-items-center gap-2" *ngIf="selectedVendor">
+                                    <div>{{ selectedVendor }}</div>
+                                </div>
+                            </ng-template>
+                            <ng-template let-vendor pTemplate="item">
+                                <div class="flex align-items-center gap-2">
+                                    <div>{{ vendor }}</div>
+                                </div>
+                            </ng-template>
+                        </p-dropdown>
+                    </div>
+                    <p-button *ngIf="selectedArticles" label="Exporter" [badge]="selectedArticles.length.toString()"
+                        severity="secondary" size="small"></p-button>
+                    <p-button label="Ajouter un article" icon="pi pi-plus" size="small"></p-button>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template pTemplate="header">
+            <tr>
+                <th style="width: 4rem">
+                    <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+                </th>
+                <th pSortableColumn="name" style="min-width: 20rem">
+                    <div class="flex justify-content-between align-items-center">
+                        Article <p-sortIcon field="name"></p-sortIcon>
+                    </div>
+                </th>
+                <th pSortableColumn="price" style="min-width: 2rem">
+                    <div class="text-center">
+                        Prix <p-sortIcon field="price"></p-sortIcon>
+                    </div>
+                </th>
+                <th pSortableColumn="category" style="min-width: 10rem">
+                    <div class="text-center">
+                        Categorie <p-sortIcon field="category"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width: 18rem; max-width: 18rem;">
+                    <div class="text-center">
+                        Tags
+                    </div>
+                </th>
+                <th pSortableColumn="provider" style="min-width: 4rem; max-width: 4rem;">
+                    <div class="text-center">
+                        Fournisseur <p-sortIcon field="provider"></p-sortIcon>
+                    </div>
+                </th>
+                <th pSortableColumn="created_at" style="min-width: 10rem; max-width: 10rem;">
+                    <div class="text-center">
+                        Ajouté le <p-sortIcon field="created_at"></p-sortIcon>
+                    </div>
+                </th>
+                <th style="min-width: 6rem;max-width: 6rem" class="text-center">
+                    Action
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-article>
+            <tr>
+                <td>
+                    <p-tableCheckbox [value]="article"></p-tableCheckbox>
+                </td>
+                <td>
+                    <div class="flex align-items-center gap-3">
+                        <p-image src="{{article.image_url}}" previewImageSrc="{{article.image_url}}" alt="Image"
+                            width="50" [preview]="true" class="border-2 border-300 border-round"></p-image>
+                        <a href="javascript: void(0);"
+                            class="text-sm font-medium no-underline text-700 transition-all duration-300 hover:text-blue-500 hover:underline">
+                            {{article.name}}
+                        </a>
+                    </div>
+                </td>
+                <td class="text-center">
+                    {{article.price | currency}}
+                </td>
+                <td style="min-width: 6rem;" class="text-center">
+                    {{article.category}}
+                </td>
+                <td class="text-center" style="min-width: 12rem; max-width: 12rem;">
+                    <div class="flex flex-wrap gap-2">
+                        <div *ngFor="let tag of article.tags.slice(0, 3)"
+                            class="text-sm bg-green-100 text-green-700 p-1">
+                            {{tag}}
+                        </div>
+                    </div>
+                </td>
+                <td class="text-center" style="min-width: 12rem; max-width: 12rem;">
+                    <div class="flex align-items-center gap-3">
+                        <p-rating [stars]="1" [readonly]="true" [cancel]="false"></p-rating>
+                        <a href="javascript: void(0);"
+                            class="text-sm font-medium no-underline text-blue-700 transition-all duration-300 hover:text-blue-500 hover:underline">
+                            {{article.provider}}
+                        </a>
+                    </div>
+                </td>
+                <td class="text-center">
+                    {{article.created_at | relativeTime}}
+                </td>
+                <td class="text-center">
+                    <a href="javascript: void(0);" class="text-blue-700 no-underline">
+                        <i class="pi pi-eye"></i>
+                    </a>
+                </td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="emptymessage">
+            <tr>
+                <td colspan="8">Accun produit trouvé.</td>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="loadingbody">
+            <tr>
+                <td colspan="8">Chargement en cours.</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
